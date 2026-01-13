@@ -1,0 +1,12 @@
+{
+  "mbRegister": 1084,
+  "unit": "Ah",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "",
+  "nativeName": "Bat_NomCapConn"
+}

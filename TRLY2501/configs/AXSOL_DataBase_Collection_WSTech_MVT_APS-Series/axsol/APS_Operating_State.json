@@ -1,10 +1,10 @@
 {
-  "mbRegister": "8278",
+  "mbRegister": 8278,
   "unit": "",
   "scaling": "",
   "offset": "",
-  "upperLimit": "99999999.0",
-  "lowerLimit": "-99999999.0",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
   "description": "U#_ST_State",
   "mqttName": "",
   "type": "UINT16",

@@ -1,0 +1,12 @@
+{
+  "mbRegister": 2238,
+  "unit": "-",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "",
+  "nativeName": "Bsc_InvStrMod"
+}

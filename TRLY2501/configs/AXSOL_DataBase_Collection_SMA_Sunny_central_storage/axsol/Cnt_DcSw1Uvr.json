@@ -1,0 +1,12 @@
+{
+  "mbRegister": 330,
+  "unit": "-",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "",
+  "nativeName": "Cnt_DcSw1Uvr"
+}

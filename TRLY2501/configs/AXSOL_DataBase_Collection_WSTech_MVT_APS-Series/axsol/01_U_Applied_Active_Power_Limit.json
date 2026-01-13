@@ -1,10 +1,10 @@
 {
-  "mbRegister": "8417",
+  "mbRegister": 8417,
   "unit": "0.1kW",
   "scaling": "",
   "offset": "",
-  "upperLimit": "99999999.0",
-  "lowerLimit": "-99999999.0",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
   "description": "U#_LIM_P",
   "mqttName": "",
   "type": "INT16",

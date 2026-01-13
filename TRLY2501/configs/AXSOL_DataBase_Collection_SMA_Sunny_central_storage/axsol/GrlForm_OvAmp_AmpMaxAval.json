@@ -1,0 +1,12 @@
+{
+  "mbRegister": 284,
+  "unit": "pu",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "",
+  "nativeName": "GrlForm_OvAmp_AmpMaxAval"
+}

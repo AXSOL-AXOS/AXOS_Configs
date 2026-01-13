@@ -1,0 +1,12 @@
+{
+  "mbRegister": 278,
+  "unit": "V",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "",
+  "nativeName": "DcMs_VolNegGnd"
+}

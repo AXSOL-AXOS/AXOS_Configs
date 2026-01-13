@@ -1,10 +1,10 @@
 {
-  "mbRegister": "10010",
+  "mbRegister": 10010,
   "unit": "0.01Ah",
   "scaling": "",
   "offset": "",
-  "upperLimit": "99999999.0",
-  "lowerLimit": "-99999999.0",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
   "description": "",
   "mqttName": "",
   "type": "UINT32",

@@ -1,10 +1,10 @@
 {
-  "mbRegister": "8610",
+  "mbRegister": 8610,
   "unit": "0.1V",
   "scaling": "",
   "offset": "",
-  "upperLimit": "99999999.0",
-  "lowerLimit": "-99999999.0",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
   "description": "U#_ME_V_DC",
   "mqttName": "",
   "type": "INT16",

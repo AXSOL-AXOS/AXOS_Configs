@@ -1,0 +1,12 @@
+{
+  "mbRegister": 2110,
+  "unit": "%",
+  "scaling": 1.0,
+  "offset": 0,
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "UINT",
+  "nativeName": "520_Rack_N_cell_SOC"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": 629,
+  "unit": "V",
+  "scaling": 0.001,
+  "offset": 0,
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "UINT",
+  "nativeName": "439_Rack_N_cell_voltage"
+}

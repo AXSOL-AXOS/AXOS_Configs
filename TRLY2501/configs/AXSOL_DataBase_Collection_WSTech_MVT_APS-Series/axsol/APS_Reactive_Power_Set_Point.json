@@ -1,10 +1,10 @@
 {
-  "mbRegister": "24580",
+  "mbRegister": 24580,
   "unit": "kvar",
   "scaling": "",
   "offset": "",
-  "upperLimit": "99999999.0",
-  "lowerLimit": "-99999999.0",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
   "description": "SP_Q",
   "mqttName": "",
   "type": "INT16",

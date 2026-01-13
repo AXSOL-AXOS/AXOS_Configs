@@ -1,10 +1,10 @@
 {
-  "mbRegister": "8280",
+  "mbRegister": 8280,
   "unit": "",
   "scaling": "",
   "offset": "",
-  "upperLimit": "99999999.0",
-  "lowerLimit": "-99999999.0",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
   "description": "",
   "mqttName": "",
   "type": "UINT16",
