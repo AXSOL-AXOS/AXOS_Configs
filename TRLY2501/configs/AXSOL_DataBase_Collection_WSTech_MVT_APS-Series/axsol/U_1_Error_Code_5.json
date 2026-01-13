@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8449",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "100000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter Error Code",
+  "mqttName": "ERR_Code",
+  "type": "UINT16",
+  "nativeName": "U_1_Error_Code_5"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x106C",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_Container air conditioner status",
+  "mqttName": null,
+  "type": "u16",
+  "nativeName": "Air conditioner unit running status"
+}

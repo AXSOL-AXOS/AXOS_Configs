@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60132",
+  "unit": "NoUnit",
+  "scaling": "0.001",
+  "offset": "0",
+  "upperLimit": "100000.0",
+  "lowerLimit": "-100000.0",
+  "description": "AX_Container Phase A current",
+  "mqttName": "ME_I_PhA",
+  "type": "UINT",
+  "nativeName": "Phase_A_current"
+}

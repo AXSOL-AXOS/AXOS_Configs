@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x201A",
+  "unit": "°C",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "-50",
+  "description": "AX_Rack max cell temperature",
+  "mqttName": "ME_Temp_Cell_Max",
+  "type": "int16",
+  "nativeName": "Rack max cell temperature"
+}

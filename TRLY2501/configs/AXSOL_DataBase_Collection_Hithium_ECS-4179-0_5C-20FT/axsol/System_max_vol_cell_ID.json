@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x1019",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "u16",
+  "nativeName": "System max vol cell ID"
+}

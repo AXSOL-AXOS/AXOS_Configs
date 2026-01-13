@@ -1,0 +1,5 @@
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,Network-Operator,Controller,O&M
+ME_RTE,AX_Plant RTE,Round Trip Efficiency: ratio of energy discharged to energy charged for the entire BESS system.,%,x,x,x,,,,
+ST_AV_P,AX_Plant Power Availability,Indicates if sufficient power is available for system-level operations (charging/discharging). ,%,x,x,x,,,,
+ST_AV_E,AX_Plant Capacity Availability,Indicates if sufficient energy capacity is available for system-level operations.              ,%,x,x,x,,,,
+ST_AV_Com,AX_Plant Control and Monitoring Availability,"Status of control and monitoring systems for the entire BESS plant (e.g., online/offline).     ",%,x,x,x,,,,

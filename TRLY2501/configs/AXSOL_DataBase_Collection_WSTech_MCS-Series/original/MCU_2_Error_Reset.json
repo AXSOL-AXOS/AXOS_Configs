@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24213",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": "1",
+  "lowerLimit": "0",
+  "description": "AX_Inverter ErrorAckActive",
+  "mqttName": "Error_Ack",
+  "type": "UINT16",
+  "nativeName": "MCU_2_Error_Reset"
+}

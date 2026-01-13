@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8196",
+  "unit": "W",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "100000000000",
+  "lowerLimit": "-100000000000",
+  "description": "AX_Inverter Active Power L2",
+  "mqttName": "ME_P_L2",
+  "type": "INT16",
+  "nativeName": "APS_Active_Power_L2"
+}

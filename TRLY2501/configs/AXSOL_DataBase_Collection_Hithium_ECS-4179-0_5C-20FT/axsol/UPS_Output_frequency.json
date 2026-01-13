@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x107F",
+  "unit": "Hz",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "60.0",
+  "lowerLimit": "-60.0",
+  "description": "AX_Container UPS output frequency",
+  "mqttName": "ME_F_UPS",
+  "type": "u16",
+  "nativeName": "UPS Output frequency"
+}

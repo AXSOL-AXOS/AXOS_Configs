@@ -1,0 +1,97 @@
+Topic,Description,Register Adress,Unit& Resolution,type,AXSOL Name,AXSOL Unit & Resolution
+Status of connection process,,0x1001,,u16,AX_Container connection status,
+Rack enable status,,0x1002,,u16,,
+rack online status,,0x1005,,u16,AX_Container rack online status,
+System operation state,,0x1006,-,u16,AX_Container system operation state,-
+System charge state (Chg/Dsg),,0x1007,-,u16,,-
+SBMU alarm state,,0x1008,-,u16,AX_Container alarm state,-
+Rack alarm I summary,,0x1009,-,u16,AX_Container alarm state,-
+Rack alarm II summary,,0x100A,-,u16,AX_Container alarm state,-
+Rack alarm III summary,,0x100B,-,u16,AX_Container alarm state,-
+System total voltage,,0x100C,0.1V,u16,AX_Container system total voltage,0.1V
+System total current,,0x100D,0.1A,int16,AX_Container system total current,0.1A
+System SOC,,0x100E,‰,u16,AX_Container SOC,%
+"
+System SOH",,0x100F,‰,u16,AX_Container SOH,%
+System insulation,,0x1010,KΩ,u16,,Ω
+System enable charge energy,,0x1011,KWH,u16,AX_Container charge energy,WH
+System enable discharge energy,,0x1012,KWH,u16,AX_Container discharge energy,WH
+System enable max charge current,,0x1013,0.1A,u16,,0.1A
+System enable max discharge current,,0x1014,0.1A,u16,,0.1A
+Rack current difference,,0x1015,0.1A,int16,AX_Container rack current difference,0.1A
+Rack voltage difference,,0x1016,0.1V,u16,AX_Container rack voltage difference,0.1V
+System max vol cell rack ID,,0x1017,-,u16,,-
+System max vol cell slave ID,,0x1018,-,u16,,-
+System max vol cell ID,,0x1019,-,u16,,-
+System max cell voltage,,0x101A,mV,u16,,V
+System min vol cell rack ID,,0x101B,-,u16,,-
+System min vol cell slave ID,,0x101C,-,u16,,-
+System min vol cell ID,,0x101D,-,u16,,-
+System min cell voltage,,0x101E,mV,u16,,V
+System average voltage,,0x101F,mV,u16,,V
+System max temp cell rack ID,,0x1020,-,u16,,-
+System max temp cell slave ID,,0x1021,-,u16,,-
+System max temp cell ID,,0x1022,-,u16,,-
+System max cell temperature,,0x1023,0.1℃,int16,,0.1℃
+System min temp cell rack ID,,0x1024,-,u16,,-
+System min temp cell slave ID,,0x1025,-,u16,,-
+System min temp cell ID,,0x1026,-,u16,,-
+System min cell temperature,,0x1027,0.1℃,int16,,0.1℃
+System average temperature,,0x1028,0.1℃,int16,,0.1℃
+SBMU CBMU communication fault alarm,,0x1029,,u16,AX_Container alarm state,
+SBMU CBMU communication fault alarm 2,,0x102A,,u16,,
+SBMU output dry contact status,,0x102B,,u16,,
+Rack enable status2,,0x102C,,u16,,
+Rack online status2,,0x102F,,u16,,
+Accumulation charge energy MSB,,0x1030,KWH,u16,,WH
+Accumulation charge energy LSB,,0x1031,KWH,u16,,WH
+Accumulation discharge energy MSB,,0x1032,KWH,u16,,WH
+Accumulation discharge energy LSB,,0x1033,KWH,u16,,WH
+Number of racks in service,,0x1034,,u16,AX_Container Number of racks in service,
+Number of total racks,,0x1035,,u16,,
+Minimum number of parallel racks,,0x1036,,u16,,
+Max discharge power,,0x1037,kw,u16,AX_Container max discharge power,W
+Max charge power,,0x1038,kw,u16,AX_Container max charge power,W
+BMS heartbeat,,0x1039,,u16,AX_Container alarm state,
+Rack fault summary ,,0x103A,-,u16,AX_Container alarm state,-
+Alarm,,0x103E,,u16,AX_Container alarm state,
+Meter information - Phase A current,,0x1043,0.001A,u32,AX_Container Phase A current,0.001A
+Meter information - Phase B current,,0x1045,0.001A,u32,AX_Container Phase B current,0.001A
+Meter information - Phase C current,,0x1047,0.001A,u32,AX_Container Phase C current,0.001A
+Meter information - Phase AB voltage,,0x1049,0.01V,u32,AX_Container Phase AB current,0.01V
+Meter information - Phase BC voltage,,0x104B,0.01V,u32,AX_Container Phase BC current,0.01V
+Meter information - Phase AC voltage,,0x104D,0.01V,u32,AX_Container Phase AC current,0.01V
+Meter information - active power,,0x104F,10W,int32,AX_Container AUX active power meter,10W
+Meter information - inactive power,,0x1051,10var,int32,AX_Container AUX reactive power meter,10var
+Meter information - apparent power,,0x1053,10VA,u32,AX_Container AUX apparent power meter,10VA
+Meter information - power factor,,0x1055,-0.001,int32,AX_Container AUX power factor meter,-0.001
+IO module QF1 circuit breaker,,0x1057,,u16,AX_Container alarm state,
+IO module front right door access control,,0x1058,,u16,,
+IO module SPD1,,0x1059,,u16,,
+IO module SPD2,,0x105A,,u16,,
+IO module front left door access control,,0x105B,,u16,,
+IO module back left door access control,,0x1069,,u16,,
+IO module back right door access control,,0x106A,,u16,,
+Air conditioner software version,,0x106B,,u16,,
+Air conditioner unit running status,,0x106C,,u16,AX_Container air conditioner status,
+Air conditioner internal fan status,,0x106D,,u16,AX_Container alarm state,
+Air conditioner external fan status,,0x106E,,u16,AX_Container alarm state,
+Air conditioner compressor status,,0x106F,,u16,AX_Container alarm state,
+Air conditioner heater status,,0x1070,,u16,AX_Container alarm state/AX_Container heater status,
+Air conditioner emergency fan status,,0x1071,,u16,AX_Container alarm state,
+Air conditioner evaporator Temp.,,0x1072,0.1℃,int16,AX_Container alarm state,0.1℃
+Air conditioner outdoor Temp.,,0x1073,0.1℃,int16,AX_Container alarm state,0.1℃
+Air conditioner condenser Temp.,,0x1074,0.1℃,int16,AX_Container alarm state,0.1℃
+Air conditioner indoor Temp.,,0x1075,0.1℃,int16,AX_Container Room Temperature,0.1℃
+Air conditioner humidity,,0x1076,%,u16,AX_Container room humidity,%
+Air conditioner remote control,,0x107A,,u16,,
+Air conditioning information 1,,0x1077,,u16,,
+Air conditioning information 2,,0x1078,,u16,,
+Air conditioning information 3,,0x1079,,u16,,
+UPS battery voltage,,0x107C,V,u16,AX_Container UPS Battery voltage,V
+UPS Output total active power,,0x107D,W,u16,AX_Container UPS total active power output,W
+UPS Output total apparent power,,0x107E,VA,u16,AX_Container UPS total apparent power output,VA
+UPS Output frequency,,0x107F,dHz,u16,AX_Container UPS output frequency,Hz
+UPS Battery backup time,,0x1080,Min,u16,AX_Container ups backup Battery time,Min
+UPS Battery charging level,,0x1082,%,u16,AX_Container ups charging Battery level,%
+UPS Unit general alarm,,0x1083,,u16,AX_Container ups general Unit alarm,

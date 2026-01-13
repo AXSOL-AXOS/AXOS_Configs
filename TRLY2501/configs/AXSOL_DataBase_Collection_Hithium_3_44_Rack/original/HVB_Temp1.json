@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2020",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100000",
+  "lowerLimit": "0",
+  "description": "AX_Rack error",
+  "mqttName": "ST_ERR",
+  "type": "int16",
+  "nativeName": "HVB Temp1"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "167",
+  "unit": "-",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_Inverter Heartbeat",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "AuxCtl_LifeSign"
+}

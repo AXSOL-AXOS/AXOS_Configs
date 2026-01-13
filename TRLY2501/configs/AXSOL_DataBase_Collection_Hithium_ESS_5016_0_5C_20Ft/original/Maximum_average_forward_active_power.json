@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60126",
+  "unit": "NoUnit",
+  "scaling": "10.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Maximum_average_forward_active_power"
+}

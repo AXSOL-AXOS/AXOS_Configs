@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x1076",
+  "unit": "%",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "100.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container room humidity",
+  "mqttName": "ME_Hum_Room",
+  "type": "u16",
+  "nativeName": "Air conditioner humidity"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x307B",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "-50",
+  "description": "AX_Rack Outlet temperature",
+  "mqttName": "ME_Temp_Outlet",
+  "type": "int16",
+  "nativeName": "Outlet temperature"
+}

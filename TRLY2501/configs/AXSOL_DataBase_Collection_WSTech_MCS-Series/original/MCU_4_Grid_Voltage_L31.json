@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8405",
+  "unit": "V",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "100000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitGridVoltageL31",
+  "mqttName": "U4_ME_V_L31",
+  "type": "UINT16",
+  "nativeName": "MCU_4_Grid_Voltage_L31"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24200",
+  "unit": "%",
+  "scaling": "1.0",
+  "offset": "0.0",
+  "upperLimit": "100",
+  "lowerLimit": "-100",
+  "description": "AX_Inverter UnitActivePowerSetpoints",
+  "mqttName": "U2_SP_P",
+  "type": "INT16",
+  "nativeName": "MCU_2_Active_Power_Set_Point"
+}

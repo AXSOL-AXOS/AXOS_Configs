@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60156",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Explosion_proof_fan_status"
+}

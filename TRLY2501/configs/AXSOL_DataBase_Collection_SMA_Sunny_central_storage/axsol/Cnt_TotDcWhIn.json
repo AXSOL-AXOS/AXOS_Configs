@@ -1,0 +1,12 @@
+{
+  "mbRegister": "74",
+  "unit": "Wh",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "10000000000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter Energy Counter Positive Total",
+  "mqttName": "CT_E_Pos_Tot",
+  "type": null,
+  "nativeName": "Cnt_TotDcWhIn"
+}

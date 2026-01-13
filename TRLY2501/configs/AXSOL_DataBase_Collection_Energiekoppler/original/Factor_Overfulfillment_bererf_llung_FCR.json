@@ -1,0 +1,12 @@
+{
+  "mbRegister": null,
+  "unit": "-",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_Trader Factor Overfulfillment FCR",
+  "mqttName": "ME_FCR_Factor_Overfulfill",
+  "type": "FLOAT32",
+  "nativeName": "Factor Overfulfillment (Übererfüllung) FCR"
+}

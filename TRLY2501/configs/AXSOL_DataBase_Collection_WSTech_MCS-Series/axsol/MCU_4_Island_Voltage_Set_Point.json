@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24410",
+  "unit": "V",
+  "scaling": "0.1",
+  "offset": "0.0",
+  "upperLimit": "100000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitIslandVoltageSetpoint",
+  "mqttName": "U4_SP_V_Islland",
+  "type": "UINT16",
+  "nativeName": "MCU_4_Island_Voltage_Set_Point"
+}

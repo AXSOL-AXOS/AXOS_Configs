@@ -1,0 +1,12 @@
+{
+  "mbRegister": "1331",
+  "unit": "°C",
+  "scaling": "1.0",
+  "offset": "-40",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Rack_N_cell_temperature_441"
+}

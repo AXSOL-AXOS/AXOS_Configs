@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8108",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "0.0",
+  "upperLimit": "100000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitGridCurrentL2",
+  "mqttName": "U1_ME_I_L2",
+  "type": "UINT16",
+  "nativeName": "MCU_1_Grid_Current_L2"
+}

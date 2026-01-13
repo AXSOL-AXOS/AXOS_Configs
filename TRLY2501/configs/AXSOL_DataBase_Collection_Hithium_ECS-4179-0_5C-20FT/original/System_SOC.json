@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x100E",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container SOC",
+  "mqttName": "ME_SOC",
+  "type": "u16",
+  "nativeName": "System SOC"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60118",
+  "unit": "V",
+  "scaling": "3.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Compressor_voltage"
+}

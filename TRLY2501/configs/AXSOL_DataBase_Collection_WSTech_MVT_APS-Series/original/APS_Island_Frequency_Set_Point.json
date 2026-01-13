@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24585",
+  "unit": "Hz",
+  "scaling": "0.001",
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "0",
+  "description": "AX_Inverter Island Frequency Setpoint",
+  "mqttName": "SP_F_Island",
+  "type": "UINT16",
+  "nativeName": "APS_Island_Frequency_Set_Point"
+}

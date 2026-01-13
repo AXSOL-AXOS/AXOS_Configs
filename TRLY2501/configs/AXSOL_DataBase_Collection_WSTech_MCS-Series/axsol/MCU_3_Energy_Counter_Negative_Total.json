@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8333",
+  "unit": "Wh",
+  "scaling": "1.0",
+  "offset": "0.0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitEnergyCounterNegativeTotal",
+  "mqttName": "U3_CT_E_Neg_Tot",
+  "type": "UINT32",
+  "nativeName": "MCU_3_Energy_Counter_Negative_Total"
+}

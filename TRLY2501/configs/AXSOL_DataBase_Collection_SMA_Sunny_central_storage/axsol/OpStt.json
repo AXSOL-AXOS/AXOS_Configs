@@ -1,0 +1,12 @@
+{
+  "mbRegister": "98",
+  "unit": "-",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_Inverter Operating State",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "OpStt"
+}

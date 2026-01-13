@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x1083",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "1.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container ups general Unit alarm",
+  "mqttName": "ST_UPS_Alarm",
+  "type": "u16",
+  "nativeName": "UPS Unit general alarm"
+}

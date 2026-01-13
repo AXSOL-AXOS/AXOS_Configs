@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2001",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "0",
+  "description": "AX_Rack operating state",
+  "mqttName": "ST_OpState",
+  "type": "u16",
+  "nativeName": "Rack operationg State"
+}

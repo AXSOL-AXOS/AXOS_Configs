@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8118",
+  "unit": "V",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "100000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitDCVoltage",
+  "mqttName": "U1_ME_V_DC",
+  "type": "UINT16",
+  "nativeName": "MCU_1_DC_Voltage"
+}

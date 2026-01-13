@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8410",
+  "unit": "kW",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "-10000000000000",
+  "description": "AX_Inverter UnitActivePowerTotal",
+  "mqttName": "U4_ME_P_Tot",
+  "type": "INT16",
+  "nativeName": "MCU_4_Active_Power_Total"
+}

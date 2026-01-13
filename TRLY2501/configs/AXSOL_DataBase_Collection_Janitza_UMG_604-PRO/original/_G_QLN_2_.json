@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19040",
+  "unit": "var",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_MainMeter Reactive Power L3",
+  "mqttName": "ME_Q_L3",
+  "type": "float",
+  "nativeName": "_G_QLN[2]"
+}

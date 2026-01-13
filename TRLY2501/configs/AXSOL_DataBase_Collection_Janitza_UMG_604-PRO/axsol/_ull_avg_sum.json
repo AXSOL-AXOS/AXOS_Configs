@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19332",
+  "unit": "V",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_MainMeter Voltage",
+  "mqttName": "ME_V",
+  "type": "float",
+  "nativeName": "_ull_avg_sum"
+}

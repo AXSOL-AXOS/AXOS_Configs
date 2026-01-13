@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2013",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100000",
+  "lowerLimit": "0",
+  "description": "AX_Rack max charge current",
+  "mqttName": "LIM_I_Charge",
+  "type": "u16",
+  "nativeName": "Rack max charge current"
+}

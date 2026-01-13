@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x104B",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "1000.0",
+  "lowerLimit": "-100000.0",
+  "description": "AX_Container Phase BC current",
+  "mqttName": "ME_I_PhBC",
+  "type": "u32",
+  "nativeName": "Meter information - Phase BC voltage"
+}

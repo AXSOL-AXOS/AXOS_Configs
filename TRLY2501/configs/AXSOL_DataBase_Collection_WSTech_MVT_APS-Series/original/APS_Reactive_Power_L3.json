@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8201",
+  "unit": "kvar",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": "100000000000",
+  "lowerLimit": "-100000000000",
+  "description": "AX_Inverter Reactive Power L3",
+  "mqttName": "ME_Q_L3",
+  "type": "INT16",
+  "nativeName": "APS_Reactive_Power_L3"
+}

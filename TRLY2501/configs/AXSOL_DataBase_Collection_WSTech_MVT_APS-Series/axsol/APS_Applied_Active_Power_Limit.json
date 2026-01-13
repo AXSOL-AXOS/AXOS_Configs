@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8206",
+  "unit": "W",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "100000000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter Applied Active Power Limit",
+  "mqttName": "LIM_P",
+  "type": "INT16",
+  "nativeName": "APS_Applied_Active_Power_Limit"
+}

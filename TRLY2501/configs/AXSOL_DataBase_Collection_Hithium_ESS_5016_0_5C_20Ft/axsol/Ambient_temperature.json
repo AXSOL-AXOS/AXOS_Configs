@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60106",
+  "unit": "°C",
+  "scaling": "0.1",
+  "offset": "-40.0",
+  "upperLimit": "60.0",
+  "lowerLimit": "-20.0",
+  "description": "AX_Container Room Temperature",
+  "mqttName": "ME_Temp_Room",
+  "type": "UINT",
+  "nativeName": "Ambient_temperature"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8114",
+  "unit": "VAr",
+  "scaling": "1.0",
+  "offset": "0.0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "-10000000000000",
+  "description": "AX_Inverter UnitReactivePowerTotal",
+  "mqttName": "U1_ME_Q_Tot",
+  "type": "INT16",
+  "nativeName": "MCU_1_Reactive_Power_Total"
+}

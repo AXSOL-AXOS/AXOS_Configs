@@ -1,0 +1,5 @@
+Unnamed: 0,AXSOL Name,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,etwork-Operator,O&M,SK required
+LIM_P_Prod,P limit production,,,,,,,,x
+LIM_P_Con,P limit consumption,,,,,,,,x
+SP_Q,Q setpoint,,,,,,,,x
+SP_CosPhi,cosPhi setpoint,,,,,,,,x

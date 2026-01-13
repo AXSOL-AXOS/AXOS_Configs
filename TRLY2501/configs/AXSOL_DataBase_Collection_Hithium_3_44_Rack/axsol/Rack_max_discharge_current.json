@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2014",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": "100000",
+  "lowerLimit": "0",
+  "description": "AX_Rack max discharge current",
+  "mqttName": "LIM_I_Discharge",
+  "type": "u16",
+  "nativeName": "Rack max discharge current"
+}

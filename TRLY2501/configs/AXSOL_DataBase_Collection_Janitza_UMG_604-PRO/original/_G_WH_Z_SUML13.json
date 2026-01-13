@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19076",
+  "unit": "Wh",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_MainMeter Active Energy Export",
+  "mqttName": "CT_E_Active_Exp",
+  "type": "float",
+  "nativeName": "_G_WH_Z_SUML13"
+}

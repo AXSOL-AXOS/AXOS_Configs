@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8245",
+  "unit": "%rh",
+  "scaling": "0.1",
+  "offset": "0.0",
+  "upperLimit": "100",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitHumidity",
+  "mqttName": "U2_ME_Hum",
+  "type": "UINT16",
+  "nativeName": "MCU_2_Humidity"
+}

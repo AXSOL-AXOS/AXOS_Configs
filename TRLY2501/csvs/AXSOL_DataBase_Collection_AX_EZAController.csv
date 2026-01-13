@@ -1,0 +1,20 @@
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,etwork-Operator,O&M,SK required
+ST_Watchdog,AX_EZA Watchdog,Heartbeat signal to monitor communication and ensure the controller is active and responsive.,-,x,x,,,,x,x
+ST_OpMode,AX_EZA Operation Mode,"Current operating mode of the EZA controller (e.g., grid-following, grid-forming, standby).  ",-,x,x,,,,x,x
+SP_P,AX_EZA Active Power Setpoint,Target value for active power output or input (in kW) set by the controller.                 ,%,x,x,x,x,x,x,x
+SP_Q,AX_EZA Reactive Power Setpoint,Target value for reactive power output or input (in kVAR) set by the controller.             ,%,x,x,x,x,x,x,x
+SP_PF,AX_EZA Power Factor Setpoint,Desired power factor for grid compliance or optimization.                                    ,-,x,x,,,,,x
+ST_Q_Mode,AX_EZA Reactive Power Control Mode,"Control strategy for reactive power (e.g., fixed, voltage-dependent, power factor control).  ",-,x,x,,,,,x
+ME_P_Avail_Charge,AX_EZA Available Power Charging,Maximum power available for charging based on system limits and SOC (in kW).                 ,W,x,x,x,x,x,x,x
+ME_P_Avail_Discharge,AX_EZA Available Power Discharging,Maximum power available for discharging based on system limits and SOC (in kW).              ,W,x,x,x,x,x,x,x
+ME_E_Avail_Charge,AX_EZA Available Energy Charging,Total energy capacity available for charging (in kWh).                                       ,Wh,x,x,x,x,x,x,x
+ME_E_Avail_Discharge,AX_EZA Available Energy Discharging,Total energy capacity available for discharging (in kWh).                                    ,Wh,x,x,x,x,x,x,x
+ME_P,AX_EZA Active Power,Actual active power currently being delivered or absorbed by the system (in kW).             ,W,x,x,x,x,x,x,x
+ME_P_FCR,AX_EZA FCR Power,Power reserved or delivered for Frequency Containment Reserve (FCR) service.                 ,W,x,x,x,x,,x,x
+ME_P_aFRR,AX_EZA aFRR Power,Power reserved or delivered for Automatic Frequency Restoration Reserve (aFRR) service.      ,W,x,x,x,x,,x,x
+ME_P_OwnUse,AX_EZA Own Consumption Plant,Power consumed internally by the plant or auxiliary systems (in kW).                         ,W,x,x,x,x,,x,x
+ME_SOC,AX_EZA SOC,State of Charge of the entire system as managed by the EZA controller (in %).                ,%,x,x,x,x,,x,x
+ST_FCR_Ready,AX_EZA FCR ready,Indicates readiness to provide FCR service (boolean or status flag).                         ,-,x,x,x,x,,x,x
+ST_FCR_Active,AX_EZA FCR active,Indicates whether FCR service is currently active (boolean or status flag).                  ,-,x,x,x,x,,x,x
+ST_aFRR_Ready,AX_EZA aFRR ready,Indicates readiness to provide aFRR service (boolean or status flag).                        ,-,x,x,x,x,,x,x
+ST_aFRR_Active,AX_EZA aFRR active,Indicates whether aFRR service is currently active (boolean or status flag).                 ,-,x,x,x,x,,x,x

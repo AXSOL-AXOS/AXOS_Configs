@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8433",
+  "unit": "kWh",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitEnergyCounterNegativeTotal",
+  "mqttName": "U4_CT_E_Neg_Tot",
+  "type": "UINT32",
+  "nativeName": "MCU_4_Energy_Counter_Negative_Total"
+}

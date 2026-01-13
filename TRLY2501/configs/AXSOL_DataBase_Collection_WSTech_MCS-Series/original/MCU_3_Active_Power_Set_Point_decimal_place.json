@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24301",
+  "unit": "kW",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "100",
+  "lowerLimit": "-100",
+  "description": "AX_Inverter UnitActivePowerSetpoints",
+  "mqttName": "U3_SP_P",
+  "type": "UINT16",
+  "nativeName": "MCU_3_Active_Power_Set_Point_decimal_place"
+}

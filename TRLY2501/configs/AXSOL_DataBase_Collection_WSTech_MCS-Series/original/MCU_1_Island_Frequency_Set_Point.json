@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24111",
+  "unit": "Hz",
+  "scaling": "0.001",
+  "offset": "0",
+  "upperLimit": "100",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitIslandFrequencySetpoint",
+  "mqttName": "U1_SP_F_Island",
+  "type": "UINT16",
+  "nativeName": "MCU_1_Island_Frequency_Set_Point"
+}

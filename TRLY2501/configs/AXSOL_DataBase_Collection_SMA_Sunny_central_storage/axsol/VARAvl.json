@@ -1,0 +1,12 @@
+{
+  "mbRegister": "174",
+  "unit": "VAr",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "100000000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter Applied Reactive Power Limit",
+  "mqttName": "LIM_Q",
+  "type": null,
+  "nativeName": "VARAvl"
+}

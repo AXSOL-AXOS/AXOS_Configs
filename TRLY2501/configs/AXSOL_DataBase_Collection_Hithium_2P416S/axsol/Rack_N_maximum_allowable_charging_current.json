@@ -1,0 +1,12 @@
+{
+  "mbRegister": "105",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "0.0",
+  "upperLimit": "100000",
+  "lowerLimit": "0",
+  "description": "AX_Rack max charge current",
+  "mqttName": "LIM_I_Charge",
+  "type": "UINT",
+  "nativeName": "Rack_N_maximum_allowable_charging_current"
+}

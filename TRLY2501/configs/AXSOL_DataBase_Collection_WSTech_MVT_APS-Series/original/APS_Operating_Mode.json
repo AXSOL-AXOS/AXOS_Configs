@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24586",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "0",
+  "description": "AX_Inverter Operating Mode",
+  "mqttName": "ST_Mode",
+  "type": "UINT16",
+  "nativeName": "APS_Operating_Mode"
+}

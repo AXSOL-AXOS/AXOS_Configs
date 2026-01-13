@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8205",
+  "unit": "°C",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "-50",
+  "description": "AX_Inverter Panel Temperature",
+  "mqttName": "ME_Temp_Panel",
+  "type": "INT16",
+  "nativeName": "Panel_Temperature"
+}

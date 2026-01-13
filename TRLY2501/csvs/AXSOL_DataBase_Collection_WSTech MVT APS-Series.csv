@@ -1,0 +1,163 @@
+Topic,Description,Register Adress,Unit& Scaling,type,AXSOL Name,AXSOL Unit & Scaling,Unnamed: 7,Unnamed: 8
+APS_Active_Power_Set_Point,,24576,kW  ,INT16,AX_Inverter Active Power Setpoint,W,,AX_Inverter Active Power Setpoint
+APS_Reactive_Power_Set_Point,,24580,kvar,INT16,AX_Inverter Reactive Power Setpoint,Var,,AX_Inverter Reactive Power Setpoint
+APS_Island_Voltage_Set_Point,,24584,0.1V   ,UINT16,AX_Inverter Island Voltage Setpoint,V,,AX_Inverter Island Voltage Setpoint
+APS_Island_Frequency_Set_Point,,24585,0.001Hz  ,UINT16,AX_Inverter Island Frequency Setpoint,Hz,,AX_Inverter Island Frequency Setpoint
+APS_Operating_Mode,,24586,,UINT16,AX_Inverter Operating Mode,,,AX_Inverter Operating Mode
+APS_Error_Reset,,24587,,UINT16,,,,AX_Inverter Active Power Total
+APS_Activate_Modbus_TCP_Interface,,24588,,UINT16,,,,AX_Inverter Active Power L1
+APS_Heartbeat,,24589,,UINT16,AX_Inverter Error Code,,,AX_Inverter Active Power L2
+APS_QU_Offset,,24590,0.001%   ,INT16 ,,%,,AX_Inverter Active Power L3
+APS_Q_Mode,,24591,,UINT16,,,,AX_Inverter Reactive Power Total
+U_1_Active_Power_Set_Point,,24596,0.1kW  ,INT16 ,,,,AX_Inverter Reactive Power L1
+U_1_Reactive_Power_Set_Point,,24600,0.1kvar,INT16,,,,AX_Inverter Reactive Power L2
+U_1_DC_Voltage_Maximum,,24604,0.1V   ,UINT16,,,,AX_Inverter Reactive Power L3
+U_1_DC_Voltage_Minimum,,24605,0.1V   ,UINT16,,,,AX_Inverter DC Power
+U_1_Positive_DC_Current_Limit,,24606,0.1A   ,INT16 ,,,,AX_Inverter Ambient Temperature
+U_1_Negative_DC_Current_Limit,,24607,0.1A   ,INT16 ,,,,AX_Inverter U1…N Humidity
+U_1_Island_Voltage_Set_Point,,24608,0.1V   ,UINT16,,,,AX_Inverter Panel Temperature
+U_1_Island_Frequency_Set_Point,,24609,0.001Hz  ,UINT16,,,,AX_Inverter Applied Active Power Limit
+U_1_Operating_Mode,,24610,,UINT16,,,,AX_Inverter Applied Reactive Power Limit
+U_1_Error_Reset,,24611,,UINT16,,,,AX_Inverter Energy Counter Positive Total
+U_1_Heartbeat,,24612,,UINT16,,,,AX_Inverter Energy Counter Positive L1
+U_3_Control_Data,,24686...24672,,,,,,AX_Inverter Energy Counter Positive L2
+U_4_Control_Data,,24686...24702,,,,,,AX_Inverter Energy Counter Positive L3
+APMC_Software_Version                  ,,8192,,UINT16,,,,AX_Inverter Energy Counter Negative Total
+APMC_Interface_Version                 ,,8193,,UINT16,,,,AX_Inverter Energy Counter Negative L1
+APS_Active_Power_Total                 ,,8194,1kW   ,INT16 ,AX_Inverter Active Power Total,W,,AX_Inverter Energy Counter Negative L2
+APS_Active_Power_L1                    ,,8195,0.1  kW   ,INT16 ,AX_Inverter Active Power L1,W,,AX_Inverter Energy Counter Negative L3
+APS_Active_Power_L2                    ,,8196,0.1  kW   ,INT16 ,AX_Inverter Active Power L2,W,,AX_Inverter Error Code
+APS_Active_Power_L3                    ,,8197,0.1  kW   ,INT16 ,AX_Inverter Active Power L3,W,,AX_Inverter Operating State
+APS_Reactive_Power_Total               ,,8198,1 kvar, INT16,AX_Inverter Reactive Power Total,VAr,,AX_Inverter U1...N Grid Voltage L1N
+APS_Reactive_Power_L1                  ,,8199,0.1  kvar ,INT16 ,AX_Inverter Reactive Power L1,VAr,,AX_Inverter U1...N Grid Voltage L2N
+APS_Reactive_Power_L2                  ,,8200,0.1  kvar ,INT16 ,AX_Inverter Reactive Power L2,VAr,,AX_Inverter U1...N Grid Voltage L3N
+APS_Reactive_Power_L3                  ,,8201,0.1  kvar ,INT16 ,AX_Inverter Reactive Power L3,VAr,,AX_Inverter U1...N Grid Voltage L12
+APS_DC_Power                           ,,8202,1kW   ,INT16 ,AX_Inverter DC Power,W,,AX_Inverter U1...N Grid Voltage L23
+Ambient_Temperature                    ,,8203,0.1  °C   ,INT16 ,AX_Inverter Ambient Temperature,°C,,AX_Inverter U1...N Grid Voltage L31
+Solar_Irradiation                      ,,8204,0.1  Wm2  ,INT16 ,,,,AX_Inverter U1...N Grid Frequency
+Panel_Temperature                      ,,8205,0.1  °C   ,INT16 ,AX_Inverter Panel Temperature,°C,,AX_Inverter U1...N Grid Current L1
+APS_Applied_Active_Power_Limit         ,,8206,1kW   ,INT16 ,AX_Inverter Applied Active Power Limit,W,,AX_Inverter U1...N Grid Current L2
+APS_Applied_Reactive_Power_Limit       ,,8210,1kvar ,INT16 ,AX_Inverter Applied Reactive Power Limit,var,,AX_Inverter U1...N Grid Current L3
+APS_Energy_Counter_Positive_Total      ,,8214,0.1  kWh  ,UINT32,AX_Unverter Energy Counter Positive Total,Wh,,AX_Inverter U1...N Active Power Total
+APS_Energy_Counter_Positive_L1         ,,8216,0.1  kWh  ,UINT32,AX_Unverter Energy Counter Positive L1,Wh,,AX_Inverter U1...N Active Power L1
+APS_Energy_Counter_Positive_L2         ,,8218,0.1  kWh  ,UINT32,AX_Unverter Energy Counter Positive L2,Wh,,AX_Inverter U1...N Active Power L2
+APS_Energy_Counter_Positive_L3         ,,8220,0.1  kWh  ,UINT32,AX_Unverter Energy Counter Positive L3,Wh,,AX_Inverter U1...N Active Power L3
+APS_Energy_Counter_Negative_Total      ,,8222,0.1  kWh  ,UINT32,AX_Unverter Energy Counter Negative Total,Wh,,AX_Inverter U1...N Reactive Power Total
+APS_Energy_Counter_Negative_L1         ,,8224,0.1  kWh  ,UINT32,AX_Unverter Energy Counter Negative L1,Wh,,AX_Inverter U1...N Reactive Power L1
+APS_Energy_Counter_Negative_L2         ,,8226,0.1  kWh  ,UINT32,AX_Unverter Energy Counter Negative L2,Wh,,AX_Inverter U1...N Reactive Power L2
+APS_Energy_Counter_Negative_L3         ,,8228,0.1  kWh  ,UINT32,AX_Unverter Energy Counter Negative L3,Wh,,AX_Inverter U1...N Reactive Power L3
+APS_Error_Code_1                       ,,8230,,UINT16,AX_Inverter Error Code,,,AX_Inverter U1...N DC Voltage
+APS_Error_Code_2                       ,,8231,,UINT16,,,,AX_Inverter U1...N DC Current
+APS_Error_Code_3                       ,,8232,,UINT16,,,,AX_Inverter U1...N DC Power
+APS_Error_Code_4                       ,,8233,,UINT16,,,,AX_Inverter U1...N Applied Active Power Limit
+APS_Error_Code_5                       ,,8234,,UINT16,,,,AX_Inverter U1...N Applied Reactive Power Limit
+APS_Error_Code_6                       ,,8235,,UINT16,,,,AX_Inverter U1...N Applied Positive DC Current Limit
+APS_Error_Code_7                       ,,8236,,UINT16,,,,AX_Inverter U1...N Applied Negative DC Current Limit
+APS_Error_Code_8                       ,,8237,,UINT16,,,,
+APS_Warning_Code_1                     ,,8254,,UINT16,AX_Inverter Error Code,,,
+APS_Warning_Code_2                     ,,8255,,UINT16,,,,
+APS_Warning_Code_3                     ,,8256,,UINT16,,,,
+APS_Warning_Code_4                     ,,8257,,UINT16,,,,
+APS_Warning_Code_5                     ,,8258,,UINT16,,,,
+APS_Warning_Code_6                     ,,8259,,UINT16,,,,
+APS_Warning_Code_7                     ,,8260,,UINT16,,,,
+APS_Operating_State                    ,,8278,,UINT16,AX_Inverter Operating State,,,
+APS_Modbus_TCP_Write_Error_Address     ,,8280,,UINT16,?,,,
+APS_MV_Trip_Temperature                ,,8282,0.1  °C   ,INT16 ,?,,,
+U_1_Grid_Voltage_L1N                ,,8334,0.1  V    ,UINT16,AX_Inverter U1 Grid Voltage L1N,V,,
+U_1_Grid_Voltage_L2N                ,,8335,0.1  V    ,UINT16,AX_Inverter U1 Grid Voltage L2N,V,,
+U_1_Grid_Voltage_L3N                ,,8336,0.1  V    ,UINT16,AX_Inverter U1 Grid Voltage L3N,V,,
+U_1_Grid_Voltage_L12                ,,8337,0.1  V    ,UINT16,AX_Inverter U1 Grid Voltage L12,V,,
+U_1_Grid_Voltage_L23                ,,8338,0.1  V    ,UINT16,AX_Inverter U1 Grid Voltage L23,V,,
+U_1_Grid_Voltage_L31                ,,8339,0.1  V    ,UINT16,AX_Inverter U1 Grid Voltage L31,V,,
+U_1_Grid_Frequency                   ,,8398,0.001Hz   ,UINT16,AX_Inverter U1 Grid Frequency,Hz,,
+U_1_Grid_Current_L1                  ,,8399,0.1  A    ,INT16 ,AX_Inverter U1 Grid Current L1,A,,
+U_1_Grid_Current_L2                  ,,8400,0.1  A    ,INT16 ,AX_Inverter U1 Grid Current L2,A,,
+U_1_Grid_Current_L3                  ,,8401,0.1  A    ,INT16 ,AX_Inverter U1 Grid Current L3,A,,
+U_1_Active_Power_Total               ,,8402, 0.1  kW  , INT16,AX_Inverter U1 Active Power Total,W,,
+U_1_Active_Power_L1                  ,,8403,0.1  kW   ,INT16 ,AX_Inverter U1 Active Power L1,W,,
+U_1_Active_Power_L2                  ,,8404,0.1  kW   ,INT16 ,AX_Inverter U1 Active Power L2,W,,
+U_1_Active_Power_L3                  ,,8405,0.1  kW   ,INT16 ,AX_Inverter U1 Active Power L3,W,,
+U_1_Reactive_Power_Total             ,,8406, 0.1  kvar, INT16,AX_Inverter U1 Reactive Power Total,VAr,,
+U_1_Reactive_Power_L1                ,,8407,0.1  kvar ,INT16 ,AX_Inverter U1 Reactive Power L1,VAr,,
+U_1_Reactive_Power_L2                ,,8408,0.1  kvar ,INT16 ,AX_Inverter U1 Reactive Power L2,VAr,,
+U_1_Reactive_Power_L3                ,,8409,0.1  kvar ,INT16 ,AX_Inverter U1 Reactive Power L3,VAr,,
+U_1_DC_Voltage                       ,,8410,0.1  V    ,INT16 ,AX_Inverter U1 DC Voltage,V,,
+U_1_DC_Current                       ,,8411,0.1  A    ,INT16 ,AX_Inverter U1 DC Current,A,,
+U_1_DC_Power                         ,,8412,0.1  kW   ,INT16 ,AX_Inverter U1 DC Power,W,,
+U_1_Inductor_Temperature             ,,8413,0.1  °C   ,INT16 ,,,,
+U_1_IGBT_Temperature_L1              ,,8414, 0.1  °C  , INT16,,,,
+U_1_IGBT_Temperature_L2              ,,8415, 0.1  °C  , INT16,,,,
+U_1_IGBT_Temperature_L3              ,,8416, 0.1  °C  , INT16,,,,
+U_1_Applied_Active_Power_Limit       ,,8417,0.1  kW   ,INT16 ,AX_Inverter U1 Applied Active Power Limit,W,,
+U_1_Applied_Reactive_Power_Limit     ,,8421,0.1  kvar ,INT16 ,AX_Inverter U1 Applied Reactive Power Limit,VAr,,
+U_1_Applied_DC_Voltage_Maximum       ,,8425,0.1  V    ,INT16 ,,V,,
+U_1_Applied_DC_Voltage_Minimum       ,,8426,0.1  V    ,INT16 ,,V,,
+U_1_Applied_Positive_DC_Current_Limit,,8427,0.1  A    ,INT16 ,AX_Inverter U1 Applied Positive DC Current Limit,A,,
+U_1_Applied_Negative_DC_Current_Limit,,8428,0.1  A    ,INT16 ,AX_Inverter U1 Applied Negative DC Current Limit,A,,
+U_1_Energy_Counter_Positive_Total    ,,8429,0.1  kWh  ,UINT32,,Wh,,
+U_1_Energy_Counter_Positive_L1       ,,8431,0.1  kWh  ,UINT32,,Wh,,
+U_1_Energy_Counter_Positive_L2       ,,8433,0.1  kWh  ,UINT32,,Wh,,
+U_1_Energy_Counter_Positive_L3       ,,8435,0.1  kWh  ,UINT32,,Wh,,
+U_1_Energy_Counter_Negative_Total    ,,8437,0.1  kWh  ,UINT32,,Wh,,
+U_1_Energy_Counter_Negative_L1       ,,8439,0.1  kWh  ,UINT32,,Wh,,
+U_1_Energy_Counter_Negative_L2       ,,8441,0.1  kWh  ,UINT32,,Wh,,
+U_1_Energy_Counter_Negative_L3       ,,8443,0.1  kWh  ,UINT32,,Wh,,
+U_1_Error_Code_1                     ,,8445,,UINT16,AX_Inverter Error Code,,,
+U_1_Error_Code_2                     ,,8446,,UINT16,AX_Inverter Error Code,,,
+U_1_Error_Code_3                     ,,8447,,UINT16,AX_Inverter Error Code,,,
+U_1_Error_Code_4                     ,,8448,,UINT16,AX_Inverter Error Code,,,
+U_1_Error_Code_5                     ,,8449,,UINT16,AX_Inverter Error Code,,,
+U_1_Error_Code_6                     ,,8450,,UINT16,AX_Inverter Error Code,,,
+U_1_Error_Code_7                     ,,8451,,UINT16,AX_Inverter Error Code,,,
+U_1_Error_Code_8                     ,,8452,,UINT16,AX_Inverter Error Code,,,
+U_1_Operating_State                  ,,8493,,UINT16,,,,
+U_1_Start_Countdown                  ,,8494,,UINT16,,,,
+U_1_Humidity                         ,,8495,0.1  %rh  ,UINT16,,%rh,,
+U_1_PCB_Temperature                  ,,8496,0.1  °C   ,INT16 ,,°C,,
+U_1_Isolation_Resistance             ,,8497,0.1  kΩ   ,UINT16,,Ω,,
+U_1_Leakage_Capacitance              ,,8498,0.1  μF   ,UINT16,,F,,
+U_1_Firmware_Version                 ,,8499,,UINT16,,,,
+U_2_Status_Data,,8500...8699  ,, ...  ,,,,
+U_3_Status_Data,,8702...8899  ,, ...  ,,,,
+U_4_Status_Data,,8902...9099  ,, ...  ,,,,
+U_5_Status_Data,,9102...9299  ,, ...  ,,,,
+U_6_Status_Data,,9302...9499  ,, ...  ,,,,
+U_1_Positive_Ah_Counter_1,,100002,0.01 Ah   ,UINT32,,,,
+U_1_Current_1            ,,100004,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_2 ,,10005,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_2 ,,10007,0.01 Ah   ,UINT32,,,,
+U_1_Current_2            ,,10009,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_3 ,,10010,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_3 ,,10012,0.01 Ah   ,UINT32,,,,
+U_1_Current_3            ,,10014,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_4 ,,10015,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_4 ,,10017,0.01 Ah   ,UINT32,,,,
+U_1_Current_4            ,,10019,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_5 ,,10020,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_5 ,,10022,0.01 Ah   ,UINT32,,,,
+U_1_Current_5            ,,10024,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_6 ,,10025,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_6 ,,10027,0.01 Ah   ,UINT32,,,,
+U_1_Current_6            ,,10029,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_7 ,,10030,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_7 ,,10032,0.01 Ah   ,UINT32,,,,
+U_1_Current_7            ,,10034,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_8 ,,10035,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_8 ,,10037,0.01 Ah   ,UINT32,,,,
+U_1_Current_8            ,,10039,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_9 ,,10040,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_9 ,,10042,0.01 Ah   ,UINT32,,,,
+U_1_Current_9            ,,10044,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_10,,10045,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_10,,10047,0.01 Ah   ,UINT32,,,,
+U_1_Current_10           ,,10049,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_11,,10050,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_11,,10052,0.01 Ah   ,UINT32,,,,
+U_1_Current_11           ,,10054,0.01 A    ,UINT16,,,,
+U_1_Positiv_Ah_Counter_12,,10055,0.01 Ah   ,UINT32,,,,
+U_1_Negativ_Ah_Counter_12,,10057,0.01 Ah   ,UINT32,,,,
+U_1_Current_12           ,,10059,0.01 A    ,UINT16,,,,
+U_1_DC_Input_Voltage     ,,10160,0.1  V    ,UINT16,,,,
+U_2_Status_Data_Current_Measurement,,10200...10260,, ...  ,,,,
+U_3_Status_Data_Current_Measurement,,10300...10360,, ...  ,,,,

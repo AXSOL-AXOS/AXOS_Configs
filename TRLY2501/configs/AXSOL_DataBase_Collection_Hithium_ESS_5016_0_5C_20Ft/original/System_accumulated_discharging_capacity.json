@@ -1,0 +1,12 @@
+{
+  "mbRegister": "20",
+  "unit": "kWh",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "100000000000.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container discharge energy",
+  "mqttName": "CT_E_Discharge",
+  "type": "UINT32",
+  "nativeName": "System_accumulated_discharging_capacity"
+}

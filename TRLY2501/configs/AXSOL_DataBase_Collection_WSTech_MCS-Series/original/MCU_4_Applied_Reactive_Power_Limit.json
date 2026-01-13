@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8426",
+  "unit": "kvar",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "-10000000000000",
+  "description": "AX_Inverter UnitAppliedReactivePowerLimit",
+  "mqttName": "U4_LIM_Q",
+  "type": "INT16",
+  "nativeName": "MCU_4_Applied_Reactive_Power_Limit"
+}

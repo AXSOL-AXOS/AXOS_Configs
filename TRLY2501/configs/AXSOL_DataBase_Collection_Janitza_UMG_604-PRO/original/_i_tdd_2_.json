@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19642",
+  "unit": "%",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "float",
+  "nativeName": "_i_tdd[2]"
+}

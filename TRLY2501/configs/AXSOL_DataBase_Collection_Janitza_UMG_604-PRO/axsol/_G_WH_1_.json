@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19056",
+  "unit": "Wh",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "float",
+  "nativeName": "_G_WH[1]"
+}

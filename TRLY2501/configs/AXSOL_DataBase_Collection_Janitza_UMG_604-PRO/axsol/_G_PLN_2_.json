@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19024",
+  "unit": "W",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_MainMeter Active Power L3",
+  "mqttName": "ME_P_L3",
+  "type": "float",
+  "nativeName": "_G_PLN[2]"
+}

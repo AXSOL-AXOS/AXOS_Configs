@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x1034",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "1000.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container Number of racks in service",
+  "mqttName": "ST_RackCount",
+  "type": "u16",
+  "nativeName": "Number of racks in service"
+}

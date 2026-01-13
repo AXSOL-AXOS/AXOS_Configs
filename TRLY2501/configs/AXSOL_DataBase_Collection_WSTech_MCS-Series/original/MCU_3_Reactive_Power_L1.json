@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8315",
+  "unit": "kvar",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "-10000000000000",
+  "description": "AX_Inverter UnitReactivePowerL1",
+  "mqttName": "U3_ME_Q_L1",
+  "type": "INT16",
+  "nativeName": "MCU_3_Reactive_Power_L1"
+}

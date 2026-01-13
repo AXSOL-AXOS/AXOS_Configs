@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19006",
+  "unit": "V",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_MainMeter Voltage L1-L2",
+  "mqttName": "ME_V_L1L2",
+  "type": "float",
+  "nativeName": "_G_ULL[0]"
+}

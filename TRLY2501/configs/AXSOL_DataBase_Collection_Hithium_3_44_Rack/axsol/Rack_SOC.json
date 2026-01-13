@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x200E",
+  "unit": "%",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "0",
+  "description": "AX_Rack soc",
+  "mqttName": "ME_SOC",
+  "type": "u16",
+  "nativeName": "Rack SOC"
+}

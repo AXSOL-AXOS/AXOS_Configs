@@ -1,0 +1,9 @@
+Topic,Description,Register Adress,Unit& Scaling,type,AXSOL Name,AXSOL Unit & Scaling,SK required
+Watchdog,Value should change each second,,,UINT32,AX_EZA Watchdog,-,later
+Operation Mode,Start/Stop/Fast Stop/Standby,,,UINT32,AX_EZA Operation Mode,-,later
+Active Power Setpoint,,,%,FLOAT32,AX_EZA Active Power Setpoint,%,later
+Reactive Power Setpoint,,,%,FLOAT32,AX_EZA Reactive Power Setpoint,%,later
+Power Factor Setpoint,Spare - Only Q mode for now,,---,FLOAT32,AX_EZA Power Factor Setpoint,-,later
+Reactive Power Control Mode,Spare - Only Q mode for now,,---,UINT32,AX_EZA Reactive Power Control Mode,-,later
+,,,,,,,
+"Note SK: Das hier wäre m.E. AX_Node_Commands. Wurde zwar für Streamergy definiert, ist aber eigentlich unabhängig von denen.",,,,,,,

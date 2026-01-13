@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8212",
+  "unit": "kW",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "-10000000000000",
+  "description": "AX_Inverter UnitActivePowerL2",
+  "mqttName": "U2_ME_P_L2",
+  "type": "INT16",
+  "nativeName": "MCU_2_Active_Power_L2"
+}

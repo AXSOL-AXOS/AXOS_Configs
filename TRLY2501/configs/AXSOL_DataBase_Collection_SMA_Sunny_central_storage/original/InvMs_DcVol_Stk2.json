@@ -1,0 +1,12 @@
+{
+  "mbRegister": "14",
+  "unit": "V",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_Inverter APU1...N Grid Voltage L2",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "InvMs_DcVol_Stk2"
+}

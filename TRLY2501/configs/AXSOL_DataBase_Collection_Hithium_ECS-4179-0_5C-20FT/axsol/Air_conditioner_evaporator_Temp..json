@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x1072",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "10000.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container alarm state",
+  "mqttName": "ST_Alarm",
+  "type": "int16",
+  "nativeName": "Air conditioner evaporator Temp."
+}

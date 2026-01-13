@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8206",
+  "unit": "Hz",
+  "scaling": "0.01",
+  "offset": "0.0",
+  "upperLimit": "100",
+  "lowerLimit": "0",
+  "description": "AX_Inverter UnitGridFrequency",
+  "mqttName": "U2_ME_F",
+  "type": "UINT16",
+  "nativeName": "MCU_2_Grid_Frequency"
+}

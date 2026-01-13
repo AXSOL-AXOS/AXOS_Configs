@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60125",
+  "unit": "NoUnit",
+  "scaling": "0.01",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Meter_operating_time_Meter"
+}

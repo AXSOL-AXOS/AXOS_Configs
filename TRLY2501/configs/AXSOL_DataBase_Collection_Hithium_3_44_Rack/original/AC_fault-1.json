@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x308B",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100000",
+  "lowerLimit": "0",
+  "description": "AX_Rack error",
+  "mqttName": "ST_ERR",
+  "type": "u16",
+  "nativeName": "AC fault-1"
+}

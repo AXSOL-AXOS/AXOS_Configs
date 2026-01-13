@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8203",
+  "unit": "°C",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "-50",
+  "description": "AX_Inverter Ambient Temperature",
+  "mqttName": "ME_Temp_Amb",
+  "type": "INT16",
+  "nativeName": "Ambient_Temperature"
+}

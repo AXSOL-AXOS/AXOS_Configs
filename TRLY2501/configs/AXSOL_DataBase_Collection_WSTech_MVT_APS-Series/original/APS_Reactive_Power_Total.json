@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8198",
+  "unit": "kvar",
+  "scaling": "1",
+  "offset": null,
+  "upperLimit": "100000000000",
+  "lowerLimit": "-100000000000",
+  "description": "AX_Inverter Reactive Power Total",
+  "mqttName": "ME_Q_Tot",
+  "type": "INT16",
+  "nativeName": "APS_Reactive_Power_Total"
+}

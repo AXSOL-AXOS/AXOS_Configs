@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x1037",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100000000.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container max discharge power",
+  "mqttName": "LIM_P_Discharge",
+  "type": "u16",
+  "nativeName": "Max discharge power"
+}

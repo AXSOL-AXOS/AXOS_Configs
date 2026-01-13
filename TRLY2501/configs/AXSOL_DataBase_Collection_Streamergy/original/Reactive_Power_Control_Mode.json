@@ -1,0 +1,12 @@
+{
+  "mbRegister": null,
+  "unit": "---",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_EZA Reactive Power Control Mode",
+  "mqttName": "ST_Q_Mode",
+  "type": "UINT32",
+  "nativeName": "Reactive Power Control Mode"
+}

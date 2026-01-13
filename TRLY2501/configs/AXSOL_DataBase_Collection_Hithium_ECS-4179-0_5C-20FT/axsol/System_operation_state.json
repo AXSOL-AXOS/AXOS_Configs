@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x1006",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "10.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container system operation state",
+  "mqttName": "ST_Op",
+  "type": "u16",
+  "nativeName": "System operation state"
+}

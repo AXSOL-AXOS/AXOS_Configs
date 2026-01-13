@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60167",
+  "unit": "°C",
+  "scaling": "1.0",
+  "offset": "-40",
+  "upperLimit": "1.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container heater status",
+  "mqttName": "ST_Heater",
+  "type": "UINT",
+  "nativeName": "Set_temperature"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19100",
+  "unit": "varh",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_MainMeter Reactive Energy Inductive",
+  "mqttName": "CT_E_Reactive_Exp",
+  "type": "float",
+  "nativeName": "_G_IQH_SUML13"
+}

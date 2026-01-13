@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60139",
+  "unit": "NoUnit",
+  "scaling": "10.0",
+  "offset": "0",
+  "upperLimit": "100000000.0",
+  "lowerLimit": "-100000000.0",
+  "description": "AX_Container AUX meter active power",
+  "mqttName": "ME_P_AUX",
+  "type": "UINT",
+  "nativeName": "Active_power"
+}

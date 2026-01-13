@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24203",
+  "unit": "kvar",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "100",
+  "lowerLimit": "-100",
+  "description": "AX_Inverter UnitReactivePowerSetpoints",
+  "mqttName": "U2_SP_Q",
+  "type": "UINT16",
+  "nativeName": "MCU_2_Reactive_Power_Set_Point_decimal_place"
+}

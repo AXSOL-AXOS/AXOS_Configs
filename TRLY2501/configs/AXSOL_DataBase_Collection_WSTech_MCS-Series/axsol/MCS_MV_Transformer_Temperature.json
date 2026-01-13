@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8020",
+  "unit": "°C",
+  "scaling": "0.1",
+  "offset": "0.0",
+  "upperLimit": "100",
+  "lowerLimit": "-50",
+  "description": "AX_Inverter PanelTemperature",
+  "mqttName": "ME_Temp_Panel",
+  "type": "INT16",
+  "nativeName": "MCS_MV_Transformer_Temperature"
+}

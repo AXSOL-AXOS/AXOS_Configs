@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8420",
+  "unit": "W",
+  "scaling": "1.0",
+  "offset": "0.0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "-10000000000000",
+  "description": "AX_Inverter UnitDCPower",
+  "mqttName": "U4_ME_P_DC",
+  "type": "INT16",
+  "nativeName": "MCU_4_DC_Power"
+}

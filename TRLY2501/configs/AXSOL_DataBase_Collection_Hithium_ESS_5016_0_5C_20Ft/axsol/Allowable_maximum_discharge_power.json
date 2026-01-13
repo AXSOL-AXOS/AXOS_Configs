@@ -1,0 +1,12 @@
+{
+  "mbRegister": "32",
+  "unit": "W",
+  "scaling": "1.0",
+  "offset": "0.0",
+  "upperLimit": "100000000.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container max discharge power",
+  "mqttName": "LIM_P_Discharge",
+  "type": "UINT",
+  "nativeName": "Allowable_maximum_discharge_power"
+}

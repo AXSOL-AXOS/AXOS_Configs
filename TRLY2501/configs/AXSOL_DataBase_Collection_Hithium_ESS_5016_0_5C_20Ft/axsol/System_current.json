@@ -1,0 +1,12 @@
+{
+  "mbRegister": "3",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "-3200.0",
+  "upperLimit": "100000.0",
+  "lowerLimit": "-100000.0",
+  "description": "AX_Container system total current",
+  "mqttName": "ME_I_Tot",
+  "type": "UINT",
+  "nativeName": "System_current"
+}

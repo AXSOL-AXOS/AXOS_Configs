@@ -1,0 +1,12 @@
+{
+  "mbRegister": "18",
+  "unit": "kWh",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": "100000000000.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container charge energy",
+  "mqttName": "CT_E_Charge",
+  "type": "UINT32",
+  "nativeName": "System_accumulated_charging_capacity"
+}

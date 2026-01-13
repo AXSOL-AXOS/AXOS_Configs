@@ -1,0 +1,84 @@
+Topic,Description,Register Adress,Unit& Resolution,type,AXSOL Name,AXSOL Unit & Resolution
+Rack operationg State,"0: Normal (can charge & discharge )
+1: NO Charge (can discharge)
+2: NO Discharge (can charge)
+3: Standby (cannot charge or discharge)
+4: Stop (System stop operation, open              contactors, breakers)",0x2001,-,u16,AX_Rack operating state,-
+Rack precharge phase,"0: Disconnected (positive contactor,  negative contactor, precharge contactor open)
+1: Start  connection (precharge contactor closed,  negative contactor closed,  positive contactor open)
+2: Connecting (precharge contactor closed,  negative contactor closed,  positive contactor closed)
+3:Connected(precharge contactoropen,  negative contactor closed,  positive contactor closed)
+4:Connection fail",0x2002,,u16,,
+Rack Contactor State,"0x0: Opened, 0x1: Closed",0x2003,-,u16,,-
+Rack fault,"0x0: Normal,  0x1: Fault;",0x2004,-,u16,AX_Rack error,-
+Rack Alarm I,"0x0: Normal, 0x1: Alarm I",0x2005,-,u16,AX_Rack error,-
+Rack Alarm II,"0x0: Normal, 0x1: Alarm II",0x2006,-,u16,,-
+Rack Alarm III,"0x0: Normal, 0x1: Alarm III",0x2007,-,u16,,-
+Reason of rack step-in failure,"0:Normal, 1:Warning",0x2008,,u16,AX_Rack error,
+The reason why rack did not start step in,"0:Normal,1:Warning",0x2009,,u16,AX_Rack error,
+Rack precharge total vol,,0x200A,0.1V,u16,,0.1V
+Rack rack voltage,,0x200B,0.1V,u16,AX_Rack voltage,0.1V
+Rack current,Charge current is negative and discharge is positive.,0x200C,0.1A,int16,AX_Rack current,0.1A
+Rack charge/discharge state,0x0:IDle; 0x1:Discharging; 0x2:Charging,0x200D,-,u16,,-
+Rack SOC,0～1000,0x200E,‰,u16,AX_Rack soc,0.1%
+Rack SOH,0～1000,0x200F,‰,u16,AX_Rack soh,0.1%
+Rack insulation value,,0x2010,KΩ,u16,AX_Rack error,Ω
+Rack positive insulation value,,0x2011,KΩ,u16,AX_Rack error,
+Rack negative Insulation Value,,0x2012,KΩ,u16,AX_Rack error,
+Rack max charge current,,0x2013,0.1A,u16,AX_Rack max charge current,0.1A
+Rack max discharge current,,0x2014,0.1A,u16,AX_Rack max discharge current,0.1A
+Rack max vol cell ID,1#～N#（N is cell number）,0x2015,-,u16,,-
+Rack max cell voltage,,0x2016,mV,u16,AX_Rack max cell voltage,V
+Rack min vol cell ID,1#～N#（N is cell number）,0x2017,-,u16,,-
+Rack min cell voltage,,0x2018,Mv,u16,AX_Rack min cell voltage,V
+Rack max temperature cell ID,1#～N#（N is cell number）,0x2019,-,u16,,-
+Rack max cell temperature,,0x201A,0.1℃,int16,AX_Rack max cell temperature,0.1℃
+Rack min temperature cell ID,1#～N#（N is cell number）,0x201B,-,u16,,-
+Rack min cell temperature,,0x201C,0.1℃,int16,AX_Rack min cell temperature,0.1℃
+Rack average voltage,,0x201D,mV,u16,AX_Rack average voltage,V
+Rack average temperature,,0x201E,0.1℃,int16,AX_Rack average temperature,0.1℃
+Rack cell voltage cumulative sum,,0x201F,0.1V,u16,,0.1V
+HVB Temp1,,0x2020,0.1℃,int16,AX_Rack error,0.1℃
+HVB Temp2,,0x2021,0.1℃,int16,,
+HVB Temp3,,0x2022,0.1℃,int16,,
+HVB Temp4,,0x2023,0.1℃,int16,,
+HVB Temp5,"According to the actual situation of the project, unused registers are reserved.",0x2024,0.1℃,int16,,
+HVB Temp6,"According to the actual situation of the project, unused registers are reserved.",0x2025,0.1℃,int16,,
+HVB Temp7,"According to the actual situation of the project, unused registers are reserved.",0x2026,0.1℃,int16,,
+HVB Temp8,"According to the actual situation of the project, unused registers are reserved.",0x2027,0.1℃,int16,,
+Pack1 positive pole temperature,,0x2220,0.1℃,int16,,
+Pack64 positive pole temperature,"According to the actual situation of the project, it supports a maximum of 64 Packs.",0x225F,0.1℃,int16,,
+Pack1 negative pole temperature,,0x2260,0.1℃,int16,,
+Pack64 negative pole temperature,"According to the actual situation of the project, it supports a maximum of 64 Packs.",0x229F,0.1℃,int16,,
+Rack cell voltage[1],,0x2400,mV,u16,,V
+Rack cell voltage[512],"According to the actual situation of the project, it supports a maximum of 512 individual voltages.",0x25FF,mV,u16,,
+Rack cell temperature[1],,0x2600,0.1℃,int16,,0.1℃
+Rack cell temperature[512],"According to the actual situation of the project, it can support a maximum of 512 monomer temperatures.",0x27FF,0.1℃,int16,,
+TMS operating state ,"0, OFF mode
+1, Cooling mode
+2, Heating mode
+3, Auto cycle mode",0x3077,,u16,,
+K1 relay state,"0: Opend, 1: Closed",0x3078,,u16,AX_Rack error,
+K2 relay state,"0: Opend, 1: Closed",0x3079,,u16,AX_Rack error,
+Pre-heating mode feedback,"0: Exit preheating mode
+1: Enter preheating mode",0x307A,,u16,,
+Outlet temperature,Offset: -40℃,0x307B,-40℃,int16,AX_Rack Outlet temperature,°C
+Inlet temperature,Offset: -40℃,0x307C,-40℃,int16,AX_Rack Inlet temperature,°C
+Ambient temperature,Offset: -40℃,0x307D,-40℃,int16,AX_Rack Ambient temperature,°C
+Outlet pressure,Resolutions: 0.1bar,0x307E,0.1bar,u16,,
+Inlet pressure,Resolutions: 0.1bar,0x307F,0.1bar,u16,,
+TMS fault code,0: No fault,0x3080,,u16,AX_Rack error,
+TMS fault level,"1: No fault
+1: Alarm I
+2: Alarm II",0x3081,,u16,AX_Rack error,
+ACDC_ A voltage,Resolutions: 1V/bit,0x3082,V,u16,AX_Rack error,V
+High pressure value,Resolutions: 1KPa/bit,0x3083,Kpa,u16,,
+Low pressure value,Resolutions: 1KPa/bit,0x3084,Kpa,u16,,
+Fan PWM,Resolutions: 1%/bit,0x3085,%,u16,,
+Compressor voltage,Resolutions: 1V/bit,0x3086,V,u16,,V
+Compressor current,Resolutions: 0.1A/bit,0x3087,0.1A,u16,,0.1A
+Compressor revolution speed,Resolutions: 100rpm/bit,0x3088,100rpm,u16,,
+PTC temperature switch state,"0: Opend, 1: Closed",0x3089,,u16,,
+Water pump switch,"0: Opend, 1: Closed",0x308A,,u16,,
+AC fault-1,00: No fault,0x308B,,u16,AX_Rack error,
+AC fault-2,00: No fault,0x308C,,u16,AX_Rack error,

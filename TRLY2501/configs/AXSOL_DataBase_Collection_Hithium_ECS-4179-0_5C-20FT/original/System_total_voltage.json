@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x100C",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "1000.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container system total voltage",
+  "mqttName": "ME_V_Tot",
+  "type": "u16",
+  "nativeName": "System total voltage"
+}

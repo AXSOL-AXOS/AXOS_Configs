@@ -1,0 +1,12 @@
+{
+  "mbRegister": "108",
+  "unit": "kW",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "-100",
+  "description": "AX_Inverter Active Power Setpoint",
+  "mqttName": "SP_P",
+  "type": null,
+  "nativeName": "WSpT"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "28",
+  "unit": "W",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "100000000000",
+  "lowerLimit": "-100000000000",
+  "description": "AX_Inverter Active Power Total",
+  "mqttName": "ME_P_Tot",
+  "type": null,
+  "nativeName": "InvMs_TotW"
+}

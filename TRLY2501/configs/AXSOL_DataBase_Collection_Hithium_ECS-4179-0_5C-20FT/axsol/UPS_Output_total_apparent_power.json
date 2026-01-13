@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x107E",
+  "unit": "VA",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "100000000.0",
+  "lowerLimit": "-100000000.0",
+  "description": "AX_Container UPS total apparent power output",
+  "mqttName": "ME_S_UPS_Tot",
+  "type": "u16",
+  "nativeName": "UPS Output total apparent power"
+}

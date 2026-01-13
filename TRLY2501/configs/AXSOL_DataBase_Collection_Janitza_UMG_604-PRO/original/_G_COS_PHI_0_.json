@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19044",
+  "unit": "-",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_MainMeter Power Factor",
+  "mqttName": "ME_PF",
+  "type": "float",
+  "nativeName": "_G_COS_PHI[0]"
+}

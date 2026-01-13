@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x100F",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container SOH",
+  "mqttName": "ME_SOH",
+  "type": "u16",
+  "nativeName": "System SOH"
+}

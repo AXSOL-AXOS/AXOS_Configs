@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60166",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": "10.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container system operation state",
+  "mqttName": "ST_Op",
+  "type": "UINT",
+  "nativeName": "BMS_status"
+}

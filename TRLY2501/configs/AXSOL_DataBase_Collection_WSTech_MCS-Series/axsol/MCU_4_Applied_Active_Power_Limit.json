@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8425",
+  "unit": "W",
+  "scaling": "1.0",
+  "offset": "0.0",
+  "upperLimit": "10000000000000",
+  "lowerLimit": "-10000000000000",
+  "description": "AX_Inverter UnitAppliedActivePowerLimit",
+  "mqttName": "U4_LIM_P",
+  "type": "INT16",
+  "nativeName": "MCU_4_Applied_Active_Power_Limit"
+}

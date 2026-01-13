@@ -1,0 +1,12 @@
+{
+  "mbRegister": "116",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "-3200.0",
+  "upperLimit": "100000",
+  "lowerLimit": "-100000",
+  "description": "AX_Rack current",
+  "mqttName": "ME_I",
+  "type": "UINT",
+  "nativeName": "Rack_N_current"
+}

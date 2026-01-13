@@ -1,0 +1,12 @@
+{
+  "mbRegister": null,
+  "unit": "-",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_Trader Watchdog reserve power marketing",
+  "mqttName": "ST_Watchdog_Reserve",
+  "type": "UINT32",
+  "nativeName": "Watchdog for reserve power marketing (reserve provider)"
+}

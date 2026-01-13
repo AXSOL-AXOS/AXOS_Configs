@@ -1,0 +1,12 @@
+{
+  "mbRegister": "172",
+  "unit": "pu",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": "100000000000",
+  "lowerLimit": "0",
+  "description": "AX_Inverter Applied Active Power Limit",
+  "mqttName": "LIM_P",
+  "type": null,
+  "nativeName": "WAvl"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "112",
+  "unit": "%",
+  "scaling": "1.0",
+  "offset": null,
+  "upperLimit": "100",
+  "lowerLimit": "-100",
+  "description": "AX_Inverter Reactive Power Setpoint",
+  "mqttName": "SP_Q",
+  "type": null,
+  "nativeName": "VARSpT"
+}

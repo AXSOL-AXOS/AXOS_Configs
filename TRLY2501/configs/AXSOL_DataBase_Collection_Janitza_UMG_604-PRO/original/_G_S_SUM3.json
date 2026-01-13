@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19034",
+  "unit": "VA",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_MainMeter Apparent Power",
+  "mqttName": "ME_S",
+  "type": "float",
+  "nativeName": "_G_S_SUM3"
+}

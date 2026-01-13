@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60112",
+  "unit": "V",
+  "scaling": "1.0",
+  "offset": "0.0",
+  "upperLimit": "1000.0",
+  "lowerLimit": "0.0",
+  "description": "AX_Container UPS Battery voltage",
+  "mqttName": "ME_V_UPS_Batt",
+  "type": "UINT",
+  "nativeName": "ACDC_A_voltage"
+}
