@@ -1,12 +1,12 @@
 {
   "mbRegister": "0x2016",
-  "unit": null,
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "mV",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "ME_V_Cell_Max",
-  "mqttName": null,
+  "mqttName": "",
   "type": "u16",
   "nativeName": "Rackmaxcellvoltage"
 }

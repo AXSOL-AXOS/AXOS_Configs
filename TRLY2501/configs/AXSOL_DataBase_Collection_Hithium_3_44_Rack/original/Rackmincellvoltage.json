@@ -1,12 +1,12 @@
 {
   "mbRegister": "0x2018",
-  "unit": null,
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "Mv",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "ME_V_Cell_Min",
-  "mqttName": null,
+  "mqttName": "",
   "type": "u16",
   "nativeName": "Rackmincellvoltage"
 }

@@ -1,12 +1,12 @@
 {
   "mbRegister": "8498",
   "unit": "0.1μF",
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
-  "description": null,
-  "mqttName": null,
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
+  "description": "",
+  "mqttName": "",
   "type": "UINT16",
   "nativeName": "01_U_Leakage_Capacitance"
 }

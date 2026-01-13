@@ -1,12 +1,12 @@
 {
   "mbRegister": "8821",
-  "unit": "kvar",
-  "scaling": "0.1",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "0.1kvar",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "U#_LIM_Q",
-  "mqttName": null,
+  "mqttName": "",
   "type": "INT16",
   "nativeName": "03_U_Applied_Reactive_Power_Limit"
 }

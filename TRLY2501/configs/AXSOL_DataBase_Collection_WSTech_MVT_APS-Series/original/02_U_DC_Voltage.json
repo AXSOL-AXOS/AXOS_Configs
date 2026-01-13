@@ -1,12 +1,12 @@
 {
   "mbRegister": "8610",
-  "unit": "V",
-  "scaling": "0.1",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "0.1V",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "U#_ME_V_DC",
-  "mqttName": null,
+  "mqttName": "",
   "type": "INT16",
   "nativeName": "02_U_DC_Voltage"
 }

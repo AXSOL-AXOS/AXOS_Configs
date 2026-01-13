@@ -1,12 +1,12 @@
 {
   "mbRegister": "8214",
-  "unit": "kWh",
-  "scaling": "0.1",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "0.1kWh",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "CT_E_Pos_Tot",
-  "mqttName": null,
+  "mqttName": "",
   "type": "UINT32",
   "nativeName": "APS_Energy_Counter_Positive_Total"
 }

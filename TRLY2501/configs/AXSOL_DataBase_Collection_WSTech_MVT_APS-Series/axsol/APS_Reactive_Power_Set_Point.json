@@ -1,12 +1,12 @@
 {
   "mbRegister": "24580",
   "unit": "kvar",
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "SP_Q",
-  "mqttName": null,
+  "mqttName": "",
   "type": "INT16",
   "nativeName": "APS_Reactive_Power_Set_Point"
 }

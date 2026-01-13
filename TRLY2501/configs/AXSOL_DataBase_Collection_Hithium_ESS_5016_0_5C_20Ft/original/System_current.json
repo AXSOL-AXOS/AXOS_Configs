@@ -3,10 +3,10 @@
   "unit": "A",
   "scaling": "0.1",
   "offset": "-3200",
-  "upperLimit": null,
-  "lowerLimit": null,
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "ME_I_Tot",
-  "mqttName": null,
+  "mqttName": "",
   "type": "UINT",
   "nativeName": "System_current"
 }

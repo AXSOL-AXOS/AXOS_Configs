@@ -1,12 +1,12 @@
 {
   "mbRegister": "100004",
-  "unit": "A",
-  "scaling": "0.01",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
-  "description": null,
-  "mqttName": null,
+  "unit": "0.01A",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
+  "description": "",
+  "mqttName": "",
   "type": "UINT16",
   "nativeName": "01_U_Current_1"
 }

@@ -1,12 +1,12 @@
 {
   "mbRegister": "0x225F",
-  "unit": null,
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
-  "description": null,
-  "mqttName": null,
+  "unit": "0.1℃",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
+  "description": "",
+  "mqttName": "",
   "type": "int16",
   "nativeName": "Pack64positivepoletemperature"
 }

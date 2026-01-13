@@ -1,12 +1,12 @@
 {
   "mbRegister": "9427",
-  "unit": "A",
-  "scaling": "0.1",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "0.1A",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "U#_LIM_I_DC_Pos",
-  "mqttName": null,
+  "mqttName": "",
   "type": "INT16",
   "nativeName": "06_U_Applied_Positive_DC_Current_Limit"
 }

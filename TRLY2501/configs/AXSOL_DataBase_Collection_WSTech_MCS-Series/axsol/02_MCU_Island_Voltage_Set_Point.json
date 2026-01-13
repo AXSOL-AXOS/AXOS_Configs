@@ -3,10 +3,10 @@
   "unit": "V",
   "scaling": "1.0",
   "offset": "0",
-  "upperLimit": null,
-  "lowerLimit": null,
-  "description": null,
-  "mqttName": null,
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
+  "description": "U#_SP_V_Islland",
+  "mqttName": "",
   "type": "UINT16",
   "nativeName": "02_MCU_Island_Voltage_Set_Point"
 }

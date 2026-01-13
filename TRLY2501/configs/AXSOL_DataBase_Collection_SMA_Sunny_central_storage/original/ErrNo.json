@@ -1,12 +1,12 @@
 {
   "mbRegister": "96",
   "unit": "-",
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "AX_InverterErrorCode",
-  "mqttName": null,
-  "type": null,
+  "mqttName": "ERR_Code",
+  "type": "",
   "nativeName": "ErrNo"
 }

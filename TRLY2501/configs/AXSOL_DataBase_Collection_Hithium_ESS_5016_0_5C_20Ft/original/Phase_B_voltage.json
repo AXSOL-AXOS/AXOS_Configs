@@ -3,10 +3,10 @@
   "unit": "NoUnit",
   "scaling": "0.01",
   "offset": "0",
-  "upperLimit": null,
-  "lowerLimit": null,
-  "description": null,
-  "mqttName": null,
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
+  "description": "",
+  "mqttName": "",
   "type": "UINT",
   "nativeName": "Phase_B_voltage"
 }

@@ -1,12 +1,12 @@
 {
   "mbRegister": "8202",
-  "unit": "kW",
-  "scaling": "1",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "1kW",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "ME_P_DC",
-  "mqttName": null,
+  "mqttName": "",
   "type": "INT16",
   "nativeName": "APS_DC_Power"
 }

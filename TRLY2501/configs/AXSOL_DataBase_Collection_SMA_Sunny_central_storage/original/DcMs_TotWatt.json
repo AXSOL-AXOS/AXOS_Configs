@@ -1,12 +1,12 @@
 {
   "mbRegister": "10",
   "unit": "kW",
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "AX_InverterDCPower",
-  "mqttName": null,
-  "type": null,
+  "mqttName": "ME_P_DC",
+  "type": "",
   "nativeName": "DcMs_TotWatt"
 }

@@ -1,12 +1,12 @@
 {
   "mbRegister": "8398",
-  "unit": "Hz",
-  "scaling": "0.001",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "0.001Hz",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "U#_ME_F",
-  "mqttName": null,
+  "mqttName": "",
   "type": "UINT16",
   "nativeName": "01_U_Grid_Frequency"
 }

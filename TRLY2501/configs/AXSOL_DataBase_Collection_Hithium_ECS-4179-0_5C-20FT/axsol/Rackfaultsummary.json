@@ -1,12 +1,12 @@
 {
   "mbRegister": "0x103A",
-  "unit": null,
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "-",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "ST_Alarm",
-  "mqttName": null,
+  "mqttName": "",
   "type": "u16",
   "nativeName": "Rackfaultsummary"
 }

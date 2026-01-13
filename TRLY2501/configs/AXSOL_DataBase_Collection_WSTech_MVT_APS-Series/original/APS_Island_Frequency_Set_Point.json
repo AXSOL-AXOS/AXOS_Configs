@@ -1,12 +1,12 @@
 {
   "mbRegister": "24585",
-  "unit": "Hz",
-  "scaling": "0.001",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "0.001Hz",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "SP_F_Island",
-  "mqttName": null,
+  "mqttName": "",
   "type": "UINT16",
   "nativeName": "APS_Island_Frequency_Set_Point"
 }

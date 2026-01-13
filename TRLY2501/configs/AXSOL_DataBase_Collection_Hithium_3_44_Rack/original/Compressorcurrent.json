@@ -1,12 +1,12 @@
 {
   "mbRegister": "0x3087",
-  "unit": null,
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
-  "description": null,
-  "mqttName": null,
+  "unit": "0.1A",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
+  "description": "",
+  "mqttName": "",
   "type": "u16",
   "nativeName": "Compressorcurrent"
 }

@@ -1,12 +1,12 @@
 {
   "mbRegister": "0x104D",
-  "unit": null,
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "unit": "0.01V",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "ME_I_PhAC",
-  "mqttName": null,
+  "mqttName": "",
   "type": "u32",
   "nativeName": "Meterinformation-PhaseACvoltage"
 }

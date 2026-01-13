@@ -1,12 +1,12 @@
 {
   "mbRegister": "46",
   "unit": "°C",
-  "scaling": null,
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "AX_InverterAmbientTemperature",
-  "mqttName": null,
-  "type": null,
+  "mqttName": "ME_Temp_Amb",
+  "type": "",
   "nativeName": "TmpCab_Max"
 }

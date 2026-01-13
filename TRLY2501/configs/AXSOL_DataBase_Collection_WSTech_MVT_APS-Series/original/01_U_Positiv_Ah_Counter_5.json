@@ -1,12 +1,12 @@
 {
   "mbRegister": "10020",
-  "unit": "Ah",
-  "scaling": "0.01",
-  "offset": null,
-  "upperLimit": null,
-  "lowerLimit": null,
-  "description": null,
-  "mqttName": null,
+  "unit": "0.01Ah",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
+  "description": "",
+  "mqttName": "",
   "type": "UINT32",
   "nativeName": "01_U_Positiv_Ah_Counter_5"
 }

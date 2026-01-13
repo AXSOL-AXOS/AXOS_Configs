@@ -3,10 +3,10 @@
   "unit": "°C",
   "scaling": "1.0",
   "offset": "-40",
-  "upperLimit": null,
-  "lowerLimit": null,
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
   "description": "ST_Heater",
-  "mqttName": null,
+  "mqttName": "",
   "type": "UINT",
   "nativeName": "Set_temperature"
 }

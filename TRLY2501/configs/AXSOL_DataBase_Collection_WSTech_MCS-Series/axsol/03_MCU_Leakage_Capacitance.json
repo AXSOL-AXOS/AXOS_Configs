@@ -3,10 +3,10 @@
   "unit": "µF",
   "scaling": "1.0",
   "offset": "0",
-  "upperLimit": null,
-  "lowerLimit": null,
-  "description": null,
-  "mqttName": null,
+  "upperLimit": "99999999.0",
+  "lowerLimit": "-99999999.0",
+  "description": "",
+  "mqttName": "",
   "type": "UINT16",
   "nativeName": "03_MCU_Leakage_Capacitance"
 }
