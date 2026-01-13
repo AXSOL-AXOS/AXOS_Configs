@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8117",
+  "unit": "kvar",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "INT16",
+  "nativeName": "01_MCU_Reactive_Power_L3"
+}

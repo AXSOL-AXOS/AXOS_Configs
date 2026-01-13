@@ -1,0 +1,12 @@
+{
+  "mbRegister": "3",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "-3200",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_I_Tot",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "System_current"
+}

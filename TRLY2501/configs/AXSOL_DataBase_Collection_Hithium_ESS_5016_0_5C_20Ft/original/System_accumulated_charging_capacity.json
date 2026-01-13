@@ -1,0 +1,12 @@
+{
+  "mbRegister": "18",
+  "unit": "kWh",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "CT_E_Charge",
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "System_accumulated_charging_capacity"
+}

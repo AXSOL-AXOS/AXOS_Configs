@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8198",
+  "unit": "kvar",
+  "scaling": "1",
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_Q_Tot",
+  "mqttName": null,
+  "type": "INT16",
+  "nativeName": "APS_Reactive_Power_Total"
+}

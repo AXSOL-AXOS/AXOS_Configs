@@ -1,0 +1,12 @@
+{
+  "mbRegister": "115",
+  "unit": "V",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_V",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Rack_N_total_voltage"
+}

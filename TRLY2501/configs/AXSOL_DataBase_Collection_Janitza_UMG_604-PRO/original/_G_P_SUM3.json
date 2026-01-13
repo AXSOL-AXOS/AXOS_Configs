@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19026",
+  "unit": "W",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_P",
+  "mqttName": null,
+  "type": "float",
+  "nativeName": "_G_P_SUM3"
+}

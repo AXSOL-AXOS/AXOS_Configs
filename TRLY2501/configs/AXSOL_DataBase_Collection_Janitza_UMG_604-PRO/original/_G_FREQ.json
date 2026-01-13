@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19050",
+  "unit": "Hz",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_F",
+  "mqttName": null,
+  "type": "float",
+  "nativeName": "_G_FREQ"
+}

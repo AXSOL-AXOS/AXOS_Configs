@@ -1,0 +1,12 @@
+{
+  "mbRegister": "10242",
+  "unit": "Ah",
+  "scaling": "0.01",
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "02_U_Negativ_Ah_Counter_9"
+}

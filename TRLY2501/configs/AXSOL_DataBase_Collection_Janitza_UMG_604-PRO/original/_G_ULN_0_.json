@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19000",
+  "unit": "V",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_V_L1N",
+  "mqttName": null,
+  "type": "float",
+  "nativeName": "_G_ULN[0]"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8346",
+  "unit": "°C",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "INT16",
+  "nativeName": "03_MCU_PCB_Temperature"
+}

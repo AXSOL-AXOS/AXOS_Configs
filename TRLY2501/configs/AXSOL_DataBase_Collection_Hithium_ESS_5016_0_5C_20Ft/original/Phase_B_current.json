@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60133",
+  "unit": "NoUnit",
+  "scaling": "0.001",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_I_PhB",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Phase_B_current"
+}

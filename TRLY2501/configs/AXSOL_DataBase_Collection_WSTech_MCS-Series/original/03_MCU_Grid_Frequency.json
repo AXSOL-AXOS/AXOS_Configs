@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8306",
+  "unit": "Hz",
+  "scaling": "0.001",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT16",
+  "nativeName": "03_MCU_Grid_Frequency"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8224",
+  "unit": "kWh",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "CT_E_Neg_L1",
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "APS_Energy_Counter_Negative_L1"
+}

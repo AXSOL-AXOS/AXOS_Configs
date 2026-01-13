@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x200F",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_SOH",
+  "mqttName": null,
+  "type": "u16",
+  "nativeName": "RackSOH"
+}

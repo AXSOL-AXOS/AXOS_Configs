@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60113",
+  "unit": "%",
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Water_pump_PWM"
+}

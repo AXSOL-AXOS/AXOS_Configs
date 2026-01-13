@@ -1,0 +1,12 @@
+{
+  "mbRegister": "124",
+  "unit": null,
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Cell_No_of_maximum_cell_voltage_in_rack_N"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "34",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Allowable_maximum_discharge_current"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8107",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT16",
+  "nativeName": "01_MCU_Grid_Current_L1"
+}

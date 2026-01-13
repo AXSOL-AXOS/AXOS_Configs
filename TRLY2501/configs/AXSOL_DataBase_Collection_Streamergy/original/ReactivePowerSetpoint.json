@@ -1,0 +1,12 @@
+{
+  "mbRegister": null,
+  "unit": "%",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_EZAReactivePowerSetpoint",
+  "mqttName": null,
+  "type": "FLOAT32",
+  "nativeName": "ReactivePowerSetpoint"
+}

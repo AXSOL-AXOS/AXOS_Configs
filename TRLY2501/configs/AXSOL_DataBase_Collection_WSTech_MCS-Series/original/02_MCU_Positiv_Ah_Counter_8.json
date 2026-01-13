@@ -1,0 +1,12 @@
+{
+  "mbRegister": "10135",
+  "unit": "Ah",
+  "scaling": "0.01",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "02_MCU_Positiv_Ah_Counter_8"
+}

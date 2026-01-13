@@ -1,0 +1,12 @@
+{
+  "mbRegister": null,
+  "unit": "W",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_TraderProvisionofnegativeaFRR",
+  "mqttName": null,
+  "type": "FLOAT32",
+  "nativeName": "ProvisionofnegativeaFRR"
+}

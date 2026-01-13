@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x104B",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_I_PhBC",
+  "mqttName": null,
+  "type": "u32",
+  "nativeName": "Meterinformation-PhaseBCvoltage"
+}

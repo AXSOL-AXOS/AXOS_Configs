@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8237",
+  "unit": "NoUnit",
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT16",
+  "nativeName": "02_MCU_Error_Code_3"
+}

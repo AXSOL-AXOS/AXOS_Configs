@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x200B",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_V",
+  "mqttName": null,
+  "type": "u16",
+  "nativeName": "Rackrackvoltage"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "9431",
+  "unit": "kWh",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "06_U_Energy_Counter_Positive_L1"
+}

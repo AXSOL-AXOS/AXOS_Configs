@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x201A",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_Temp_Cell_Max",
+  "mqttName": null,
+  "type": "int16",
+  "nativeName": "Rackmaxcelltemperature"
+}

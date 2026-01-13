@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8448",
+  "unit": "µF",
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT16",
+  "nativeName": "04_MCU_Leakage_Capacitance"
+}

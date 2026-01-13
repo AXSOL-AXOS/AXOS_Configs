@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x107D",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_P_UPS_Tot",
+  "mqttName": null,
+  "type": "u16",
+  "nativeName": "UPSOutputtotalactivepower"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": null,
+  "unit": "-",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_TraderActivationforPrimarycontrolpower",
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "ActivationforPrimarycontrolpower"
+}
