@@ -1,0 +1,12 @@
+{
+  "mbRegister": 24695,
+  "unit": "0.1V",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "UINT16",
+  "nativeName": "04_U_DC_Voltage_Minimum"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": 24626,
+  "unit": "0.1kW",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "INT16",
+  "nativeName": "02_U_Active_Power_Set_Point"
+}

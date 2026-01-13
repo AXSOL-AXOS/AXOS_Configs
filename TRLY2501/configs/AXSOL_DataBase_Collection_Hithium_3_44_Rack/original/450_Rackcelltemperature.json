@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2600",
+  "unit": "0.1℃",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "int16",
+  "nativeName": "450_Rackcelltemperature"
+}

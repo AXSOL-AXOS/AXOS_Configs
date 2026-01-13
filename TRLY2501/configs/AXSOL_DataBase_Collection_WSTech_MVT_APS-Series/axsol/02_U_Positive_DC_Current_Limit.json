@@ -1,0 +1,12 @@
+{
+  "mbRegister": 24636,
+  "unit": "0.1A",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "INT16",
+  "nativeName": "02_U_Positive_DC_Current_Limit"
+}

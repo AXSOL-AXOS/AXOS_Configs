@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2220",
+  "unit": "0.1℃",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "int16",
+  "nativeName": "01_Rackpositivepoletemperature"
+}

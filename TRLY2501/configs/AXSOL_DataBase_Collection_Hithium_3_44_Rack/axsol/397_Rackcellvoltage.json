@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2400",
+  "unit": "mV",
+  "scaling": "",
+  "offset": "",
+  "upperLimit": 99999999.0,
+  "lowerLimit": -99999999.0,
+  "description": "",
+  "mqttName": "",
+  "type": "u16",
+  "nativeName": "397_Rackcellvoltage"
+}

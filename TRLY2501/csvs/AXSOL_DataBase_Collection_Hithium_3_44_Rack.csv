@@ -46,14 +46,10 @@ HVBTemp5,"According to the actual situation of the project, unused registers are
 HVBTemp6,"According to the actual situation of the project, unused registers are reserved.",0x2025,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
 HVBTemp7,"According to the actual situation of the project, unused registers are reserved.",0x2026,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
 HVBTemp8,"According to the actual situation of the project, unused registers are reserved.",0x2027,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
-Pack1positivepoletemperature,,0x2220,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
-Pack64positivepoletemperature,"According to the actual situation of the project, it supports a maximum of 64 Packs.",0x225F,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
-Pack1negativepoletemperature,,0x2260,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
-Pack64negativepoletemperature,"According to the actual situation of the project, it supports a maximum of 64 Packs.",0x229F,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
-Rackcellvoltage[1],,0x2400,mV,,,u16,1,0,,V,99999999.0,-99999999.0
-Rackcellvoltage[512],"According to the actual situation of the project, it supports a maximum of 512 individual voltages.",0x25FF,mV,,,u16,1,0,,,99999999.0,-99999999.0
-Rackcelltemperature[1],,0x2600,0.1℃,,,int16,1,0,,0.1℃,99999999.0,-99999999.0
-Rackcelltemperature[512],"According to the actual situation of the project, it can support a maximum of 512 monomer temperatures.",0x27FF,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+#_Rackpositivepoletemperature,,0x2220,0.1℃,,,int16,64,1,,,99999999.0,-99999999.0
+#_Racknegativepoletemperature,,0x2260,0.1℃,,,int16,64,1,,,99999999.0,-99999999.0
+#_Rackcellvoltage,,0x2400,mV,,,u16,512,1,,V,99999999.0,-99999999.0
+#_Rackcelltemperature,,0x2600,0.1℃,,,int16,512,1,,0.1℃,99999999.0,-99999999.0
 TMSoperatingstate,"0, OFF mode
 1, Cooling mode
 2, Heating mode
