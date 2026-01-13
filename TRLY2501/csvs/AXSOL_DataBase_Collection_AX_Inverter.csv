@@ -1,64 +1,64 @@
-AXSOL_Name_Short,AXSOL Name,Read&Write,Unnamed: 3,Description,AX_Scaling,AX_Unit,AX_LimitDown,AX_LimitUp,Local Data Storage,Cloud,Dashboard,Trader,etwork-Operator,Controller,O&M,SK required
-SP_P          ,AX_Inverter ActivePowerSetpoint,x,% of the datasheet-maximum of the components. In case of only Unit-Setpoints: calculation necessary,Target active power (%) the inverter should deliver to the grid or load.,1.0,%,-100,100,x,x,x,x,x,x,x,x
-SP_Q          ,AX_Inverter ReactivePowerSetpoint,x,% of the datasheet-maximum of the components. In case of only Unit-Setpoints: calculation necessary,Target reactive power (%) for grid support or power factor correction.    ,1.0,%,-100,100,x,x,x,x,x,x,x,x
-SP_Mode       ,AX_Inverter DistributionModeSetpoint,x,"ENUM, has to be defined , check if needed",Setpoint operation mode. Does the overall setpoint get devided or the unit-setpoints added up to the overall setpoint? ,1.0,NoUnit,0,1,x,x,x,x,x,x,x,
-SP_V_Island   ,AX_Inverter IslandVoltageSetpoint,x,How to calc if unit values given? What if different values per unit given?,Desired AC voltage level when operating in island (off-grid) mode.            ,0.01,V,0,100000,x,x,x,,,,x,x
-SP_F_Island   ,AX_Inverter IslandFrequencySetpoint,x,How to calc if unit values given? What if different values per unit given?,Desired AC frequency when operating in island mode.                                 ,0.01,Hz,0,100,x,x,x,,,,x,x
-ST_Mode       ,AX_Inverter OperatingMode,x,"ENUM, for TRLY it is from the MCS datasheet ","Current operational mode (e.g., grid-tied, islanded, standby).                ",1.0,NoUnit,0,100,x,x,x,x,x,x,x,x
-Error_Ack,AX_Inverter ErrorAckActive,x,,Acknowledge of error active,1.0,NoUnit,0,1,,,,,,,,
-ME_P_Tot      ,AX_Inverter ActivePowerTotal,,"If only Unit values, accumulated power",Total active power output across all phases.                                     ,1.0,W,-100000000000,100000000000,x,x,x,x,x,x,x,x
-ME_P_L1       ,AX_Inverter ActivePowerL1,,"If only Unit values, accumulated power",Active power output for phase L1.                                             ,1.0,W,-100000000000,100000000000,x,x,,,,,x,
-ME_P_L2       ,AX_Inverter ActivePowerL2,,"If only Unit values, accumulated power",Active power output for phase L2.                                             ,1.0,W,-100000000000,100000000000,x,x,,,,,x,
-ME_P_L3       ,AX_Inverter ActivePowerL3,,"If only Unit values, accumulated power",Active power output for phase L3.                                             ,1.0,W,-100000000000,100000000000,x,x,,,,,x,
-ME_Q_Tot      ,AX_Inverter ReactivePowerTotal,,"If only Unit values, accumulated power",Total reactive power output across all phases.                                     ,1.0,VAr,-100000000000,100000000000,x,x,x,x,x,x,x,x
-ME_Q_L1       ,AX_Inverter ReactivePowerL1,,"If only Unit values, accumulated power",Reactive power output for phase L1.                                             ,1.0,VAr,-100000000000,100000000000,x,x,,,,,x,
-ME_Q_L2       ,AX_Inverter ReactivePowerL2,,"If only Unit values, accumulated power",Reactive power output for phase L2.                                             ,1.0,VAr,-100000000000,100000000000,x,x,,,,,x,
-ME_Q_L3       ,AX_Inverter ReactivePowerL3,,"If only Unit values, accumulated power",Reactive power output for phase L3.                                             ,1.0,VAr,-100000000000,100000000000,x,x,,,,,x,
-ME_P_DC       ,AX_Inverter DCPower,,,Power measured on the DC side of the inverter.                           ,1.0,W,-100000000000,100000000000,x,x,x,,,,x,x
-ME_Temp_Amb   ,AX_Inverter AmbientTemperature,,,Temperature of the surrounding environment near the inverter.                              ,0.1,°C,-50,100,x,x,x,,,,x,x
-U#_ME_Hum        ,AX_Inverter UnitHumidity,,averaged? Min/Max | ARRAY [0..9],Relative humidity inside or near the inverter enclosure.                         ,0.1,%rh ,0,100,x,x,,x,,,,
-ME_Temp_Panel ,AX_Inverter PanelTemperature,,Some temperature needs to be sent (derating critical),Temperature of the inverter’s power electronics panel.                              ,0.1,°C,-50,100,x,,,,,,x,x
-LIM_P         ,AX_Inverter AppliedActivePowerLimit,,,Maximum allowed active power currently enforced.                                       ,1.0,W,0,100000000000,x,x,x,x,x,x,x,
-LIM_Q         ,AX_Inverter AppliedReactivePowerLimit,,,Maximum allowed reactive power currently enforced.                                       ,1.0,VAr,0,100000000000,x,x,x,x,x,x,x,
-CT_E_Pos_Tot  ,AX_Inverter EnergyCounterPositiveTotal,,"If only Unit values, accumulated energy",Total energy delivered to the grid (kWh).                                     ,1.0,Wh,0,10000000000000,x,x,x,x,,x,x,
-CT_E_Pos_L1   ,AX_Inverter EnergyCounterPositiveL1,,"No Unit Values, What if no general values also??",Energy delivered on phase L1.                                                ,1.0,Wh,0,10000000000000,x,x,,,,,x,
-CT_E_Pos_L2   ,AX_Inverter EnergyCounterPositiveL2,,"No Unit Values, What if no general values also??",Energy delivered on phase L2.                                                ,1.0,Wh,0,10000000000000,x,x,,,,,x,
-CT_E_Pos_L3   ,AX_Inverter EnergyCounterPositiveL3,,"No Unit Values, What if no general values also??",Energy delivered on phase L3.                                                ,1.0,Wh,0,10000000000000,x,x,,,,,x,
-CT_E_Neg_Tot  ,AX_Inverter EnergyCounterNegativeTotal,,"If only Unit values, accumulated energy",Total energy imported from the grid (kWh).                                     ,1.0,Wh,0,10000000000000,x,x,x,x,,x,x,
-CT_E_Neg_L1   ,AX_Inverter EnergyCounterNegativeL1,,"No Unit Values, What if no general values also??",Energy imported on phase L1.                                                ,1.0,Wh,0,10000000000000,x,x,,,,,x,
-CT_E_Neg_L2   ,AX_Inverter EnergyCounterNegativeL2,,"No Unit Values, What if no general values also??",Energy imported on phase L2.                                                ,1.0,Wh,0,10000000000000,x,x,,,,,x,
-CT_E_Neg_L3   ,AX_Inverter EnergyCounterNegativeL3,,"No Unit Values, What if no general values also??",Energy imported on phase L3.                                                ,1.0,Wh,0,10000000000000,x,x,,,,,x,
-ERR_Code      ,AX_Inverter ErrorCode,,"bitmaske definieren, merged from inverter and maybe an extra error code for communication",Numeric code representing current error condition.                                      ,1.0,NoUnit,0,100000,x,x,x,,,x,x,x
-U#_SP_P        ,AX_Inverter UnitActivePowerSetpoints,,in % of theoretical max of the unit ARRAY [0…9],Target active power (W) the inverter unit should deliver to the grid or load.,1.0,%,-100,100,x,x,x,x,x,x,x,
-U#_SP_Q        ,AX_Inverter UnitReactivePowerSetpoints,,in % of theoretical max of the unit ARRAY [0…9],Target reactive power (VAR) the inverter unit should deliver to the grid or load.,1.0,%,-100,100,x,x,x,x,x,x,x,
-U#_ST_Mode,AX_Inverter UnitOperatingMode,,"ENUM, for TRLY it is from the MCS datasheet  ARRAY[0..9]","Current unit operational mode (e.g., grid-tied, islanded, standby).                ",1.0,NoUnit,0,100,x,x,x,x,x,x,x,x
-U#_ST_State    ,AX_Inverter UnitOperatingState,,"DC-connected, AC-connected, PowerSetpoints | ARRAY [0..9]","Current state (e.g., running, standby, fault).                       ",1.0,NoUnit,0,10,x,x,x,x,,x,x,x
-U#_ME_V_L1N    ,AX_Inverter UnitGridVoltageL1N,,ARRAY [0..9],Line-to-neutral voltage for phase L1.                                       ,0.1,V,0,100000,x,x,x,,,,x,later
-U#_ME_V_L2N    ,AX_Inverter UnitGridVoltageL2N,,ARRAY [0..9],Line-to-neutral voltage for phase L2.                                       ,0.1,V,0,100000,x,x,x,,,,x,later
-U#_ME_V_L3N    ,AX_Inverter UnitGridVoltageL3N,,ARRAY [0..9],Line-to-neutral voltage for phase L3.                                       ,0.1,V,0,100000,x,x,x,,,,x,later
-U#_ME_V_L12    ,AX_Inverter UnitGridVoltageL12,,ARRAY [0..9],Line-to-line voltage between L1 and L2.                                      ,0.1,V,0,100000,x,x,,,,,x,later
-U#_ME_V_L23    ,AX_Inverter UnitGridVoltageL23,,ARRAY [0..9],Line-to-line voltage between L2 and L3.                                      ,0.1,V,0,100000,x,x,,,,,x,later
-U#_ME_V_L31    ,AX_Inverter UnitGridVoltageL31,,ARRAY [0..9],Line-to-line voltage between L3 and L1.                                      ,0.1,V,0,100000,x,x,,,,,x,later
-U#_ME_F        ,AX_Inverter UnitGridFrequency,,ARRAY [0..9],Measured grid frequency (Hz).                                                 ,0.01,Hz,0,100,x,x,,x,x,x,x,later
-U#_ME_I_L1     ,AX_Inverter UnitGridCurrentL1,,ARRAY [0..9],Current drawn or supplied on phase L1.                                       ,0.1,A,0,100000000,x,x,,,,,x,later
-U#_ME_I_L2     ,AX_Inverter UnitGridCurrentL2,,ARRAY [0..9],Current drawn or supplied on phase L2.                                       ,0.1,A,0,100000000,x,x,,,,,x,later
-U#_ME_I_L3     ,AX_Inverter UnitGridCurrentL3,,ARRAY [0..9],Current drawn or supplied on phase L3.                                       ,0.1,A,0,100000000,x,x,,,,,x,later
-U#_ME_P_Tot    ,AX_Inverter UnitActivePowerTotal,,ARRAY [0..9],Total active power output across all phases.                                     ,1.0,W,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_ME_P_L1     ,AX_Inverter UnitActivePowerL1,,ARRAY [0..9],Active power output for phase L1.                                             ,1.0,W,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_ME_P_L2     ,AX_Inverter UnitActivePowerL2,,ARRAY [0..9],Active power output for phase L2.                                             ,1.0,W,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_ME_P_L3     ,AX_Inverter UnitActivePowerL3,,ARRAY [0..9],Active power output for phase L3.                                             ,1.0,W,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_ME_Q_Tot    ,AX_Inverter UnitReactivePowerTotal,,ARRAY [0..9],Total reactive power output across all phases.                                     ,1.0,VAr,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_ME_Q_L1     ,AX_Inverter UnitReactivePowerL1,,ARRAY [0..9],Reactive power output for phase L1.                                             ,1.0,VAr,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_ME_Q_L2     ,AX_Inverter UnitReactivePowerL2,,ARRAY [0..9],Reactive power output for phase L2.                                             ,1.0,VAr,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_ME_Q_L3     ,AX_Inverter UnitReactivePowerL3,,ARRAY [0..9],Reactive power output for phase L3.                                             ,1.0,VAr,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_ME_V_DC     ,AX_Inverter UnitDCVoltage,,ARRAY [0..9],Measured DC voltage at inverter input.                                          ,0.1,V,0,100000000,x,x,,x,,,x,later
-U#_ME_I_DC     ,AX_Inverter UnitDCCurrent,,ARRAY [0..9],Measured DC current at inverter input.                                          ,0.1,A,0,100000000,x,x,,x,,,x,later
-U#_ME_P_DC     ,AX_Inverter UnitDCPower,,ARRAY [0..9],Calculated DC power based on voltage and current.                            ,1.0,W,-10000000000000,10000000000000,x,x,,x,,,x,later
-U#_LIM_P       ,AX_Inverter UnitAppliedActivePowerLimit,,ARRAY [0..9],Maximum allowed active power currently enforced.                                       ,1.0,W,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_LIM_Q       ,AX_Inverter UnitAppliedReactivePowerLimit,,ARRAY [0..9],Maximum allowed reactive power currently enforced.,1.0,VAr,-10000000000000,10000000000000,x,x,,,,,x,later
-U#_LIM_I_DC_Pos,AX_Inverter UnitAppliedPositiveDCCurrentLimit,,ARRAY [0..9],Maximum positive DC current allowed.,0.1,A,0,100000000,x,x,,,,,x,later
-U#_LIM_I_DC_Neg,AX_Inverter UnitAppliedNegativeDCCurrentLimit,,ARRAY [0..9],Maximum negative DC current allowed.,0.1,A,0,100000000,x,x,,,,,x,later
-U#_CT_E_Pos_Tot,AX_Inverter UnitEnergyCounterPositiveTotal,,ARRAY [0..9],Positiver Energy Counter per Unit,1.0,Wh,0,10000000000000,x,x,,,,,x,
-U#_CT_E_Neg_Tot,AX_Inverter UnitEnergyCounterNegativeTotal,,ARRAY [0..9],Negative Energy Counter per Unit,1.0,Wh,0,10000000000000,x,x,,,,,x,
-U#_SP_V_Islland,AX_Inverter UnitIslandVoltageSetpoint,,"ARRAY [0..9], How to calc if only system-wide sp is given? What in case Unit Down?",Island Voltage Setpoint per Unit,0.1,V,0,100000000,x,x,,,,,x,
-U#_SP_F_Island,AX_Inverter UnitIslandFrequencySetpoint,,"ARRAY [0..9], How to calc if only system-wide sp is given? What in case Unit Down?",Island Frequency Setpoint per Unit,0.01,Hz,0,100,x,x,,,,,x,
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,Network-Operator,Controller,O&M,SK required
+SP_P,AX_InverterActivePowerSetpoint,Targetactivepower(%)theinvertershoulddelivertothegridorload.,,x,x,x,x,x,x,x,x
+SP_Q,AX_InverterReactivePowerSetpoint,Targetreactivepower(%)forgridsupportorpowerfactorcorrection.,,x,x,x,x,x,x,x,x
+SP_Mode,AX_InverterDistributionModeSetpoint,Setpointoperationmode.Doestheoverallsetpointgetdevidedortheunit-setpointsaddeduptotheoverallsetpoint?,,x,x,x,x,x,x,x,
+SP_V_Island,AX_InverterIslandVoltageSetpoint,DesiredACvoltagelevelwhenoperatinginisland(off-grid)mode.,,x,x,x,,,,x,x
+SP_F_Island,AX_InverterIslandFrequencySetpoint,DesiredACfrequencywhenoperatinginislandmode.,,x,x,x,,,,x,x
+ST_Mode,AX_InverterOperatingMode,"Currentoperationalmode(e.g.,grid-tied,islanded,standby).",,x,x,x,x,x,x,x,x
+Error_Ack,AX_InverterErrorAckActive,Acknowledgeoferroractive,,,,,,,,,
+ME_P_Tot,AX_InverterActivePowerTotal,Totalactivepoweroutputacrossallphases.,,x,x,x,x,x,x,x,x
+ME_P_L1,AX_InverterActivePowerL1,ActivepoweroutputforphaseL1.,,x,x,,,,,x,
+ME_P_L2,AX_InverterActivePowerL2,ActivepoweroutputforphaseL2.,,x,x,,,,,x,
+ME_P_L3,AX_InverterActivePowerL3,ActivepoweroutputforphaseL3.,,x,x,,,,,x,
+ME_Q_Tot,AX_InverterReactivePowerTotal,Totalreactivepoweroutputacrossallphases.,,x,x,x,x,x,x,x,x
+ME_Q_L1,AX_InverterReactivePowerL1,ReactivepoweroutputforphaseL1.,,x,x,,,,,x,
+ME_Q_L2,AX_InverterReactivePowerL2,ReactivepoweroutputforphaseL2.,,x,x,,,,,x,
+ME_Q_L3,AX_InverterReactivePowerL3,ReactivepoweroutputforphaseL3.,,x,x,,,,,x,
+ME_P_DC,AX_InverterDCPower,PowermeasuredontheDCsideoftheinverter.,,x,x,x,,,,x,x
+ME_Temp_Amb,AX_InverterAmbientTemperature,Temperatureofthesurroundingenvironmentneartheinverter.,,x,x,x,,,,x,x
+U#_ME_Hum,AX_InverterUnitHumidity,Relativehumidityinsideorneartheinverterenclosure.,,x,x,,x,,,,
+ME_Temp_Panel,AX_InverterPanelTemperature,Temperatureoftheinverter’spowerelectronicspanel.,,x,,,,,,x,x
+LIM_P,AX_InverterAppliedActivePowerLimit,Maximumallowedactivepowercurrentlyenforced.,,x,x,x,x,x,x,x,
+LIM_Q,AX_InverterAppliedReactivePowerLimit,Maximumallowedreactivepowercurrentlyenforced.,,x,x,x,x,x,x,x,
+CT_E_Pos_Tot,AX_InverterEnergyCounterPositiveTotal,Totalenergydeliveredtothegrid(kWh).,,x,x,x,x,,x,x,
+CT_E_Pos_L1,AX_InverterEnergyCounterPositiveL1,EnergydeliveredonphaseL1.,,x,x,,,,,x,
+CT_E_Pos_L2,AX_InverterEnergyCounterPositiveL2,EnergydeliveredonphaseL2.,,x,x,,,,,x,
+CT_E_Pos_L3,AX_InverterEnergyCounterPositiveL3,EnergydeliveredonphaseL3.,,x,x,,,,,x,
+CT_E_Neg_Tot,AX_InverterEnergyCounterNegativeTotal,Totalenergyimportedfromthegrid(kWh).,,x,x,x,x,,x,x,
+CT_E_Neg_L1,AX_InverterEnergyCounterNegativeL1,EnergyimportedonphaseL1.,,x,x,,,,,x,
+CT_E_Neg_L2,AX_InverterEnergyCounterNegativeL2,EnergyimportedonphaseL2.,,x,x,,,,,x,
+CT_E_Neg_L3,AX_InverterEnergyCounterNegativeL3,EnergyimportedonphaseL3.,,x,x,,,,,x,
+ERR_Code,AX_InverterErrorCode,Numericcoderepresentingcurrenterrorcondition.,,x,x,x,,,x,x,x
+U#_SP_P,AX_InverterUnitActivePowerSetpoints,Targetactivepower(W)theinverterunitshoulddelivertothegridorload.,,x,x,x,x,x,x,x,
+U#_SP_Q,AX_InverterUnitReactivePowerSetpoints,Targetreactivepower(VAR)theinverterunitshoulddelivertothegridorload.,,x,x,x,x,x,x,x,
+U#_ST_Mode,AX_InverterUnitOperatingMode,"Currentunitoperationalmode(e.g.,grid-tied,islanded,standby).",,x,x,x,x,x,x,x,x
+U#_ST_State,AX_InverterUnitOperatingState,"Currentstate(e.g.,running,standby,fault).",,x,x,x,x,,x,x,x
+U#_ME_V_L1N,AX_InverterUnitGridVoltageL1N,Line-to-neutralvoltageforphaseL1.,,x,x,x,,,,x,later
+U#_ME_V_L2N,AX_InverterUnitGridVoltageL2N,Line-to-neutralvoltageforphaseL2.,,x,x,x,,,,x,later
+U#_ME_V_L3N,AX_InverterUnitGridVoltageL3N,Line-to-neutralvoltageforphaseL3.,,x,x,x,,,,x,later
+U#_ME_V_L12,AX_InverterUnitGridVoltageL12,Line-to-linevoltagebetweenL1andL2.,,x,x,,,,,x,later
+U#_ME_V_L23,AX_InverterUnitGridVoltageL23,Line-to-linevoltagebetweenL2andL3.,,x,x,,,,,x,later
+U#_ME_V_L31,AX_InverterUnitGridVoltageL31,Line-to-linevoltagebetweenL3andL1.,,x,x,,,,,x,later
+U#_ME_F,AX_InverterUnitGridFrequency,Measuredgridfrequency(Hz).,,x,x,,x,x,x,x,later
+U#_ME_I_L1,AX_InverterUnitGridCurrentL1,CurrentdrawnorsuppliedonphaseL1.,,x,x,,,,,x,later
+U#_ME_I_L2,AX_InverterUnitGridCurrentL2,CurrentdrawnorsuppliedonphaseL2.,,x,x,,,,,x,later
+U#_ME_I_L3,AX_InverterUnitGridCurrentL3,CurrentdrawnorsuppliedonphaseL3.,,x,x,,,,,x,later
+U#_ME_P_Tot,AX_InverterUnitActivePowerTotal,Totalactivepoweroutputacrossallphases.,,x,x,,,,,x,later
+U#_ME_P_L1,AX_InverterUnitActivePowerL1,ActivepoweroutputforphaseL1.,,x,x,,,,,x,later
+U#_ME_P_L2,AX_InverterUnitActivePowerL2,ActivepoweroutputforphaseL2.,,x,x,,,,,x,later
+U#_ME_P_L3,AX_InverterUnitActivePowerL3,ActivepoweroutputforphaseL3.,,x,x,,,,,x,later
+U#_ME_Q_Tot,AX_InverterUnitReactivePowerTotal,Totalreactivepoweroutputacrossallphases.,,x,x,,,,,x,later
+U#_ME_Q_L1,AX_InverterUnitReactivePowerL1,ReactivepoweroutputforphaseL1.,,x,x,,,,,x,later
+U#_ME_Q_L2,AX_InverterUnitReactivePowerL2,ReactivepoweroutputforphaseL2.,,x,x,,,,,x,later
+U#_ME_Q_L3,AX_InverterUnitReactivePowerL3,ReactivepoweroutputforphaseL3.,,x,x,,,,,x,later
+U#_ME_V_DC,AX_InverterUnitDCVoltage,MeasuredDCvoltageatinverterinput.,,x,x,,x,,,x,later
+U#_ME_I_DC,AX_InverterUnitDCCurrent,MeasuredDCcurrentatinverterinput.,,x,x,,x,,,x,later
+U#_ME_P_DC,AX_InverterUnitDCPower,CalculatedDCpowerbasedonvoltageandcurrent.,,x,x,,x,,,x,later
+U#_LIM_P,AX_InverterUnitAppliedActivePowerLimit,Maximumallowedactivepowercurrentlyenforced.,,x,x,,,,,x,later
+U#_LIM_Q,AX_InverterUnitAppliedReactivePowerLimit,Maximumallowedreactivepowercurrentlyenforced.,,x,x,,,,,x,later
+U#_LIM_I_DC_Pos,AX_InverterUnitAppliedPositiveDCCurrentLimit,MaximumpositiveDCcurrentallowed.,,x,x,,,,,x,later
+U#_LIM_I_DC_Neg,AX_InverterUnitAppliedNegativeDCCurrentLimit,MaximumnegativeDCcurrentallowed.,,x,x,,,,,x,later
+U#_CT_E_Pos_Tot,AX_InverterUnitEnergyCounterPositiveTotal,PositiverEnergyCounterperUnit,,x,x,,,,,x,
+U#_CT_E_Neg_Tot,AX_InverterUnitEnergyCounterNegativeTotal,NegativeEnergyCounterperUnit,,x,x,,,,,x,
+U#_SP_V_Islland,AX_InverterUnitIslandVoltageSetpoint,IslandVoltageSetpointperUnit,,x,x,,,,,x,
+U#_SP_F_Island,AX_InverterUnitIslandFrequencySetpoint,IslandFrequencySetpointperUnit,,x,x,,,,,x,

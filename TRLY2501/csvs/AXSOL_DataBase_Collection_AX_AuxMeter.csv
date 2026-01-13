@@ -1,11 +1,11 @@
-Unnamed: 0,AXSOL Name,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,etwork-Operator,O&M,SK required
-ME_S,S: ,kVA,x,x,x,x,x,x,x
-ME_P,P: ,kW,x,x,x,x,x,x,x
-ME_Q,Q: ,kVAr,x,x,x,x,x,x,x
-ME_V,U: ,V,x,x,x,x,x,x,x
-ME_CosPhi,cosPhi: ,,x,x,x,x,x,x,x
-ME_F,f:,Hz,x,x,x,x,x,x,x
-ME_E_P_Exp,E_P_export,kWh,x,x,x,x,x,x,x
-ME_E_P_Imp,E_P_import,kWh,x,x,x,x,x,x,x
-ME_E_Q_Exp,E_Q_export,kVArh,x,x,x,x,x,x,x
-ME_E_Q_Imp,E_Q_import,kVArh,x,x,x,x,x,x,x
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,Network-Operator,Controller,O&M,SK required
+,S: ,,,,,,,,,,x
+,P: ,,,,,,,,,,x
+,Q: ,,,,,,,,,,x
+,U: ,,,,,,,,,,x
+,cosPhi: ,,,,,,,,,,x
+,f:,,,,,,,,,,x
+,E_P_export,,,,,,,,,,x
+,E_P_import,,,,,,,,,,x
+,E_Q_export,,,,,,,,,,x
+,E_Q_import,,,,,,,,,,x

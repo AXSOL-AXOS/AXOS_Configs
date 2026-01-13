@@ -1,20 +1,20 @@
-AXSOL_Name_Short,AXSOL Name,Read&Write,Description,AX_LimitDown,AX_LimitUp,AX_Unit,AX_Scaling,Unit & Resolution,AX_Node,AX_Cabinet,AX_EZAController,AX_Trader,Cloud,Dashboard,etwork-Operator,O&M,SK required
-ST_Mode       ,AX_Rack OperatingMode,x,"ENUM, 0: off, 1: on (DC connect), other: undefined",0,1,NoUnit,1.0,,,,,,,,,,
-Error_Ack,AX_Rack ErrorAckActive,x,"ENUM, 0: off, 1: acknowlede error (reset), other: undefined",0,1,NoUnit,1.0,,,,,,,,,,
-ST_OpState         ,AX_Rack operating state,,"Indicates the current operational status of the battery rack (e.g., active, standby, fault).",0,100,NoUnit,1.0,-,x,x,x,,x,x,,x,x
-ST_ERR          ,AX_Rack error,,Displays any error codes or fault conditions detected in the battery rack.                  ,0,100000,NoUnit,1.0,-,x,x,,,x,x,,x,x
-ME_V               ,AX_Rack voltage,,Total voltage measured across the entire battery rack.                                      ,0,100000,V,0.1,0.1V,x,x,,x,x,x,,x,x
-ME_I               ,AX_Rack current,,Current flowing through the battery rack during operation.                                  ,-100000,100000,A,0.1,0.1A,x,x,,x,x,x,,x,x
-ME_SOC             ,AX_Rack soc,,State of Charge: percentage of remaining battery capacity relative to full charge.          ,0,100,%,0.1,0.1%,x,x,x,x,x,x,x,x,x
-ME_SOH             ,AX_Rack soh,,State of Health: indicator of battery health compared to its original condition.            ,0,100,%,0.1,0.1%,x,x,x,x,x,x,x,x,x
-LIM_I_Charge ,AX_Rack max charge current,,Maximum allowable charging current for the battery rack.                                    ,0,100000,A,0.1,0.1A,x,x,x,x,x,x,,x,x
-LIM_I_Discharge,AX_Rack max discharge current,,Maximum allowable discharging current for the battery rack.                                 ,0,100000,A,0.1,0.1A,x,x,x,x,x,x,,x,x
-ME_V_Cell_Max      ,AX_Rack max cell voltage,,Highest voltage recorded among all individual cells in the rack.                            ,0,100000,V,0.1,V,x,x,,x,x,x,,x,x
-ME_V_Cell_Min      ,AX_Rack min cell voltage,,Lowest voltage recorded among all individual cells in the rack.                             ,0,100000,V,0.1,V,x,x,,x,x,x,,x,x
-ME_Temp_Cell_Max   ,AX_Rack max cell temperature,,Highest temperature recorded among all individual cells in the rack.                        ,-50,100,°C,0.1,0.1℃,x,x,,x,x,x,,x,x
-ME_Temp_Cell_Min   ,AX_Rack min cell temperature,,Lowest temperature recorded among all individual cells in the rack.                         ,-50,100,°C,0.1,0.1℃,x,x,,x,x,x,,x,x
-ME_V_Avg           ,AX_Rack average voltage,,Average voltage across all cells in the battery rack.                                       ,0,100000,V,0.1,V,x,x,,x,x,x,,x,x
-ME_Temp_Avg        ,AX_Rack average temperature,,Average temperature across all cells in the battery rack.                                   ,-50,100,°C,0.1,0.1℃,x,x,,x,x,x,,x,x
-ME_Temp_Outlet     ,AX_Rack Outlet temperature,,Temperature measured at the outlet of the cooling system for the rack.                      ,-50,100,°C,0.1,°C,x,x,,,?,,,x,
-ME_Temp_Inlet      ,AX_Rack Inlet temperature,,Temperature measured at the inlet of the cooling system for the rack.                       ,-50,100,°C,0.1,°C,x,x,,,?,,,x,
-ME_Temp_Amb        ,AX_Rack Ambient temperature,,Temperature of the surrounding environment near the battery rack.                           ,-50,100,°C,0.1,°C,x,x,,x,?,,,x,x
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,Network-Operator,Controller,O&M,SK required
+ST_Mode,AX_Rack OperatingMode,"ENUM, 0: off, 1: on (DC connect), other: undefined",,,,,,,,,
+Error_Ack,AX_Rack ErrorAckActive,"ENUM, 0: off, 1: acknowlede error (reset), other: undefined",,,,,,,,,
+ST_OpState,AX_Rack operating state,"Indicates the current operational status of the battery rack (e.g., active, standby, fault).",,,x,x,,,,x,x
+ST_ERR,AX_Rack error,Displays any error codes or fault conditions detected in the battery rack.                  ,,,x,x,,,,x,x
+ME_V,AX_Rack voltage,Total voltage measured across the entire battery rack.                                      ,,,x,x,,,,x,x
+ME_I,AX_Rack current,Current flowing through the battery rack during operation.                                  ,,,x,x,,,,x,x
+ME_SOC,AX_Rack soc,State of Charge: percentage of remaining battery capacity relative to full charge.          ,,,x,x,,x,,x,x
+ME_SOH,AX_Rack soh,State of Health: indicator of battery health compared to its original condition.            ,,,x,x,,x,,x,x
+LIM_I_Charge,AX_Rack max charge current,Maximum allowable charging current for the battery rack.                                    ,,,x,x,,,,x,x
+LIM_I_Discharge,AX_Rack max discharge current,Maximum allowable discharging current for the battery rack.                                 ,,,x,x,,,,x,x
+ME_V_Cell_Max,AX_Rack max cell voltage,Highest voltage recorded among all individual cells in the rack.                            ,,,x,x,,,,x,x
+ME_V_Cell_Min,AX_Rack min cell voltage,Lowest voltage recorded among all individual cells in the rack.                             ,,,x,x,,,,x,x
+ME_Temp_Cell_Max,AX_Rack max cell temperature,Highest temperature recorded among all individual cells in the rack.                        ,,,x,x,,,,x,x
+ME_Temp_Cell_Min,AX_Rack min cell temperature,Lowest temperature recorded among all individual cells in the rack.                         ,,,x,x,,,,x,x
+ME_V_Avg,AX_Rack average voltage,Average voltage across all cells in the battery rack.                                       ,,,x,x,,,,x,x
+ME_Temp_Avg,AX_Rack average temperature,Average temperature across all cells in the battery rack.                                   ,,,x,x,,,,x,x
+ME_Temp_Outlet,AX_Rack Outlet temperature,Temperature measured at the outlet of the cooling system for the rack.                      ,,,?,,,,,x,
+ME_Temp_Inlet,AX_Rack Inlet temperature,Temperature measured at the inlet of the cooling system for the rack.                       ,,,?,,,,,x,
+ME_Temp_Amb,AX_Rack Ambient temperature,Temperature of the surrounding environment near the battery rack.                           ,,,?,,,,,x,x

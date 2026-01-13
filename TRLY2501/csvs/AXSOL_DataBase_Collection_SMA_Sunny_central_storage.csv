@@ -1,0 +1,180 @@
+Topic,Description,Register Address,Unit,Scaling,Offset,type,Multiplier,AddressOffset,AXSOL Name,AXSOL Unit & Resolution,upperLimit,lowerLimit
+DcMs_Vol,DC voltage DC plus to DC minus                                                                         ,0,V,,,,1,0,AX_InverterAPU1...NDCVoltage,,99999999.0,-99999999.0
+DcMs_Amp_Stk1,DC current inverter bridge 1                                                                           ,2,A,,,,1,0,AX_InverterAPU1...NGridCurrentL1,,99999999.0,-99999999.0
+DcMs_Amp_Stk2,DC current inverter bridge 2                                                                           ,4,A,,,,1,0,AX_InverterAPU1...NGridCurrentL2,,99999999.0,-99999999.0
+DcMs_Amp_Stk3,DC current inverter bridge 3                                                                           ,6,A,,,,1,0,AX_InverterAPU1...NGridCurrentL3,,99999999.0,-99999999.0
+DcMs_TotAmp,"DC current, total                                                                                      ",8,A,,,,1,0,AX_InverterAPU1...NDCCurrent,,99999999.0,-99999999.0
+DcMs_TotWatt,"DC power, total                                                                                        ",10,kW,,,,1,0,AX_InverterDCPower,,99999999.0,-99999999.0
+InvMs_DcVol_Stk1,DC voltage inverter bridge 1                                                                           ,12,V,,,,1,0,AX_InverterAPU1…NGridVoltageL1,,99999999.0,-99999999.0
+InvMs_DcVol_Stk2,DC voltage inverter bridge 2                                                                           ,14,V,,,,1,0,AX_InverterAPU1...NGridVoltageL2,,99999999.0,-99999999.0
+InvMs_DcVol_Stk3,DC voltage inverter bridge 3                                                                           ,16,V,,,,1,0,AX_InverterAPU1...NGridVoltageL3,,99999999.0,-99999999.0
+InvMs_TotAAmp,"AC current L1, total                                                                                   ",18,A,,,,1,0,,,99999999.0,-99999999.0
+InvMs_TotBAmp,"AC current L2, total                                                                                   ",20,A,,,,1,0,,,99999999.0,-99999999.0
+InvMs_TotCAmp,"AC current L3, total                                                                                   ",22,A,,,,1,0,,,99999999.0,-99999999.0
+InvMs_PF,Power factor cos (phi)                                                                                 ,24,-,,,,1,0,,,99999999.0,-99999999.0
+InvMs_TotVA,"Apparent power, total                                                                                  ",26,kVA,,,,1,0,,,99999999.0,-99999999.0
+InvMs_TotW,"Active power, total                                                                                    ",28,kW,,,,1,0,AX_InverterActivePowerTotal,,99999999.0,-99999999.0
+InvMs_TotVAr,"Reactive power, total                                                                                  ",30,kVAr,,,,1,0,AX_InverterReactivePowerTotal,,99999999.0,-99999999.0
+GrIMs_V_PhsAB,"Line-to-line voltage L1-L2, grid                                                                       ",32,V,,,,1,0,AX_InverterAPU1...NGridVoltageL12,,99999999.0,-99999999.0
+GrIMs_V_PhsBC,"Line-to-line voltage L2-L3, grid                                                                       ",34,V,,,,1,0,AX_InverterAPU1...NGridVoltageL23,,99999999.0,-99999999.0
+GrIMs_V_PhsCA,"Line-to-line voltage L3-L1, grid                                                                       ",36,V,,,,1,0,AX_InverterAPU1...NGridVoltageL31,,99999999.0,-99999999.0
+GrIMs_Hz,Grid frequency                                                                                         ,38,Hz,,,,1,0,AX_InverterAPU1...NGridFrequency,,99999999.0,-99999999.0
+TmpCab_Acc,Temperature in AC area                                                                                 ,40,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpCab_Dcc,Temperature in DC area                                                                                 ,42,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpCab_Rio,Temperature in electronics area                                                                        ,44,°C,,,,1,0,AX_InverterAPU1…NPCBTemperature,,99999999.0,-99999999.0
+TmpCab_Max,"Temperature in interior, maximum value                                                                 ",46,°C,,,,1,0,AX_InverterAmbientTemperature,,99999999.0,-99999999.0
+TmpStk_IgbtMax,"Temperature of inverter bridge (switch), maximum value                                                 ",48,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpStk_PcbMax,"Temperature of inverter bridge (assembly), maximum value                                               ",50,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpExl,Outdoor temperature                                                                                    ,52,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpTrf,Temperature of MV transformer                                                                          ,54,°C,,,,1,0,,,99999999.0,-99999999.0
+DcSw1Stt,Switching state of DC load-break switch 1                                                              ,56,-,,,,1,0,,,99999999.0,-99999999.0
+DcSw2Stt,Switching state of DC load-break switch 2                                                              ,58,-,,,,1,0,,,99999999.0,-99999999.0
+DcSw3Stt,Switching state of DC load-break switch 3                                                              ,60,-,,,,1,0,,,99999999.0,-99999999.0
+AcSwStt,Switching state of AC circuit breaker                                                                  ,62,-,,,,1,0,,,99999999.0,-99999999.0
+CapacSwStt,Switching state of capacitor contactor                                                                 ,66,-,,,,1,0,,,99999999.0,-99999999.0
+PrchgSwStt,Switching state of precharge contactor                                                                 ,68,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_TofeedTm,Feed-in time                                                                                           ,70,s,,,,1,0,,,99999999.0,-99999999.0
+Cnt_TotOpTm,Operating time                                                                                         ,72,s,,,,1,0,,,99999999.0,-99999999.0
+Cnt_TotDcWhIn,Total DC energy drawn                                                                                  ,74,MWh,,,,1,0,AX_InverterEnergyCounterPositiveTotal,,99999999.0,-99999999.0
+Cnt_TotAcWhOut,Total AC energy fed in                                                                                 ,76,MWh,,,,1,0,AX_InverterEnergyCounterNegativeTotal,,99999999.0,-99999999.0
+Cnt_DcWhIn,DC energy drawn today                                                                                  ,78,MWh,,,,1,0,,,99999999.0,-99999999.0
+Cnt_AcWhOut,AC energy fed in today                                                                                 ,80,MWh,,,,1,0,,,99999999.0,-99999999.0
+Cnt_FanCab1Tm,Operating time of internal fan 1                                                                       ,82,s,,,,1,0,,,99999999.0,-99999999.0
+Cnt_FanCab2Tm,Operating time of internal fan 2                                                                       ,84,s,,,,1,0,,,99999999.0,-99999999.0
+Cnt_FanSktTm,Operating time of inverter bridge fan                                                                  ,86,s,,,,1,0,,,99999999.0,-99999999.0
+Cnt_HtCabTm,Operating time of internal heating                                                                     ,88,s,,,,1,0,,,99999999.0,-99999999.0
+Cnt_HtLoExITmpTm,Operating time of -40°C internal heating                                                               ,90,s,,,,1,0,,,99999999.0,-99999999.0
+ErrLcn,Error code of pending error                                                                            ,92,-,,,,1,0,,,99999999.0,-99999999.0
+ErrStt,Error state of inverter                                                                                ,94,-,,,,1,0,,,99999999.0,-99999999.0
+ErrNo,Error number of pending error                                                                          ,96,-,,,,1,0,AX_InverterErrorCode,,99999999.0,-99999999.0
+OpStt,Operating state of inverter                                                                            ,98,-,,,,1,0,AX_InverterOperatingState,,99999999.0,-99999999.0
+Rio_KeySw,Switching state of start-stop key switch                                                               ,100,-,,,,1,0,,,99999999.0,-99999999.0
+WaiGriTm,Waiting time for grid connection                                                                       ,102,s,,,,1,0,,,99999999.0,-99999999.0
+DevInf_SerNo,Serial number of inverter                                                                              ,104,-,,,,1,0,,,99999999.0,-99999999.0
+GfdiSwStt,Switching state of GFDI                                                                                ,106,-,,,,1,0,,,99999999.0,-99999999.0
+WSpT,"Active power, setpoint                                                                                 ",108,kW,,,,1,0,AX_InverterActivePowerSetpoint,,99999999.0,-99999999.0
+VAMaxSpT,"Maximum apparent power, setpoint                                                                       ",110,kVA,,,,1,0,,,99999999.0,-99999999.0
+VARSpT,"Reactive power, setpoint                                                                               ",112,kVAr,,,,1,0,AX_InverterReactivePowerSetpoint,,99999999.0,-99999999.0
+PFSpT,"Power factor cos (phi), setpoint                                                                       ",114,-,,,,1,0,,,99999999.0,-99999999.0
+TrfPro_Pres,"Emergency stop hermetic protection, pressure                                                           ",116,-,,,,1,0,,,99999999.0,-99999999.0
+TrfPro_TmpTrp,"Emergency stop hermetic protection, temperature                                                        ",118,-,,,,1,0,,,99999999.0,-99999999.0
+TrfPro_GasOilLev,"Hermetic protection, gas fill level                                                                    ",120,-,,,,1,0,,,99999999.0,-99999999.0
+TrfPro_TmpWrn,"Hermetic protection, temperature warning                                                               ",122,-,,,,1,0,,,99999999.0,-99999999.0
+TmpStk1_Igbt,Temperature of inverter bridge 1 (switch)                                                              ,124,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpStk2_Igbt,Temperature of inverter bridge 2 (switch)                                                              ,126,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpStk3_Igbt,Temperature of inverter bridge 3 (switch)                                                              ,128,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpStk1_Pcb,Maximum temperature of inverter bridge 1 (assembly)                                                    ,130,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpStk2_Pcb,Maximum temperature of inverter bridge 2 (assembly)                                                    ,132,°C,,,,1,0,,,99999999.0,-99999999.0
+TmpStk3_Pcb,Maximum temperature of inverter bridge 3 (assembly)                                                    ,134,°C,,,,1,0,,,99999999.0,-99999999.0
+Cnt_YstdWhOut,AC energy fed in yesterday                                                                             ,136,MWh,,,,1,0,,,99999999.0,-99999999.0
+Cpu1_UpTime,CPU runtime since system start                                                                         ,138,s,,,,1,0,,,99999999.0,-99999999.0
+PvGnd_RisIso,Insulation resistance                                                                                  ,140,kOhm,,,,1,0,AX_InverterAPU1...NIsolationResistance,,99999999.0,-99999999.0
+PresTrf,Pressure of MV transformer                                                                             ,142,-,,,,1,0,,,99999999.0,-99999999.0
+PresTrf_ErrStt,Error state of pressure sensor monitoring of MV transformer                                            ,144,-,,,,1,0,,,99999999.0,-99999999.0
+GrIMs_Vol_PsNom,"Normalized AC voltage, subsystem                                                                       ",149,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_TotDcWhOut,Total DC energy fed in                                                                                 ,151,MWh,,,,1,0,,,99999999.0,-99999999.0
+Cnt_TotAcWhIn,Total AC energy drawn                                                                                  ,153,MWh,,,,1,0,,,99999999.0,-99999999.0
+Cnt_DcWhOut,DC energy fed in today                                                                                 ,155,MWh,,,,1,0,,,99999999.0,-99999999.0
+Cnt_AcWhIn,AC energy drawn today                                                                                  ,157,MWh,,,,1,0,,,99999999.0,-99999999.0
+DcVolSpt,"DC voltage, setpoint                                                                                   ",159,V,,,,1,0,,,99999999.0,-99999999.0
+DcAmpSpt,"DC current, setpoint                                                                                   ",161,A,,,,1,0,,,99999999.0,-99999999.0
+VolNomSpt,AC voltage-dependent reactive power control: setpoint AC voltage                                       ,163,-,,,,1,0,,,99999999.0,-99999999.0
+AuxCtl_LifeSign,Heartbeat with valid setpoints                                                                         ,167,-,,,,1,0,AX_InverterHeartbeat,,99999999.0,-99999999.0
+InvPwrVolTyp,Inverter type                                                                                          ,168,-,,,,1,0,,,99999999.0,-99999999.0
+HzNomSpt,Nominal frequency for frequency-dependent active power control                                         ,170,Hz,,,,1,0,,,99999999.0,-99999999.0
+WAvl,Available active power                                                                                 ,172,pu,,,,1,0,AX_InverterAppliedActivePowerLimit,,99999999.0,-99999999.0
+VARAvl,Available reactive power                                                                               ,174,pu,,,,1,0,AX_InverterAppliedReactivePowerLimit,,99999999.0,-99999999.0
+DrtStt,Current derating state                                                                                 ,176,-,,,,1,0,,,99999999.0,-99999999.0
+PwrOffReas,Current reason for inverter shutdown                                                                   ,178,-,,,,1,0,,,99999999.0,-99999999.0
+DiagRmgTm,Time until next inverter self-test                                                                     ,180,s,,,,1,0,,,99999999.0,-99999999.0
+WRtg,Rated active power                                                                                     ,184,kW,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo1,Error number of current error                                                                          ,188,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn1,Location where current error was detected                                                              ,190,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo2,Error number of current error                                                                          ,192,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn2,Location where current error was detected                                                              ,194,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo3,Error number of current error                                                                          ,196,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn3,Location where current error was detected                                                              ,198,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo4,Error number of current error                                                                          ,200,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn4,Location where current error was detected                                                              ,202,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo5,Error number of current error                                                                          ,204,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn5,Location where current error was detected                                                              ,206,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo6,Error number of current error                                                                          ,208,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn6,Location where current error was detected                                                              ,210,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo7,Error number of current error                                                                          ,212,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn7,Location where current error was detected                                                              ,214,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo8,Error number of current error                                                                          ,216,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn8,Location where current error was detected                                                              ,218,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo9,Error number of current error                                                                          ,220,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn9,Location where current error was detected                                                              ,222,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrNo10,Error number of current error                                                                          ,224,-,,,,1,0,,,99999999.0,-99999999.0
+ActErrLcn10,Location where current error was detected                                                              ,226,-,,,,1,0,,,99999999.0,-99999999.0
+VARxlSpT_RefVal,Reference value for external reactive power setpoint                                                   ,268,kVar,,,,1,0,,,99999999.0,-99999999.0
+WExlSpT_RefVal,Reference value for external active power setpoint                                                     ,269,kW,,,,1,0,,,99999999.0,-99999999.0
+VARtg,Rated apparent power                                                                                   ,270,kVA,,,,1,0,,,99999999.0,-99999999.0
+InvTyp,Inverter type                                                                                          ,272,-,,,,1,0,,,99999999.0,-99999999.0
+VARtg,Rated reactive power                                                                                   ,274,kvar,,,,1,0,,,99999999.0,-99999999.0
+DcMs_VolPosGnd,DC voltage from DC+ to ground                                                                          ,276,V,,,,1,0,,,99999999.0,-99999999.0
+DcMs_VolNegGnd,DC voltage from DC- to ground                                                                          ,278,V,,,,1,0,,,99999999.0,-99999999.0
+GrlForm_OvAmpStt,Overload capability: overcurrent status                                                                ,280,-,,,,1,0,,,99999999.0,-99999999.0
+GrlForm_OvAmp_AmpMaxFrtAval,"Overload capability: maximum available nominal current in FRT, when virtual impedance is activated     ",282,pu,,,,1,0,,,99999999.0,-99999999.0
+GrlForm_OvAmp_AmpMaxAval,Overload capability: maximum available nominal current in grid forming                                 ,284,pu,,,,1,0,,,99999999.0,-99999999.0
+GrlMng_ExtdFlbStt,"Grid service functions: extended backup operation, status                                              ",286,-,,,,1,0,,,99999999.0,-99999999.0
+ErrRmgTm,Remaining error waiting time                                                                           ,288,s,,,,1,0,,,99999999.0,-99999999.0
+Cnt_DcSw1,Number of switching cycles of DC switch 1                                                              ,290,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_DcSw2,Number of switching cycles of DC switch 2                                                              ,292,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_DcSw3,Number of switching cycles of DC switch 3                                                              ,294,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_AcSw,Number of switching cycles of AC switch                                                                ,296,-,,,,1,0,,,99999999.0,-99999999.0
+DcPreChaRmgTm,Remaining time until next DC precharge                                                                 ,298,s,,,,1,0,,,99999999.0,-99999999.0
+Reserviert,Reserved                                                                                               ,300-302,,,,,1,0,,,99999999.0,-99999999.0
+DcPreChaSwStt,Switching state of DC precharge contactor                                                              ,304,-,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaThetaHMin,Inertia: minimum voltage angle inertia constant                                                        ,306,s,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaThetaHMax,Inertia: maximum voltage angle inertia constant                                                        ,308,s,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaVolHMin,Inertia: minimum voltage amplitude inertia constant                                                    ,310,-,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaVolHMax,Inertia: maximum voltage amplitude inertia constant                                                    ,312,-,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaHzDmpMin,Inertia: minimum gain of frequency damping of voltage angle inertia                                    ,314,Hz/pu,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaHzDmpMax,Inertia: maximum gain of frequency damping of voltage angle inertia                                    ,316,Hz/pu,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaVolDmpMin,Inertia: minimum gain of amplitude damping of voltage amplitude inertia                                ,318,-,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaVolDmpMax,Inertia: maximum gain of amplitude damping of voltage amplitude inertia                                ,320,-,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaThetaHfb,Inertia: feedback voltage angle inertia constant                                                       ,322,s,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaVolHfb,Inertia: feedback voltage amplitude inertia constant                                                   ,324,-,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaHzDmpFb,Inertia: feedback gain of frequency damping of voltage angle inertia                                   ,326,Hz/pu,,,,1,0,,,99999999.0,-99999999.0
+GriForm_AcCfl_InertiaVolDmpFb,Inertia: feedback gain of amplitude damping of voltage amplitude inertia                               ,328,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_DcSw1Uvr,"Switching cycles of DC load-break switch 1, undervoltage trip                                          ",330,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_DcSw2Uvr,"Switching cycles of DC load-break switch 2, undervoltage trip                                          ",332,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_DcSw3Uvr,"Switching cycles of DC load-break switch 3, undervoltage trip                                          ",334,-,,,,1,0,,,99999999.0,-99999999.0
+Cnt_AcSwUvr,"Switching cycles of AC circuit breaker, undervoltage trip                                              ",336,-,,,,1,0,,,99999999.0,-99999999.0
+WSpTMin,"Active power, minimum setpoint                                                                         ",338,kW,,,,1,0,,,99999999.0,-99999999.0
+WSpTMax,"Active power, maximum setpoint                                                                         ",339,kW,,,,1,0,,,99999999.0,-99999999.0
+SusyID,Device ID of the communication interface                         ,2,-,,,,1,0,,,99999999.0,-99999999.0
+SerNo,Serial number                                                    ,4,-,,,,1,0,,,99999999.0,-99999999.0
+DataChange,Modbus data change: Counter increases with each access           ,6,-,,,,1,0,,,99999999.0,-99999999.0
+Modbus_Sys_Tm,Read system time (UTC)                                           ,300,s,,,,1,0,,,99999999.0,-99999999.0
+Bat_Cnt_FullCycleCnt,Counter for completed battery cycles                             ,1006,-,,,,1,0,,,99999999.0,-99999999.0
+Bat_SOCTot,Current state of charge (SOC) of all battery strings             ,1028,%,,,,1,0,,,99999999.0,-99999999.0
+Bat_SOH,Battery: State of health                                         ,1032,%,,,,1,0,,,99999999.0,-99999999.0
+Bat_NomWhConn,Nominal energy of connected battery strings                      ,1034,kWh,,,,1,0,,,99999999.0,-99999999.0
+Bat_DcVolTot,DC voltage of all existing battery strings                       ,1036,V,,,,1,0,,,99999999.0,-99999999.0
+Bat_NomWhTot,Nominal energy of all existing battery strings                   ,1038,kWh,,,,1,0,,,99999999.0,-99999999.0
+Bat_TmpAvg,Battery: Average temperature                                     ,1040,°C,,,,1,0,,,99999999.0,-99999999.0
+Bat_TmpMin,Battery: Minimum temperature                                     ,1042,°C,,,,1,0,,,99999999.0,-99999999.0
+Bat_TmpMax,Battery: Maximum temperature                                     ,1044,°C,,,,1,0,,,99999999.0,-99999999.0
+Bat_TmpAmb,Battery: Ambient temperature                                     ,1048,°C,,,,1,0,,,99999999.0,-99999999.0
+Bat_NoStrgConn,Number of connected battery strings                              ,1052,-,,,,1,0,,,99999999.0,-99999999.0
+Bat_NoStrgTot,Number of existing battery strings                               ,1054,-,,,,1,0,,,99999999.0,-99999999.0
+Bat_NomCapTot,Nominal capacity of all existing battery strings                 ,1056,Ah,,,,1,0,,,99999999.0,-99999999.0
+Bat_BmsStt,Status of battery management system                              ,1076,-,,,,1,0,,,99999999.0,-99999999.0
+Bat_SOCConn,Current state of charge (SOC) of connected battery strings       ,1078,%,,,,1,0,,,99999999.0,-99999999.0
+Bat_DcVolConn,Battery voltage of connected battery strings                     ,1080,V,,,,1,0,,,99999999.0,-99999999.0
+Bat_DcAmp,Battery current                                                  ,1082,A,,,,1,0,,,99999999.0,-99999999.0
+Bat_NomCapConn,Nominal capacity of connected battery strings                    ,1084,Ah,,,,1,0,,,99999999.0,-99999999.0
+Bsc_WhInRmg,Available charge energy of the battery system                    ,1108,kWh,,,,1,0,,,99999999.0,-99999999.0
+Bsc_WhOutRmg,Available discharge energy of the battery system                 ,1110,kWh,,,,1,0,,,99999999.0,-99999999.0
+Bsc_WInAval,Available power in charging direction                            ,1118,kW,,,,1,0,,,99999999.0,-99999999.0
+Bsc_WOutAval,Available power in discharging direction                         ,1122,kW,,,,1,0,,,99999999.0,-99999999.0
+Bsc_VarOxAval,Available capacitive reactive power (overexcited)                ,1126,kvar,,,,1,0,,,99999999.0,-99999999.0
+Bsc_VarUxAval,Available inductive reactive power (underexcited)                ,1130,kvar,,,,1,0,,,99999999.0,-99999999.0
+Bsc_InvStrMod,Set operating state of inverter during startup                   ,2238,-,,,,1,0,,,99999999.0,-99999999.0
+Bsc_SrcSel,Select data source for setpoint specification                    ,2240,-,,,,1,0,,,99999999.0,-99999999.0
+Bsc_SOCOpHys,"SOC limitation, hysteresis                                       ",2258,%,,,,1,0,,,99999999.0,-99999999.0
+Bsc_SOCOpMax,Upper SOC limit until battery is charged. Manual specification   ,2260,%,,,,1,0,,,99999999.0,-99999999.0
+Bsc_SOCOpMin,Lower SOC limit until battery is discharged. Manual specification,2262,%,,,,1,0,,,99999999.0,-99999999.0

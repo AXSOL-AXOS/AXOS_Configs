@@ -1,11 +1,11 @@
-Topic,Description,Register Adress,Unit& Scaling,type,AXSOL Name,AXSOL Unit & Scaling
-Watchdog wholesales,,,-,UINT32,AX_Trader Watchdog wholesales,
-Setpoint wholesales,,,W,FLOAT32,AX_Trader Setpoint wholesales,
-Watchdog for reserve power marketing (reserve provider),,,-,UINT32,AX_Trader Watchdog reserve power marketing,
-Provision of positive FCR,,,W,FLOAT32,AX_Trader Provision of positive FCR,
-Provision of negative FCR,,,W,FLOAT32,AX_Trader Provision of negative FCR,
-Provision of positive aFRR,,,W,FLOAT32,AX_Trader Provision of positive aFRR,
-Provision of negative aFRR,,,W,FLOAT32,AX_Trader Provision of negative aFRR,
-Setpoint aFRR,,,W,FLOAT32,AX_Trader Setpoint aFRR,
-Activation for Primary control power,,,-,UINT32,AX_Trader Activation for Primary control power,
-Factor Overfulfillment (Übererfüllung) FCR,,,-,FLOAT32,AX_Trader Factor Overfulfillment FCR,
+Topic,Description,Register Address,Unit,Scaling,Offset,type,Multiplier,AddressOffset,AXSOL Name,AXSOL Unit & Resolution,upperLimit,lowerLimit
+Watchdogwholesales,,,-,,,UINT32,1,0,AX_TraderWatchdogwholesales,,99999999.0,-99999999.0
+Setpointwholesales,,,W,,,FLOAT32,1,0,AX_TraderSetpointwholesales,,99999999.0,-99999999.0
+Watchdogforreservepowermarketing(reserveprovider),,,-,,,UINT32,1,0,AX_TraderWatchdogreservepowermarketing,,99999999.0,-99999999.0
+ProvisionofpositiveFCR,,,W,,,FLOAT32,1,0,AX_TraderProvisionofpositiveFCR,,99999999.0,-99999999.0
+ProvisionofnegativeFCR,,,W,,,FLOAT32,1,0,AX_TraderProvisionofnegativeFCR,,99999999.0,-99999999.0
+ProvisionofpositiveaFRR,,,W,,,FLOAT32,1,0,AX_TraderProvisionofpositiveaFRR,,99999999.0,-99999999.0
+ProvisionofnegativeaFRR,,,W,,,FLOAT32,1,0,AX_TraderProvisionofnegativeaFRR,,99999999.0,-99999999.0
+SetpointaFRR,,,W,,,FLOAT32,1,0,AX_TraderSetpointaFRR,,99999999.0,-99999999.0
+ActivationforPrimarycontrolpower,,,-,,,UINT32,1,0,AX_TraderActivationforPrimarycontrolpower,,99999999.0,-99999999.0
+FactorOverfulfillment(Übererfüllung)FCR,,,-,,,FLOAT32,1,0,AX_TraderFactorOverfulfillmentFCR,,99999999.0,-99999999.0

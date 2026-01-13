@@ -1,9 +1,7 @@
-Topic,Description,Register Adress,Unit& Scaling,type,AXSOL Name,AXSOL Unit & Scaling,SK required
-Watchdog,Value should change each second,,,UINT32,AX_EZA Watchdog,-,later
-Operation Mode,Start/Stop/Fast Stop/Standby,,,UINT32,AX_EZA Operation Mode,-,later
-Active Power Setpoint,,,%,FLOAT32,AX_EZA Active Power Setpoint,%,later
-Reactive Power Setpoint,,,%,FLOAT32,AX_EZA Reactive Power Setpoint,%,later
-Power Factor Setpoint,Spare - Only Q mode for now,,---,FLOAT32,AX_EZA Power Factor Setpoint,-,later
-Reactive Power Control Mode,Spare - Only Q mode for now,,---,UINT32,AX_EZA Reactive Power Control Mode,-,later
-,,,,,,,
-"Note SK: Das hier wäre m.E. AX_Node_Commands. Wurde zwar für Streamergy definiert, ist aber eigentlich unabhängig von denen.",,,,,,,
+Topic,Description,Register Address,Unit,Scaling,Offset,type,Multiplier,AddressOffset,AXSOL Name,AXSOL Unit & Resolution,upperLimit,lowerLimit
+Watchdog,Value should change each second,,,,,UINT32,1,0,AX_EZAWatchdog,-,99999999.0,-99999999.0
+OperationMode,Start/Stop/Fast Stop/Standby,,,,,UINT32,1,0,AX_EZAOperationMode,-,99999999.0,-99999999.0
+ActivePowerSetpoint,,,%,,,FLOAT32,1,0,AX_EZAActivePowerSetpoint,%,99999999.0,-99999999.0
+ReactivePowerSetpoint,,,%,,,FLOAT32,1,0,AX_EZAReactivePowerSetpoint,%,99999999.0,-99999999.0
+PowerFactorSetpoint,Spare - Only Q mode for now,,---,,,FLOAT32,1,0,AX_EZAPowerFactorSetpoint,-,99999999.0,-99999999.0
+ReactivePowerControlMode,Spare - Only Q mode for now,,---,,,UINT32,1,0,AX_EZAReactivePowerControlMode,-,99999999.0,-99999999.0

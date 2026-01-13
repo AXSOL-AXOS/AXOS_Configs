@@ -1,29 +1,29 @@
-AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,etwork-Operator,O&M,SK required
-ME_S,AX_MainMeter Apparent Power,Total apparent power (in VA) measured at the main meter.                   ,kVA,x,x,x,x,x,x,x
-ME_P,AX_MainMeter Active Power,Total real power (in W) measured at the main meter.                        ,kW,x,x,x,x,x,x,x
-ME_Q,AX_MainMeter Reactive Power,Total reactive power (in VAR) measured at the main meter.                  ,kVAr,x,x,x,x,x,x,x
-ME_V,AX_MainMeter Voltage,Line voltage measured at the main meter (system level).                     ,V,x,x,x,x,x,x,x
-ME_PF,AX_MainMeter Power Factor,"Ratio of real power to apparent power, indicating efficiency of power usage.",,x,x,x,x,x,x,x
-ME_F,AX_MainMeter Frequency,Electrical frequency (in Hz) measured at the main meter.                    ,Hz,x,x,x,x,x,x,x
-CT_E_Active_Exp,AX_MainMeter Active Energy Export,Total active energy (in Wh) exported from the system to the grid.          ,kWh,x,x,x,x,x,x,x
-CT_E_Active_Imp,AX_MainMeter Active Energy Import,Total active energy (in Wh) imported from the grid to the system.          ,kWh,x,x,x,x,x,x,x
-CT_E_Reactive_Exp,AX_MainMeter Reactive Energy Inductive,Total reactive energy (in VARh) with inductive characteristic           ,kVARh,x,x,x,x,x,x,x
-CT_E_Reactive_Imp,AX_MainMeter Reactive Energy Capacitive,Total reactive energy (in VARh) with capacitive characteristic    ,kVARh,x,x,x,x,x,x,x
-ME_S_L1,AX_MainMeter Apparent Power L1,Apparent power (in VA) for phase L1.                                       ,kVA,x,x,x,x,x,x,later
-ME_S_L2,AX_MainMeter Apparent Power L2,Apparent power (in VA) for phase L2.                                       ,kVA,x,x,x,x,x,x,later
-ME_S_L3,AX_MainMeter Apparent Power L3,Apparent power (in kVA) for phase L3.                                       ,kVA,x,x,x,x,x,x,later
-ME_P_L1,AX_MainMeter Active Power L1,Active power (in W) for phase L1.                                          ,kW,x,x,x,x,x,x,later
-ME_P_L2,AX_MainMeter Active Power L2,Active power (in W) for phase L2.                                          ,kW,x,x,x,x,x,x,later
-ME_P_L3,AX_MainMeter Active Power L3,Active power (in W) for phase L3.                                          ,kW,x,x,x,x,x,x,later
-ME_Q_L1,AX_MainMeter Reactive Power L1,Reactive power (in VAR) for phase L1.                                      ,kVAR,x,x,x,x,x,x,later
-ME_Q_L2,AX_MainMeter Reactive Power L2,Reactive power (in VAR) for phase L2.                                      ,kVAR,x,x,x,x,x,x,later
-ME_Q_L3,AX_MainMeter Reactive Power L3,Reactive power (in VAR) for phase L3.                                      ,kVAR,x,x,x,x,x,x,later
-ME_V_L1N,AX_MainMeter Voltage L1-N,Voltage between phase L1 and neutral.                                       ,V,x,x,x,x,x,x,later
-ME_V_L2N,AX_MainMeter Voltage L2-N,Voltage between phase L2 and neutral.                                       ,V,x,x,x,x,x,x,later
-ME_V_L3N,AX_MainMeter Voltage L3-N,Voltage between phase L3 and neutral.                                       ,V,x,x,x,x,x,x,later
-ME_V_L1L2,AX_MainMeter Voltage L1-L2,Voltage between phase L1 and L2.                                            ,V,x,x,x,x,x,x,later
-ME_V_L2L3,AX_MainMeter Voltage L2-L3,Voltage between phase L2 and L3.                                            ,V,x,x,x,x,x,x,later
-ME_V_L3L1,AX_MainMeter Voltage L3-L1,Voltage between phase L3 and L1.                                            ,V,x,x,x,x,x,x,later
-ME_I_L1,AX_MainMeter Current L1,Current (in A) for phase L1.                                                ,A,x,x,x,x,x,x,later
-ME_I_L2,AX_MainMeter Current L2,Current (in A) for phase L2.                                                ,A,x,x,x,x,x,x,later
-ME_I_L3,AX_MainMeter Current L3,Current (in A) for phase L3.                                                ,A,x,x,x,x,x,x,later
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,Network-Operator,Controller,O&M,SK required
+ME_S,AX_MainMeter Apparent Power,Total apparent power (in VA) measured at the main meter.                   ,,,,,,,,,x
+ME_P,AX_MainMeter Active Power,Total real power (in W) measured at the main meter.                        ,,,,,,,,,x
+ME_Q,AX_MainMeter Reactive Power,Total reactive power (in VAR) measured at the main meter.                  ,,,,,,,,,x
+ME_V,AX_MainMeter Voltage,Line voltage measured at the main meter (system level).                     ,,,,,,,,,x
+ME_PF,AX_MainMeter Power Factor,"Ratio of real power to apparent power, indicating efficiency of power usage.",,,,,,,,,x
+ME_F,AX_MainMeter Frequency,Electrical frequency (in Hz) measured at the main meter.                    ,,,,,,,,,x
+CT_E_Active_Exp,AX_MainMeter Active Energy Export,Total active energy (in Wh) exported from the system to the grid.          ,,,,,,,,,x
+CT_E_Active_Imp,AX_MainMeter Active Energy Import,Total active energy (in Wh) imported from the grid to the system.          ,,,,,,,,,x
+CT_E_Reactive_Exp,AX_MainMeter Reactive Energy Inductive,Total reactive energy (in VARh) with inductive characteristic           ,,,,,,,,,x
+CT_E_Reactive_Imp,AX_MainMeter Reactive Energy Capacitive,Total reactive energy (in VARh) with capacitive characteristic    ,,,,,,,,,x
+ME_S_L1,AX_MainMeter Apparent Power L1,Apparent power (in VA) for phase L1.                                       ,,,,,,,,,later
+ME_S_L2,AX_MainMeter Apparent Power L2,Apparent power (in VA) for phase L2.                                       ,,,,,,,,,later
+ME_S_L3,AX_MainMeter Apparent Power L3,Apparent power (in kVA) for phase L3.                                       ,,,,,,,,,later
+ME_P_L1,AX_MainMeter Active Power L1,Active power (in W) for phase L1.                                          ,,,,,,,,,later
+ME_P_L2,AX_MainMeter Active Power L2,Active power (in W) for phase L2.                                          ,,,,,,,,,later
+ME_P_L3,AX_MainMeter Active Power L3,Active power (in W) for phase L3.                                          ,,,,,,,,,later
+ME_Q_L1,AX_MainMeter Reactive Power L1,Reactive power (in VAR) for phase L1.                                      ,,,,,,,,,later
+ME_Q_L2,AX_MainMeter Reactive Power L2,Reactive power (in VAR) for phase L2.                                      ,,,,,,,,,later
+ME_Q_L3,AX_MainMeter Reactive Power L3,Reactive power (in VAR) for phase L3.                                      ,,,,,,,,,later
+ME_V_L1N,AX_MainMeter Voltage L1-N,Voltage between phase L1 and neutral.                                       ,,,,,,,,,later
+ME_V_L2N,AX_MainMeter Voltage L2-N,Voltage between phase L2 and neutral.                                       ,,,,,,,,,later
+ME_V_L3N,AX_MainMeter Voltage L3-N,Voltage between phase L3 and neutral.                                       ,,,,,,,,,later
+ME_V_L1L2,AX_MainMeter Voltage L1-L2,Voltage between phase L1 and L2.                                            ,,,,,,,,,later
+ME_V_L2L3,AX_MainMeter Voltage L2-L3,Voltage between phase L2 and L3.                                            ,,,,,,,,,later
+ME_V_L3L1,AX_MainMeter Voltage L3-L1,Voltage between phase L3 and L1.                                            ,,,,,,,,,later
+ME_I_L1,AX_MainMeter Current L1,Current (in A) for phase L1.                                                ,,,,,,,,,later
+ME_I_L2,AX_MainMeter Current L2,Current (in A) for phase L2.                                                ,,,,,,,,,later
+ME_I_L3,AX_MainMeter Current L3,Current (in A) for phase L3.                                                ,,,,,,,,,later

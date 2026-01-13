@@ -1,11 +1,11 @@
-AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Network-Operator,Controller,O&M,SK required
-ST_Watchdog_WS,AX_Trader Watchdog wholesales,Monitoring signal to ensure wholesale trading operations are active and functioning correctly.     ,-,x,,,,,x,x
-SP_P_WS,AX_Trader Setpoint wholesales,"Target setpoint for wholesale energy trading, defining the desired trading position or power level.",W,x,x,x,x,x,x,x
-ST_Watchdog_Reserve,AX_Trader Watchdog reserve power marketing, Monitoring signal for reserve power marketing activities to confirm system responsiveness.        ,-,x,,,,,x,x
-ME_P_FCR_Pos,AX_Trader Provision of positive FCR,Indicates the amount of positive Frequency Containment Reserve (FCR) provided to the grid.         ,W,x,x,x,,x,x,x
-ME_P_FCR_Neg,AX_Trader Provision of negative FCR,Indicates the amount of negative Frequency Containment Reserve (FCR) provided to the grid.         ,W,x,x,x,,x,x,x
-ME_P_aFRR_Pos,AX_Trader Provision of positive aFRR,Indicates the amount of positive Automatic Frequency Restoration Reserve (aFRR) delivered.         ,W,x,x,x,,x,x,x
-ME_P_aFRR_Neg,AX_Trader Provision of negative aFRR,Indicates the amount of negative Automatic Frequency Restoration Reserve (aFRR) delivered.         ,W,x,x,x,,x,x,x
-SP_P_aFRR,AX_Trader Setpoint aFRR,"Target setpoint for aFRR activation, defining the desired adjustment for frequency restoration.    ",W,x,x,x,x,x,x,x
-ST_FCR_Active,AX_Trader Activation FCR,Signal indicating activation for primary control power (frequency containment) in real-time.       ,-,x,x,,,x,x,x
-ME_FCR_Factor_Overfulfill,AX_Trader Factor Overfulfillment FCR,Factor representing overfulfillment of FCR obligations compared to contracted values.              ,-,x,x,,,,x,x
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,Network-Operator,Controller,O&M,SK required
+ST_Watchdog_WS,AX_Trader Watchdog wholesales,Monitoring signal to ensure wholesale trading operations are active and functioning correctly.     ,-,x,,,,,,x,x
+SP_P_WS,AX_Trader Setpoint wholesales,"Target setpoint for wholesale energy trading, defining the desired trading position or power level.",W,x,x,x,,x,x,x,x
+ST_Watchdog_Reserve,AX_Trader Watchdog reserve power marketing, Monitoring signal for reserve power marketing activities to confirm system responsiveness.        ,-,x,,,,,,x,x
+ME_P_FCR_Pos,AX_Trader Provision of positive FCR,Indicates the amount of positive Frequency Containment Reserve (FCR) provided to the grid.         ,W,x,x,x,,,x,x,x
+ME_P_FCR_Neg,AX_Trader Provision of negative FCR,Indicates the amount of negative Frequency Containment Reserve (FCR) provided to the grid.         ,W,x,x,x,,,x,x,x
+ME_P_aFRR_Pos,AX_Trader Provision of positive aFRR,Indicates the amount of positive Automatic Frequency Restoration Reserve (aFRR) delivered.         ,W,x,x,x,,,x,x,x
+ME_P_aFRR_Neg,AX_Trader Provision of negative aFRR,Indicates the amount of negative Automatic Frequency Restoration Reserve (aFRR) delivered.         ,W,x,x,x,,,x,x,x
+SP_P_aFRR,AX_Trader Setpoint aFRR,"Target setpoint for aFRR activation, defining the desired adjustment for frequency restoration.    ",W,x,x,x,,x,x,x,x
+ST_FCR_Active,AX_Trader Activation FCR,Signal indicating activation for primary control power (frequency containment) in real-time.       ,-,x,x,,,,x,x,x
+ME_FCR_Factor_Overfulfill,AX_Trader Factor Overfulfillment FCR,Factor representing overfulfillment of FCR obligations compared to contracted values.              ,-,x,x,,,,,x,x

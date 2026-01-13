@@ -1,0 +1,84 @@
+Topic,Description,Register Address,Unit,Scaling,Offset,type,Multiplier,AddressOffset,AXSOL Name,AXSOL Unit & Resolution,upperLimit,lowerLimit
+RackoperationgState,"0: Normal (can charge & discharge )
+1: NO Charge (can discharge)
+2: NO Discharge (can charge)
+3: Standby (cannot charge or discharge)
+4: Stop (System stop operation, open              contactors, breakers)",0x2001,-,,,u16,1,0,ST_OpState,-,99999999.0,-99999999.0
+Rackprechargephase,"0: Disconnected (positive contactor,  negative contactor, precharge contactor open)
+1: Start  connection (precharge contactor closed,  negative contactor closed,  positive contactor open)
+2: Connecting (precharge contactor closed,  negative contactor closed,  positive contactor closed)
+3:Connected(precharge contactoropen,  negative contactor closed,  positive contactor closed)
+4:Connection fail",0x2002,,,,u16,1,0,,,99999999.0,-99999999.0
+RackContactorState,"0x0: Opened, 0x1: Closed",0x2003,-,,,u16,1,0,,-,99999999.0,-99999999.0
+Rackfault,"0x0: Normal,  0x1: Fault;",0x2004,-,,,u16,1,0,ST_ERR,-,99999999.0,-99999999.0
+RackAlarmI,"0x0: Normal, 0x1: Alarm I",0x2005,-,,,u16,1,0,ST_ERR,-,99999999.0,-99999999.0
+RackAlarmII,"0x0: Normal, 0x1: Alarm II",0x2006,-,,,u16,1,0,ST_ERR,-,99999999.0,-99999999.0
+RackAlarmIII,"0x0: Normal, 0x1: Alarm III",0x2007,-,,,u16,1,0,ST_ERR,-,99999999.0,-99999999.0
+Reasonofrackstep-infailure,"0:Normal, 1:Warning",0x2008,,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+Thereasonwhyrackdidnotstartstepin,"0:Normal,1:Warning",0x2009,,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+Rackprechargetotalvol,,0x200A,0.1V,,,u16,1,0,,0.1V,99999999.0,-99999999.0
+Rackrackvoltage,,0x200B,0.1V,,,u16,1,0,ME_V,0.1V,99999999.0,-99999999.0
+Rackcurrent,Charge current is negative and discharge is positive.,0x200C,0.1A,,,int16,1,0,ME_I,0.1A,99999999.0,-99999999.0
+Rackcharge/dischargestate,0x0:IDle; 0x1:Discharging; 0x2:Charging,0x200D,-,,,u16,1,0,ST_OpState,-,99999999.0,-99999999.0
+RackSOC,0～1000,0x200E,‰,,,u16,1,0,ME_SOC,0.1%,99999999.0,-99999999.0
+RackSOH,0～1000,0x200F,‰,,,u16,1,0,ME_SOH,0.1%,99999999.0,-99999999.0
+Rackinsulationvalue,,0x2010,KΩ,,,u16,1,0,ST_ERR,Ω,99999999.0,-99999999.0
+Rackpositiveinsulationvalue,,0x2011,KΩ,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+RacknegativeInsulationValue,,0x2012,KΩ,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+Rackmaxchargecurrent,,0x2013,0.1A,,,u16,1,0,LIM_I_Charge,0.1A,99999999.0,-99999999.0
+Rackmaxdischargecurrent,,0x2014,0.1A,,,u16,1,0,LIM_I_Discharge,0.1A,99999999.0,-99999999.0
+RackmaxvolcellID,1#～N#（N is cell number）,0x2015,-,,,u16,1,0,,-,99999999.0,-99999999.0
+Rackmaxcellvoltage,,0x2016,mV,,,u16,1,0,ME_V_Cell_Max,V,99999999.0,-99999999.0
+RackminvolcellID,1#～N#（N is cell number）,0x2017,-,,,u16,1,0,,-,99999999.0,-99999999.0
+Rackmincellvoltage,,0x2018,Mv,,,u16,1,0,ME_V_Cell_Min,V,99999999.0,-99999999.0
+RackmaxtemperaturecellID,1#～N#（N is cell number）,0x2019,-,,,u16,1,0,,-,99999999.0,-99999999.0
+Rackmaxcelltemperature,,0x201A,0.1℃,,,int16,1,0,ME_Temp_Cell_Max,0.1℃,99999999.0,-99999999.0
+RackmintemperaturecellID,1#～N#（N is cell number）,0x201B,-,,,u16,1,0,,-,99999999.0,-99999999.0
+Rackmincelltemperature,,0x201C,0.1℃,,,int16,1,0,ME_Temp_Cell_Min,0.1℃,99999999.0,-99999999.0
+Rackaveragevoltage,,0x201D,mV,,,u16,1,0,ME_V_Avg,V,99999999.0,-99999999.0
+Rackaveragetemperature,,0x201E,0.1℃,,,int16,1,0,ME_Temp_Avg,0.1℃,99999999.0,-99999999.0
+Rackcellvoltagecumulativesum,,0x201F,0.1V,,,u16,1,0,,0.1V,99999999.0,-99999999.0
+HVBTemp1,,0x2020,0.1℃,,,int16,1,0,ST_ERR,0.1℃,99999999.0,-99999999.0
+HVBTemp2,,0x2021,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+HVBTemp3,,0x2022,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+HVBTemp4,,0x2023,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+HVBTemp5,"According to the actual situation of the project, unused registers are reserved.",0x2024,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+HVBTemp6,"According to the actual situation of the project, unused registers are reserved.",0x2025,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+HVBTemp7,"According to the actual situation of the project, unused registers are reserved.",0x2026,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+HVBTemp8,"According to the actual situation of the project, unused registers are reserved.",0x2027,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+Pack1positivepoletemperature,,0x2220,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+Pack64positivepoletemperature,"According to the actual situation of the project, it supports a maximum of 64 Packs.",0x225F,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+Pack1negativepoletemperature,,0x2260,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+Pack64negativepoletemperature,"According to the actual situation of the project, it supports a maximum of 64 Packs.",0x229F,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+Rackcellvoltage[1],,0x2400,mV,,,u16,1,0,,V,99999999.0,-99999999.0
+Rackcellvoltage[512],"According to the actual situation of the project, it supports a maximum of 512 individual voltages.",0x25FF,mV,,,u16,1,0,,,99999999.0,-99999999.0
+Rackcelltemperature[1],,0x2600,0.1℃,,,int16,1,0,,0.1℃,99999999.0,-99999999.0
+Rackcelltemperature[512],"According to the actual situation of the project, it can support a maximum of 512 monomer temperatures.",0x27FF,0.1℃,,,int16,1,0,,,99999999.0,-99999999.0
+TMSoperatingstate,"0, OFF mode
+1, Cooling mode
+2, Heating mode
+3, Auto cycle mode",0x3077,,,,u16,1,0,,,99999999.0,-99999999.0
+K1relaystate,"0: Opend, 1: Closed",0x3078,,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+K2relaystate,"0: Opend, 1: Closed",0x3079,,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+Pre-heatingmodefeedback,"0: Exit preheating mode
+1: Enter preheating mode",0x307A,,,,u16,1,0,,,99999999.0,-99999999.0
+Outlettemperature,Offset: -40℃,0x307B,-40℃,,,int16,1,0,ME_Temp_Outlet,°C,99999999.0,-99999999.0
+Inlettemperature,Offset: -40℃,0x307C,-40℃,,,int16,1,0,ME_Temp_Inlet,°C,99999999.0,-99999999.0
+Ambienttemperature,Offset: -40℃,0x307D,-40℃,,,int16,1,0,ME_Temp_Amb,°C,99999999.0,-99999999.0
+Outletpressure,Resolutions: 0.1bar,0x307E,0.1bar,,,u16,1,0,,,99999999.0,-99999999.0
+Inletpressure,Resolutions: 0.1bar,0x307F,0.1bar,,,u16,1,0,,,99999999.0,-99999999.0
+TMSfaultcode,0: No fault,0x3080,,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+TMSfaultlevel,"1: No fault
+1: Alarm I
+2: Alarm II",0x3081,,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+ACDC_Avoltage,Resolutions: 1V/bit,0x3082,V,,,u16,1,0,ST_ERR,V,99999999.0,-99999999.0
+Highpressurevalue,Resolutions: 1KPa/bit,0x3083,Kpa,,,u16,1,0,,,99999999.0,-99999999.0
+Lowpressurevalue,Resolutions: 1KPa/bit,0x3084,Kpa,,,u16,1,0,,,99999999.0,-99999999.0
+FanPWM,Resolutions: 1%/bit,0x3085,%,,,u16,1,0,,,99999999.0,-99999999.0
+Compressorvoltage,Resolutions: 1V/bit,0x3086,V,,,u16,1,0,,V,99999999.0,-99999999.0
+Compressorcurrent,Resolutions: 0.1A/bit,0x3087,0.1A,,,u16,1,0,,0.1A,99999999.0,-99999999.0
+Compressorrevolutionspeed,Resolutions: 100rpm/bit,0x3088,100rpm,,,u16,1,0,,,99999999.0,-99999999.0
+PTCtemperatureswitchstate,"0: Opend, 1: Closed",0x3089,,,,u16,1,0,,,99999999.0,-99999999.0
+Waterpumpswitch,"0: Opend, 1: Closed",0x308A,,,,u16,1,0,,,99999999.0,-99999999.0
+ACfault-1,00: No fault,0x308B,,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
+ACfault-2,00: No fault,0x308C,,,,u16,1,0,ST_ERR,,99999999.0,-99999999.0
