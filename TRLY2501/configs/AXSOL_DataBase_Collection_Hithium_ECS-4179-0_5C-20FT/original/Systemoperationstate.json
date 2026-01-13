@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ST_Op",
-  "mqttName": "",
+  "description": "AX_Container system operation state",
+  "mqttName": "ST_Op",
   "type": "u16",
   "nativeName": "Systemoperationstate"
 }

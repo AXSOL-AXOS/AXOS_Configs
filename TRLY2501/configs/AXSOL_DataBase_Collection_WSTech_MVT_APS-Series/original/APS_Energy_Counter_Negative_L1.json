@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "CT_E_Neg_L1",
-  "mqttName": "",
+  "description": "AX_InverterEnergyCounterNegativeL1",
+  "mqttName": "CT_E_Neg_L1",
   "type": "UINT32",
   "nativeName": "APS_Energy_Counter_Negative_L1"
 }

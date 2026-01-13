@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_I_RackDiff",
-  "mqttName": "",
+  "description": "AX_Container rack current difference",
+  "mqttName": "ME_I_RackDiff",
   "type": "int16",
   "nativeName": "Rackcurrentdifference"
 }

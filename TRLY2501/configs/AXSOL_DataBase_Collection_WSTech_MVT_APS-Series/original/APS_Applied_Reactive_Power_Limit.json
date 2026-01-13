@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "LIM_Q",
-  "mqttName": "",
+  "description": "AX_InverterAppliedReactivePowerLimit",
+  "mqttName": "LIM_Q",
   "type": "INT16",
   "nativeName": "APS_Applied_Reactive_Power_Limit"
 }

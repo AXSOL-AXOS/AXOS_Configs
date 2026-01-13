@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ERR_Code",
-  "mqttName": "",
+  "description": "AX_InverterErrorCode",
+  "mqttName": "ERR_Code",
   "type": "UINT16",
   "nativeName": "05_U_Error_Code_5"
 }

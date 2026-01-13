@@ -6,7 +6,7 @@
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
   "description": "AX_InverterActivePowerTotal",
-  "mqttName": "ME_P_Tot",
+  "mqttName": "",
   "type": "",
   "nativeName": "InvMs_TotW"
 }

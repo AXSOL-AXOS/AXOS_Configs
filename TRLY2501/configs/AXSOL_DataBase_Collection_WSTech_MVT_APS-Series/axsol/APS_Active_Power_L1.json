@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_P_L1",
-  "mqttName": "",
+  "description": "AX_InverterActivePowerL1",
+  "mqttName": "ME_P_L1",
   "type": "INT16",
   "nativeName": "APS_Active_Power_L1"
 }

@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ST_RackCount",
-  "mqttName": "",
+  "description": "AX_Container Number of racks in service",
+  "mqttName": "ST_RackCount",
   "type": "u16",
   "nativeName": "Numberofracksinservice"
 }

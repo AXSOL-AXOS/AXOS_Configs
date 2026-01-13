@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "U#_ME_V_L12",
-  "mqttName": "",
+  "description": "AX_InverterUnitGridVoltageL12",
+  "mqttName": "U01_ME_V_L12",
   "type": "UINT16",
   "nativeName": "01_U_Grid_Voltage_L12"
 }

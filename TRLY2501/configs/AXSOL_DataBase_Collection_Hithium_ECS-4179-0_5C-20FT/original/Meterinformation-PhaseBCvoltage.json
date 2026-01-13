@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_I_PhBC",
-  "mqttName": "",
+  "description": "AX_Container Phase BC current",
+  "mqttName": "ME_I_PhBC",
   "type": "u32",
   "nativeName": "Meterinformation-PhaseBCvoltage"
 }

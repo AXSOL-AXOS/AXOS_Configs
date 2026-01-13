@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "CT_E_Discharge",
-  "mqttName": "",
+  "description": "AX_Container discharge energy",
+  "mqttName": "CT_E_Discharge",
   "type": "UINT32",
   "nativeName": "System_accumulated_discharging_capacity"
 }

@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_PF",
-  "mqttName": "",
+  "description": "AX_MainMeter Power Factor",
+  "mqttName": "ME_PF",
   "type": "float",
   "nativeName": "_G_COS_PHI[0]"
 }

@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ST_Conn",
-  "mqttName": "",
+  "description": "AX_Container connection status",
+  "mqttName": "ST_Conn",
   "type": "u16",
   "nativeName": "Statusofconnectionprocess"
 }

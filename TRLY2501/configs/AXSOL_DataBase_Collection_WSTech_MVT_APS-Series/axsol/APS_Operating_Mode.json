@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ST_Mode",
-  "mqttName": "",
+  "description": "AX_InverterOperatingMode",
+  "mqttName": "ST_Mode",
   "type": "UINT16",
   "nativeName": "APS_Operating_Mode"
 }

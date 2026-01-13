@@ -1,12 +1,12 @@
 {
   "mbRegister": 19026,
   "unit": "W",
-  "scaling": 1,
-  "offset": 0,
+  "scaling": 1.0,
+  "offset": 0.0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_P",
-  "mqttName": "",
+  "description": "AX_EZA Active Power",
+  "mqttName": "ME_P",
   "type": "float",
   "nativeName": "_G_P_SUM3"
 }

@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_V",
-  "mqttName": "",
+  "description": "AX_MainMeter Voltage",
+  "mqttName": "ME_V",
   "type": "UINT",
   "nativeName": "Rack_N_total_voltage"
 }

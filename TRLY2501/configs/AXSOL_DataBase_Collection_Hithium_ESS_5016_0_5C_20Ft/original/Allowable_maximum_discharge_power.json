@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "LIM_P_Discharge",
-  "mqttName": "",
+  "description": "AX_Container max discharge power",
+  "mqttName": "LIM_P_Discharge",
   "type": "UINT",
   "nativeName": "Allowable_maximum_discharge_power"
 }

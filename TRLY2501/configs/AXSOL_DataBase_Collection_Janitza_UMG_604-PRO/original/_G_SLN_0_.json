@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_S_L1",
-  "mqttName": "",
+  "description": "AX_MainMeter Apparent Power L1",
+  "mqttName": "ME_S_L1",
   "type": "float",
   "nativeName": "_G_SLN[0]"
 }

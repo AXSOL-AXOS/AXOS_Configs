@@ -6,7 +6,7 @@
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
   "description": "AX_InverterAppliedReactivePowerLimit",
-  "mqttName": "LIM_Q",
+  "mqttName": "",
   "type": "",
   "nativeName": "VARAvl"
 }

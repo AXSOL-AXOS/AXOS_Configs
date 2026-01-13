@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_P_AUX",
-  "mqttName": "",
+  "description": "AX_Container AUX meter active power",
+  "mqttName": "ME_P_AUX",
   "type": "UINT",
   "nativeName": "Active_power"
 }

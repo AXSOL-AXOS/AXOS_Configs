@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "LIM_P_Charge",
-  "mqttName": "",
+  "description": "AX_Container max charge power",
+  "mqttName": "LIM_P_Charge",
   "type": "UINT",
   "nativeName": "Allowable_maximum_charge_power"
 }

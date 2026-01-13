@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_I_PhAB",
-  "mqttName": "",
+  "description": "AX_Container Phase AB current",
+  "mqttName": "ME_I_PhAB",
   "type": "u32",
   "nativeName": "Meterinformation-PhaseABvoltage"
 }

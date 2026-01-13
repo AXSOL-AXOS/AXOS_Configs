@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "U#_SP_P",
-  "mqttName": "",
+  "description": "AX_InverterUnitActivePowerSetpoints",
+  "mqttName": "U03_SP_P",
   "type": "INT16",
   "nativeName": "03_MCU_Active_Power_Set_Point"
 }

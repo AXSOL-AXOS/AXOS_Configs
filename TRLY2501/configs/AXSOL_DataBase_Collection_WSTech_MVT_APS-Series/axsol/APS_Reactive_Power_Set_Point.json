@@ -1,12 +1,12 @@
 {
   "mbRegister": 24580,
-  "unit": "kvar",
+  "unit": "%",
   "scaling": "",
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "SP_Q",
-  "mqttName": "",
+  "description": "AX_EZA Reactive Power Setpoint",
+  "mqttName": "SP_Q",
   "type": "INT16",
   "nativeName": "APS_Reactive_Power_Set_Point"
 }

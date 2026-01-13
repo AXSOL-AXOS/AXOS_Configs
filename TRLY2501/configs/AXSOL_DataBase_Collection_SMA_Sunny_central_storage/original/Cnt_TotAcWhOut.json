@@ -6,7 +6,7 @@
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
   "description": "AX_InverterEnergyCounterNegativeTotal",
-  "mqttName": "CT_E_Neg_Tot",
+  "mqttName": "",
   "type": "",
   "nativeName": "Cnt_TotAcWhOut"
 }

@@ -6,7 +6,7 @@
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
   "description": "AX_InverterAmbientTemperature",
-  "mqttName": "ME_Temp_Amb",
+  "mqttName": "",
   "type": "",
   "nativeName": "TmpCab_Max"
 }

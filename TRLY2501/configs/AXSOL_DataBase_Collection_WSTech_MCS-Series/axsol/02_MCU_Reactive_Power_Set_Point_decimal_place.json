@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "U#_SP_Q",
-  "mqttName": "",
+  "description": "AX_InverterUnitReactivePowerSetpoints",
+  "mqttName": "U02_SP_Q",
   "type": "UINT16",
   "nativeName": "02_MCU_Reactive_Power_Set_Point_decimal_place"
 }

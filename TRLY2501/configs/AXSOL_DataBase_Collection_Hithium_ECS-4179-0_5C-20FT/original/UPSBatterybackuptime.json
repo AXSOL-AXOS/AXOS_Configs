@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_Time_UPS_Backup",
-  "mqttName": "",
+  "description": "AX_Container ups backup Battery time",
+  "mqttName": "ME_Time_UPS_Backup",
   "type": "u16",
   "nativeName": "UPSBatterybackuptime"
 }

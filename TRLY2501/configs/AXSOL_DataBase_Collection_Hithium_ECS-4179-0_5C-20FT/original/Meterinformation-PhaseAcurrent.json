@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_I_PhA",
-  "mqttName": "",
+  "description": "AX_Container Phase A current",
+  "mqttName": "ME_I_PhA",
   "type": "u32",
   "nativeName": "Meterinformation-PhaseAcurrent"
 }

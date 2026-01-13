@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ST_Heater",
-  "mqttName": "",
+  "description": "AX_Container heater status",
+  "mqttName": "ST_Heater",
   "type": "UINT",
   "nativeName": "Dehumidification_status_Pump_switch"
 }

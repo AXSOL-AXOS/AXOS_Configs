@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_Temp_Outlet",
-  "mqttName": "",
+  "description": "AX_Rack Outlet temperature",
+  "mqttName": "ME_Temp_Outlet",
   "type": "int16",
   "nativeName": "Outlettemperature"
 }

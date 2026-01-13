@@ -6,7 +6,7 @@
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
   "description": "AX_InverterDCPower",
-  "mqttName": "ME_P_DC",
+  "mqttName": "",
   "type": "",
   "nativeName": "DcMs_TotWatt"
 }

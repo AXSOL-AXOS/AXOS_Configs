@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_V_Cell_Max",
-  "mqttName": "",
+  "description": "AX_Rack max cell voltage",
+  "mqttName": "ME_V_Cell_Max",
   "type": "UINT",
   "nativeName": "Rack_N_maximum_cell_voltage"
 }

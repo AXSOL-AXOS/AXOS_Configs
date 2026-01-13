@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_V_Tot",
-  "mqttName": "",
+  "description": "AX_Container system total voltage",
+  "mqttName": "ME_V_Tot",
   "type": "u16",
   "nativeName": "Systemtotalvoltage"
 }

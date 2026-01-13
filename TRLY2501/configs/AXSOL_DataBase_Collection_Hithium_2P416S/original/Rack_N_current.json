@@ -5,8 +5,8 @@
   "offset": -3200,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_I",
-  "mqttName": "",
+  "description": "AX_Rack current",
+  "mqttName": "ME_I",
   "type": "UINT",
   "nativeName": "Rack_N_current"
 }

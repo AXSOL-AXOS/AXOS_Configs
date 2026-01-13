@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "Error_Ack",
-  "mqttName": "",
+  "description": "AX_InverterErrorAckActive",
+  "mqttName": "Error_Ack",
   "type": "UINT16",
   "nativeName": "03_MCU_Error_Reset"
 }

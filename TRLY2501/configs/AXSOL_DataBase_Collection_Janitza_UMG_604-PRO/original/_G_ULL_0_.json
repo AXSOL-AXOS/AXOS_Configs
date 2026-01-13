@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_V_L1L2",
-  "mqttName": "",
+  "description": "AX_MainMeter Voltage L1-L2",
+  "mqttName": "ME_V_L1L2",
   "type": "float",
   "nativeName": "_G_ULL[0]"
 }

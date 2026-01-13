@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_Level_UPS_Charge",
-  "mqttName": "",
+  "description": "AX_Container ups charging Battery level",
+  "mqttName": "ME_Level_UPS_Charge",
   "type": "u16",
   "nativeName": "UPSBatterycharginglevel"
 }

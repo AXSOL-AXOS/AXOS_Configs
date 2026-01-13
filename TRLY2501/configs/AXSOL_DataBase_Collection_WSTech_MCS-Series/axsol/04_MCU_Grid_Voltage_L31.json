@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "U#_ME_V_L31",
-  "mqttName": "",
+  "description": "AX_InverterUnitGridVoltageL31",
+  "mqttName": "U04_ME_V_L31",
   "type": "UINT16",
   "nativeName": "04_MCU_Grid_Voltage_L31"
 }

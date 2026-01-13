@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_Q",
-  "mqttName": "",
+  "description": "AX_MainMeter Reactive Power",
+  "mqttName": "ME_Q",
   "type": "float",
   "nativeName": "_G_Q_SUM3"
 }

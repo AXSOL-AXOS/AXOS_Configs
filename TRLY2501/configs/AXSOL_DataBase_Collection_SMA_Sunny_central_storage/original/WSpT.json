@@ -6,7 +6,7 @@
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
   "description": "AX_InverterActivePowerSetpoint",
-  "mqttName": "SP_P",
+  "mqttName": "",
   "type": "",
   "nativeName": "WSpT"
 }

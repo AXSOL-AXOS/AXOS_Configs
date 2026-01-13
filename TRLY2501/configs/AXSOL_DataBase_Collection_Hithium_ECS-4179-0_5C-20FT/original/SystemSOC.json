@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_SOC",
-  "mqttName": "",
+  "description": "AX_Container SOC",
+  "mqttName": "ME_SOC",
   "type": "u16",
   "nativeName": "SystemSOC"
 }

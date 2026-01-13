@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_F",
-  "mqttName": "",
+  "description": "AX_MainMeter Frequency",
+  "mqttName": "ME_F",
   "type": "float",
   "nativeName": "_G_FREQ"
 }

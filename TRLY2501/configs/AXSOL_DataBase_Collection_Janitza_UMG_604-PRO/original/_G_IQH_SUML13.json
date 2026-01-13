@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "CT_E_Reactive_Exp",
-  "mqttName": "",
+  "description": "AX_MainMeter Reactive Energy Inductive",
+  "mqttName": "CT_E_Reactive_Exp",
   "type": "float",
   "nativeName": "_G_IQH_SUML13"
 }

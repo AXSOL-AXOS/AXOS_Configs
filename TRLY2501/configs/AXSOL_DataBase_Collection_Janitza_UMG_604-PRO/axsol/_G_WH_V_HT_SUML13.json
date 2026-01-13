@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "CT_E_Active_Imp",
-  "mqttName": "",
+  "description": "AX_MainMeter Active Energy Import",
+  "mqttName": "CT_E_Active_Imp",
   "type": "float",
   "nativeName": "_G_WH_V_HT_SUML13"
 }

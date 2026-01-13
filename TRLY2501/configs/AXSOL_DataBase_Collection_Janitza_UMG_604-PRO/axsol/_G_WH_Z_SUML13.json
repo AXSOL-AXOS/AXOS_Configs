@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "CT_E_Active_Exp",
-  "mqttName": "",
+  "description": "AX_MainMeter Active Energy Export",
+  "mqttName": "CT_E_Active_Exp",
   "type": "float",
   "nativeName": "_G_WH_Z_SUML13"
 }

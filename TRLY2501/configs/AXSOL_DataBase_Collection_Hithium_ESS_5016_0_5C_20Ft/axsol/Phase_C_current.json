@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_I_PhC",
-  "mqttName": "",
+  "description": "AX_Container Phase C current",
+  "mqttName": "ME_I_PhC",
   "type": "UINT",
   "nativeName": "Phase_C_current"
 }

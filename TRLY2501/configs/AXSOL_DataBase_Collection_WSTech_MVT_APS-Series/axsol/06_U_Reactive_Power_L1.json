@@ -5,8 +5,8 @@
   "offset": "",
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "U#_ME_Q_L1",
-  "mqttName": "",
+  "description": "AX_InverterUnitReactivePowerL1",
+  "mqttName": "U06_ME_Q_L1",
   "type": "INT16",
   "nativeName": "06_U_Reactive_Power_L1"
 }

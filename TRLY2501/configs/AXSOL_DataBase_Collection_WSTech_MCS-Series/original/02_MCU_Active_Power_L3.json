@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "U#_ME_P_L3",
-  "mqttName": "",
+  "description": "AX_InverterUnitActivePowerL3",
+  "mqttName": "U02_ME_P_L3",
   "type": "INT16",
   "nativeName": "02_MCU_Active_Power_L3"
 }

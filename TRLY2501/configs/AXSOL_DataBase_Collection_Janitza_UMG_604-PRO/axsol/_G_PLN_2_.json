@@ -5,8 +5,8 @@
   "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "ME_P_L3",
-  "mqttName": "",
+  "description": "AX_InverterActivePowerL3",
+  "mqttName": "ME_P_L3",
   "type": "float",
   "nativeName": "_G_PLN[2]"
 }
