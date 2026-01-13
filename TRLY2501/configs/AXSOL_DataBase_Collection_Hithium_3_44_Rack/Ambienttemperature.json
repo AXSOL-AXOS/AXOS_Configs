@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x307D",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_Temp_Amb",
+  "mqttName": null,
+  "type": "int16",
+  "nativeName": "Ambienttemperature"
+}

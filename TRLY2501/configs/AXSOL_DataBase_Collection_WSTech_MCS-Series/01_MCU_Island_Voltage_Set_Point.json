@@ -1,0 +1,12 @@
+{
+  "mbRegister": "24110",
+  "unit": "V",
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT16",
+  "nativeName": "01_MCU_Island_Voltage_Set_Point"
+}

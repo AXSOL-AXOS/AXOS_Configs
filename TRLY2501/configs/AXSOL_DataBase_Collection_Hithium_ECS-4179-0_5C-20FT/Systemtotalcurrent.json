@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x100D",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_I_Tot",
+  "mqttName": null,
+  "type": "int16",
+  "nativeName": "Systemtotalcurrent"
+}

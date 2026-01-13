@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2008",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ST_ERR",
+  "mqttName": null,
+  "type": "u16",
+  "nativeName": "Reasonofrackstep-infailure"
+}

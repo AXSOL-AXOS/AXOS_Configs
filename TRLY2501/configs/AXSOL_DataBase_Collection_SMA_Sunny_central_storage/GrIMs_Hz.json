@@ -1,0 +1,12 @@
+{
+  "mbRegister": "38",
+  "unit": "Hz",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_InverterAPU1...NGridFrequency",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "GrIMs_Hz"
+}

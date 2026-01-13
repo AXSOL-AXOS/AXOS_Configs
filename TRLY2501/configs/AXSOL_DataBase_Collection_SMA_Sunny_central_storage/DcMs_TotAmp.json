@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8",
+  "unit": "A",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_InverterAPU1...NDCCurrent",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "DcMs_TotAmp"
+}

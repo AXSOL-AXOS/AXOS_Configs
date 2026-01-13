@@ -1,0 +1,12 @@
+{
+  "mbRegister": "30",
+  "unit": "kVAr",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_InverterReactivePowerTotal",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "InvMs_TotVAr"
+}

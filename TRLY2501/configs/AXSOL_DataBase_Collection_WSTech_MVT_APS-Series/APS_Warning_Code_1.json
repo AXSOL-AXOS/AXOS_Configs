@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8254",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ERR_Code",
+  "mqttName": null,
+  "type": "UINT16",
+  "nativeName": "APS_Warning_Code_1"
+}

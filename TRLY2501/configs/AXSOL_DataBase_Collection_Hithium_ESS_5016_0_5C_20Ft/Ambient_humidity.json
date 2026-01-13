@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60109",
+  "unit": "%",
+  "scaling": "1.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_Hum_Room",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Ambient_humidity"
+}

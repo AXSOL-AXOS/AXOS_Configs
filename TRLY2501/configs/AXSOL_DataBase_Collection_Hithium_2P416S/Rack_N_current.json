@@ -1,0 +1,12 @@
+{
+  "mbRegister": "116",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "-3200",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_I",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Rack_N_current"
+}

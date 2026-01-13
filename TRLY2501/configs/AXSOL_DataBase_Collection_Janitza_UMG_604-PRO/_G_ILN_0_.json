@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19012",
+  "unit": "A",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_I_L1",
+  "mqttName": null,
+  "type": "float",
+  "nativeName": "_G_ILN[0]"
+}

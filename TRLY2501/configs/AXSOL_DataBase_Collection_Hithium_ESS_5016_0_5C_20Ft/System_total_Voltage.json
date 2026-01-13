@@ -1,0 +1,12 @@
+{
+  "mbRegister": "2",
+  "unit": "V",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_V_Tot",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "System_total_Voltage"
+}

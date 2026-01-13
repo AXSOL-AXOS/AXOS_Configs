@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8431",
+  "unit": "kWh",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "04_MCU_Energy_Counter_Positive_Total"
+}

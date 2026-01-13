@@ -1,0 +1,12 @@
+{
+  "mbRegister": null,
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_EZAWatchdog",
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "Watchdog"
+}

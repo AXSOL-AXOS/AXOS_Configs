@@ -1,0 +1,12 @@
+{
+  "mbRegister": "44",
+  "unit": "°C",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_InverterAPU1…NPCBTemperature",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "TmpCab_Rio"
+}

@@ -1,0 +1,12 @@
+{
+  "mbRegister": "106",
+  "unit": "A",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "LIM_I_Discharge",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Rack_N_maximum_allowable_discharging_current"
+}

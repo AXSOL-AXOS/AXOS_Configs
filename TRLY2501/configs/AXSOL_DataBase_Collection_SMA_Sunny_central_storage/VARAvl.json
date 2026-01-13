@@ -1,0 +1,12 @@
+{
+  "mbRegister": "174",
+  "unit": "pu",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_InverterAppliedReactivePowerLimit",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "VARAvl"
+}

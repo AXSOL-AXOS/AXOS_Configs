@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60167",
+  "unit": "°C",
+  "scaling": "1.0",
+  "offset": "-40",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ST_Heater",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Set_temperature"
+}

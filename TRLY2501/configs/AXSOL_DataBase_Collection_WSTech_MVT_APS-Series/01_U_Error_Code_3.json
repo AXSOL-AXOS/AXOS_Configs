@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8447",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ERR_Code",
+  "mqttName": null,
+  "type": "UINT16",
+  "nativeName": "01_U_Error_Code_3"
+}

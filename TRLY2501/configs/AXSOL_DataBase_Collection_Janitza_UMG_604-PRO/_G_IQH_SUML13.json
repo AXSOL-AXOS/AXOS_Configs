@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19100",
+  "unit": "varh",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "CT_E_Reactive_Exp",
+  "mqttName": null,
+  "type": "float",
+  "nativeName": "_G_IQH_SUML13"
+}

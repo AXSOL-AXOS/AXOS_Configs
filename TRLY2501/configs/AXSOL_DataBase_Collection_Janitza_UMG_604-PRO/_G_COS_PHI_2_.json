@@ -1,0 +1,12 @@
+{
+  "mbRegister": "19048",
+  "unit": "-",
+  "scaling": "1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_PF",
+  "mqttName": null,
+  "type": "float",
+  "nativeName": "_G_COS_PHI[2]"
+}

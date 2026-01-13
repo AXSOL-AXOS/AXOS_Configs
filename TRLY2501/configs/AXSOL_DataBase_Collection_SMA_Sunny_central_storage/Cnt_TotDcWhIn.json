@@ -1,0 +1,12 @@
+{
+  "mbRegister": "74",
+  "unit": "MWh",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_InverterEnergyCounterPositiveTotal",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "Cnt_TotDcWhIn"
+}

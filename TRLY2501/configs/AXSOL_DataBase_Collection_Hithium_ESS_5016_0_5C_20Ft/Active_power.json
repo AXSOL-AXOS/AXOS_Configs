@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60139",
+  "unit": "NoUnit",
+  "scaling": "10.0",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_P_AUX",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Active_power"
+}

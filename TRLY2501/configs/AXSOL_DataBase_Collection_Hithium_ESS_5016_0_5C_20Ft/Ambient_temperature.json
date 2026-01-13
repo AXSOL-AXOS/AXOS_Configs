@@ -1,0 +1,12 @@
+{
+  "mbRegister": "60106",
+  "unit": "°C",
+  "scaling": "1.0",
+  "offset": "-40",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_Temp_Room",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Ambient_temperature"
+}

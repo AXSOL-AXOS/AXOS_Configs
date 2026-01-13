@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x200C",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_I",
+  "mqttName": null,
+  "type": "int16",
+  "nativeName": "Rackcurrent"
+}

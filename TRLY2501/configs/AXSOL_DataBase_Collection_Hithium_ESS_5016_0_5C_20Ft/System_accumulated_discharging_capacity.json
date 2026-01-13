@@ -1,0 +1,12 @@
+{
+  "mbRegister": "20",
+  "unit": "kWh",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "CT_E_Discharge",
+  "mqttName": null,
+  "type": "UINT32",
+  "nativeName": "System_accumulated_discharging_capacity"
+}

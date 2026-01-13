@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8195",
+  "unit": "kW",
+  "scaling": "0.1",
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_P_L1",
+  "mqttName": null,
+  "type": "INT16",
+  "nativeName": "APS_Active_Power_L1"
+}

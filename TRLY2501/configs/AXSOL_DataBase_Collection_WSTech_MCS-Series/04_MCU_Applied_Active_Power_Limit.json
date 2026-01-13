@@ -1,0 +1,12 @@
+{
+  "mbRegister": "8425",
+  "unit": "kW",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": null,
+  "mqttName": null,
+  "type": "INT16",
+  "nativeName": "04_MCU_Applied_Active_Power_Limit"
+}

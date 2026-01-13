@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x2013",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "LIM_I_Charge",
+  "mqttName": null,
+  "type": "u16",
+  "nativeName": "Rackmaxchargecurrent"
+}

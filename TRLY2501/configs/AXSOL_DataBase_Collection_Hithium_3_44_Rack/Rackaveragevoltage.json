@@ -1,0 +1,12 @@
+{
+  "mbRegister": "0x201D",
+  "unit": null,
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "ME_V_Avg",
+  "mqttName": null,
+  "type": "u16",
+  "nativeName": "Rackaveragevoltage"
+}

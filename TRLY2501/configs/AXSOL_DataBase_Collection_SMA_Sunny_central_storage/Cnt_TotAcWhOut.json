@@ -1,0 +1,12 @@
+{
+  "mbRegister": "76",
+  "unit": "MWh",
+  "scaling": null,
+  "offset": null,
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "AX_InverterEnergyCounterNegativeTotal",
+  "mqttName": null,
+  "type": null,
+  "nativeName": "Cnt_TotAcWhOut"
+}

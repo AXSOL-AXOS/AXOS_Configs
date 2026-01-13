@@ -1,0 +1,12 @@
+{
+  "mbRegister": "33",
+  "unit": "kW",
+  "scaling": "0.1",
+  "offset": "0",
+  "upperLimit": null,
+  "lowerLimit": null,
+  "description": "LIM_P_Charge",
+  "mqttName": null,
+  "type": "UINT",
+  "nativeName": "Allowable_maximum_charge_power"
+}
