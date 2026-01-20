@@ -1,12 +1,12 @@
 {
   "mbRegister": "0x104F",
   "unit": "10W",
-  "scaling": "",
-  "offset": "",
+  "scaling": 1.0,
+  "offset": 0,
   "upperLimit": 99999999.0,
   "lowerLimit": -99999999.0,
-  "description": "",
-  "mqttName": "",
+  "description": "AX_Container system total active power",
+  "mqttName": "ME_P",
   "type": "int32",
   "nativeName": "Meterinformation-activepower"
 }
