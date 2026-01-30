@@ -1,96 +1,96 @@
-Topic,Description,Register Address,Unit,Scaling,Offset,type,Multiplier,AddressOffset,AXSOL Name,AXSOL Unit & Resolution,upperLimit,lowerLimit
-_G_ULN[0],Voltage L1-N,19000,V,1,0,float,1,0,ME_V_L1N,,99999999.0,-99999999.0
-_G_ULN[1],Voltage L2-N,19002,V,1,0,float,1,0,ME_V_L2N,,99999999.0,-99999999.0
-_G_ULN[2],Voltage L3-N,19004,V,1,0,float,1,0,ME_V_L3N,,99999999.0,-99999999.0
-_G_ULL[0],Voltage L1-L2,19006,V,1,0,float,1,0,ME_V_L1L2,,99999999.0,-99999999.0
-_G_ULL[1],Voltage L2-L3,19008,V,1,0,float,1,0,ME_V_L2L3,,99999999.0,-99999999.0
-_G_ULL[2],Voltage L3-L1,19010,V,1,0,float,1,0,ME_V_L3L1,,99999999.0,-99999999.0
-_G_ILN[0],"Apparent current, L1-N",19012,A,1,0,float,1,0,ME_I_L1,,99999999.0,-99999999.0
-_G_ILN[1],"Apparent current, L2-N",19014,A,1,0,float,1,0,ME_I_L2,,99999999.0,-99999999.0
-_G_ILN[2],"Apparent current, L3-N",19016,A,1,0,float,1,0,ME_I_L3,,99999999.0,-99999999.0
-_G_I_SUM3,Vector sum; IN=I1+I2+I3,19018,A,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_PLN[0],Real power L1-N,19020,W,1,0,float,1,0,ME_P_L1,,99999999.0,-99999999.0
-_G_PLN[1],Real power L2-N,19022,W,1,0,float,1,0,ME_P_L2,,99999999.0,-99999999.0
-_G_PLN[2],Real power L3-N,19024,W,1,0,float,1,0,ME_P_L3,,99999999.0,-99999999.0
-_G_P_SUM3,Psum3=P1+P2+P3,19026,W,1,0,float,1,0,ME_P,,99999999.0,-99999999.0
-_G_SLN[0],Apparent power L1-N,19028,VA,1,0,float,1,0,ME_S_L1,,99999999.0,-99999999.0
-_G_SLN[1],Apparent power L2-N,19030,VA,1,0,float,1,0,ME_S_L2,,99999999.0,-99999999.0
-_G_SLN[2],Apparent power L3-N,19032,VA,1,0,float,1,0,ME_S_L3,,99999999.0,-99999999.0
-_G_S_SUM3,Sum; Ssum3=S1+S2+S3,19034,VA,1,0,float,1,0,ME_S,,99999999.0,-99999999.0
-_G_QLN[0],Reactive power L1 (fundamental comp.),19036,var,1,0,float,1,0,ME_Q_L1,,99999999.0,-99999999.0
-_G_QLN[1],Reactive power L2 (fundamental comp.),19038,var,1,0,float,1,0,ME_Q_L2,,99999999.0,-99999999.0
-_G_QLN[2],Reactive power L3 (fundamental comp.),19040,var,1,0,float,1,0,ME_Q_L3,,99999999.0,-99999999.0
-_G_Q_SUM3,Qsum3=Q1+Q2+Q3 (fundamental comp.),19042,var,1,0,float,1,0,ME_Q,,99999999.0,-99999999.0
-_G_COS_PHI[0],CosPhi; UL1 IL1 (fundamental comp.),19044,-,1,0,float,1,0,ME_PF,,99999999.0,-99999999.0
-_G_COS_PHI[1],CosPhi; UL2 IL2 (fundamental comp.),19046,-,1,0,float,1,0,ME_PF,,99999999.0,-99999999.0
-_G_COS_PHI[2],CosPhi; UL3 IL3 (fundamental comp.),19048,-,1,0,float,1,0,ME_PF,,99999999.0,-99999999.0
-_G_FREQ,Measured frequency,19050,Hz,1,0,float,1,0,ME_F,,99999999.0,-99999999.0
-_G_PHASE_SEQ,"Rotation field; 1=right, 0=none, -1=left",19052,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH[0],Real energy L1,19054,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH[1],Real energy L2,19056,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH[2],Real energy L3,19058,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_SUML13,Real energy L1..L3,19060,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_V[0],"Real energy L1, consumed",19062,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_V[1],"Real energy L2, consumed",19064,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_V[2],"Real energy L3, consumed",19066,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_V_HT_SUML13,"Real energy L1..L3, consumed, rate 1",19068,Wh,1,0,float,1,0,CT_E_Active_Imp,,99999999.0,-99999999.0
-_G_WH_Z[0],"Real energy L1, delivered",19070,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_Z[1],"Real energy L2, delivered",19072,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_Z[2],"Real energy L3, delivered",19074,Wh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_Z_SUML13,"Real energy L1..L3, delivered",19076,Wh,1,0,float,1,0,CT_E_Active_Exp,,99999999.0,-99999999.0
-_G_WH_S[0],Apparent energy L1,19078,VAh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_S[1],Apparent energy L2,19080,VAh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_S[2],Apparent energy L3,19082,VAh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_WH_S_SUML13,Apparent energy L1..L3,19084,VAh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_QH[0],Reactive energy L1 (fundamental comp.),19086,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_QH[1],Reactive energy L2 (fundamental comp.),19088,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_QH[2],Reactive energy L3 (fundamental comp.),19090,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_QH_SUML13,Reactive energy L1..L3 (fundamental comp.),19092,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_IQH[0],"Reactive energy, inductive, L1 (fundamental comp.)",19094,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_IQH[1],"Reactive energy, inductive, L2 (fundamental comp.)",19096,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_IQH[2],"Reactive energy, inductive, L3 (fundamental comp.)",19098,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_IQH_SUML13,"Reactive energy L1..L3, ind. (fundamental comp.)",19100,varh,1,0,float,1,0,CT_E_Reactive_Exp,,99999999.0,-99999999.0
-_G_CQH[0],"Reactive energy, capacitive, L1 (fundamental comp.)",19102,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_CQH[1],"Reactive energy, capacitive, L2 (fundamental comp.)",19104,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_CQH[2],"Reactive energy, capacitive, L3 (fundamental comp.)",19106,varh,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_CQH_SUML13,"Reactive energy L1..L3, cap. (fundamental comp.)",19108,varh,1,0,float,1,0,CT_E_Reactive_Imp,,99999999.0,-99999999.0
-_G_THD_ULN[0],"Harmonic, THD,U L1-N",19110,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_THD_ULN[1],"Harmonic, THD,U L2-N",19112,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_THD_ULN[2],"Harmonic, THD,U L3-N",19114,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_THD_ILN[0],"Harmonic, THD,I L1",19116,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_THD_ILN[1],"Harmonic, THD,I L2",19118,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_G_THD_ILN[2],"Harmonic, THD,I L3",19120,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_uln_avg_sum,"Average, ULN = (ULN1+ULN2+ULN3)/3",19330,V,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_avg_sum,"Average, ULL = (UL1-L2+UL2-L3+UL3-L1)/3",19332,V,1,0,float,1,0,ME_V,,99999999.0,-99999999.0
-_iin_avg_sum,"Average, IL = (IL1+IL2+IL3)/3",19334,A,1,0,float,1,0,,,99999999.0,-99999999.0
-_pf_total,"Average, PF = (PF1+PF2+PF3)/3",19336,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_i_tdd[0],IL1 Total Demand Distortion,19638,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_i_tdd[1],IL2 Total Demand Distortion,19640,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_i_tdd[2],IL3 Total Demand Distortion,19642,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_i_tdd[3],IL4 Total Demand Distortion,19644,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_i_sym,Current Unsymmetrical,19646,%,1,0,float,1,0,,,99999999.0,-99999999.0
-_uln_cf[0],ULN1 Crest Factor,19648,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_uln_cf[1],ULN2 Crest Factor,19650,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_uln_cf[2],ULN3 Crest Factor,19652,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_cf[0],UL1-L2 Crest Factor,19654,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_cf[1],UL2-L3 Crest Factor,19656,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_cf[2],UL3-L1 Crest Factor,19658,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_iln_cf[0],IL1 Crest Factor,19660,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_iln_cf[1],IL2 Crest Factor,19662,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_iln_cf[2],IL3 Crest Factor,19664,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_iln_cf[3],IL4 Crest Factor,19666,-,1,0,float,1,0,,,99999999.0,-99999999.0
-_dln[0],IL1 Distortion reactive power,19668,var,1,0,float,1,0,,,99999999.0,-99999999.0
-_dln[1],IL2 Distortion reactive power,19670,var,1,0,float,1,0,,,99999999.0,-99999999.0
-_dln[2],IL3 Distortion reactive power,19672,var,1,0,float,1,0,,,99999999.0,-99999999.0
-_dln[3],IL4 Distortion reactive power,19674,var,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_re[0],"Voltage, real part L1-L2",19676,V,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_re[1],"Voltage, real part L2-L3",19678,V,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_re[2],"Voltage, real part L3-L1",19680,V,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_im[0],"Voltage, imaginary part L1-L2",19682,V,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_im[1],"Voltage, imaginary part L2-L3",19684,V,1,0,float,1,0,,,99999999.0,-99999999.0
-_ull_im[2],"Voltage, imaginary part L3-L1",19686,V,1,0,float,1,0,,,99999999.0,-99999999.0
-_irated_tdd[0],Maximum demand load current IL1,19688,A,1,0,float,1,0,,,99999999.0,-99999999.0
-_irated_tdd[1],Maximum demand load current IL2,19690,A,1,0,float,1,0,,,99999999.0,-99999999.0
-_irated_tdd[2],Maximum demand load current IL3,19692,A,1,0,float,1,0,,,99999999.0,-99999999.0
-_irated_tdd[3],Maximum demand load current IL4,19694,A,1,0,float,1,0,,,99999999.0,-99999999.0
-_TRANSFORMER_RATIO_LOCK,"Lock Transformer Ratios, 0=not locked, 1=locked",19716,-,1,0,short,1,0,,,99999999.0,-99999999.0
+﻿description;axTypeVariableName;plcVariableName;mbHandler;mqttPayload;mbRegister;mbFunctionCode;mbUnit;mqttLowerLimit;mqttUpperLimit;mbScaling;mbOffset;mbType;mbTypeSize;mqttScaling;mqttName;mqttOffset;mqttUnit;mqttDecimals
+Voltage L1-N;G_ULN_0_;G_ULN_0_;1;1;19000;4;varh;-9999999;9999999;1;0;float;32;1;_G_ULN[0];0;varh;3
+Voltage L2-N;G_ULN_1_;G_ULN_1_;1;1;19002;4;varh;-9999999;9999999;1;0;float;32;1;_G_ULN[1];0;varh;3
+Voltage L3-N;G_ULN_2_;G_ULN_2_;1;1;19004;4;varh;-9999999;9999999;1;0;float;32;1;_G_ULN[2];0;varh;3
+Voltage L1-L2;G_ULL_0_;G_ULL_0_;1;1;19006;4;varh;-9999999;9999999;1;0;float;32;1;_G_ULL[0];0;varh;3
+Voltage L2-L3;G_ULL_1_;G_ULL_1_;1;1;19008;4;varh;-9999999;9999999;1;0;float;32;1;_G_ULL[1];0;varh;3
+Voltage L3-L1;G_ULL_2_;G_ULL_2_;1;1;19010;4;varh;-9999999;9999999;1;0;float;32;1;_G_ULL[2];0;varh;3
+Apparent current, L1-N;G_ILN_0_;G_ILN_0_;1;1;19012;4;varh;-9999999;9999999;1;0;float;32;1;_G_ILN[0];0;varh;3
+Apparent current, L2-N;G_ILN_1_;G_ILN_1_;1;1;19014;4;varh;-9999999;9999999;1;0;float;32;1;_G_ILN[1];0;varh;3
+Apparent current, L3-N;G_ILN_2_;G_ILN_2_;1;1;19016;4;varh;-9999999;9999999;1;0;float;32;1;_G_ILN[2];0;varh;3
+"Vector sum; IN=I1+I2+I3";G_I_SUM3;G_I_SUM3;1;1;19018;4;varh;-9999999;9999999;1;0;float;32;1;_G_I_SUM3;0;varh;3
+Real power L1-N;G_PLN_0_;G_PLN_0_;1;1;19020;4;varh;-9999999;9999999;1;0;float;32;1;_G_PLN[0];0;varh;3
+Real power L2-N;G_PLN_1_;G_PLN_1_;1;1;19022;4;%;-9999999;9999999;1;0;float;32;1;_G_PLN[1];0;%;3
+Real power L3-N;G_PLN_2_;G_PLN_2_;1;1;19024;4;%;-9999999;9999999;1;0;float;32;1;_G_PLN[2];0;%;3
+Psum3=P1+P2+P3;G_P_SUM3;G_P_SUM3;1;1;19026;4;%;-9999999;9999999;1;0;float;32;1;_G_P_SUM3;0;%;3
+Apparent power L1-N;G_SLN_0_;G_SLN_0_;1;1;19028;4;%;-9999999;9999999;1;0;float;32;1;_G_SLN[0];0;%;3
+Apparent power L2-N;G_SLN_1_;G_SLN_1_;1;1;19030;4;%;-9999999;9999999;1;0;float;32;1;_G_SLN[1];0;%;3
+Apparent power L3-N;G_SLN_2_;G_SLN_2_;1;1;19032;4;%;-9999999;9999999;1;0;float;32;1;_G_SLN[2];0;%;3
+"Sum; Ssum3=S1+S2+S3";G_S_SUM3;G_S_SUM3;1;1;19034;4;V;-9999999;9999999;1;0;float;32;1;_G_S_SUM3;0;V;3
+Reactive power L1 (fundamental comp.);G_QLN_0_;G_QLN_0_;1;1;19036;4;V;-9999999;9999999;1;0;float;32;1;_G_QLN[0];0;V;3
+Reactive power L2 (fundamental comp.);G_QLN_1_;G_QLN_1_;1;1;19038;4;A;-9999999;9999999;1;0;float;32;1;_G_QLN[1];0;A;3
+Reactive power L3 (fundamental comp.);G_QLN_2_;G_QLN_2_;1;1;19040;4;-;-9999999;9999999;1;0;float;32;1;_G_QLN[2];0;-;3
+Qsum3=Q1+Q2+Q3 (fundamental comp.);G_Q_SUM3;G_Q_SUM3;1;1;19042;4;%;-9999999;9999999;1;0;float;32;1;_G_Q_SUM3;0;%;3
+"CosPhi; UL1 IL1 (fundamental comp.)";G_COS_PHI_0_;G_COS_PHI_0_;1;1;19044;4;%;-9999999;9999999;1;0;float;32;1;_G_COS_PHI[0];0;%;3
+"CosPhi; UL2 IL2 (fundamental comp.)";G_COS_PHI_1_;G_COS_PHI_1_;1;1;19046;4;%;-9999999;9999999;1;0;float;32;1;_G_COS_PHI[1];0;%;3
+"CosPhi; UL3 IL3 (fundamental comp.)";G_COS_PHI_2_;G_COS_PHI_2_;1;1;19048;4;%;-9999999;9999999;1;0;float;32;1;_G_COS_PHI[2];0;%;3
+Measured frequency;G_FREQ;G_FREQ;1;1;19050;4;%;-9999999;9999999;1;0;float;32;1;_G_FREQ;0;%;3
+"Rotation field; 1=right, 0=none, -1=left";G_PHASE_SEQ;G_PHASE_SEQ;1;1;19052;4;-;-9999999;9999999;1;0;float;32;1;_G_PHASE_SEQ;0;-;3
+Real energy L1;G_WH_0_;G_WH_0_;1;2;19054;4;-;-9999999;9999999;1;0;float;32;1;_G_WH[0];0;-;3
+Real energy L2;G_WH_1_;G_WH_1_;1;2;19056;4;-;-9999999;9999999;1;0;float;32;1;_G_WH[1];0;-;3
+Real energy L3;G_WH_2_;G_WH_2_;1;2;19058;4;-;-9999999;9999999;1;0;float;32;1;_G_WH[2];0;-;3
+Real energy L1..L3;G_WH_SUML13;G_WH_SUML13;1;2;19060;4;-;-9999999;9999999;1;0;float;32;1;_G_WH_SUML13;0;-;3
+Real energy L1, consumed;G_WH_V_0_;G_WH_V_0_;1;2;19062;4;-;-9999999;9999999;1;0;float;32;1;_G_WH_V[0];0;-;3
+Real energy L2, consumed;G_WH_V_1_;G_WH_V_1_;1;2;19064;4;-;-9999999;9999999;1;0;float;32;1;_G_WH_V[1];0;-;3
+Real energy L3, consumed;G_WH_V_2_;G_WH_V_2_;1;2;19066;4;-;-9999999;9999999;1;0;float;32;1;_G_WH_V[2];0;-;3
+Real energy L1..L3, consumed, rate 1;G_WH_V_HT_SUML13;G_WH_V_HT_SUML13;1;2;19068;4;-;-9999999;9999999;1;0;float;32;1;_G_WH_V_HT_SUML13;0;-;3
+Real energy L1, delivered;G_WH_Z_0_;G_WH_Z_0_;1;2;19070;4;-;-9999999;9999999;1;0;float;32;1;_G_WH_Z[0];0;-;3
+Real energy L2, delivered;G_WH_Z_1_;G_WH_Z_1_;1;2;19072;4;var;-9999999;9999999;1;0;float;32;1;_G_WH_Z[1];0;var;3
+Real energy L3, delivered;G_WH_Z_2_;G_WH_Z_2_;1;2;19074;4;var;-9999999;9999999;1;0;float;32;1;_G_WH_Z[2];0;var;3
+Real energy L1..L3, delivered;G_WH_Z_SUML13;G_WH_Z_SUML13;1;2;19076;4;var;-9999999;9999999;1;0;float;32;1;_G_WH_Z_SUML13;0;var;3
+Apparent energy L1;G_WH_S_0_;G_WH_S_0_;1;2;19078;4;var;-9999999;9999999;1;0;float;32;1;_G_WH_S[0];0;var;3
+Apparent energy L2;G_WH_S_1_;G_WH_S_1_;1;2;19080;4;V;-9999999;9999999;1;0;float;32;1;_G_WH_S[1];0;V;3
+Apparent energy L3;G_WH_S_2_;G_WH_S_2_;1;2;19082;4;V;-9999999;9999999;1;0;float;32;1;_G_WH_S[2];0;V;3
+Apparent energy L1..L3;G_WH_S_SUML13;G_WH_S_SUML13;1;2;19084;4;V;-9999999;9999999;1;0;float;32;1;_G_WH_S_SUML13;0;V;3
+Reactive energy L1 (fundamental comp.);G_QH_0_;G_QH_0_;1;2;19086;4;V;-9999999;9999999;1;0;float;32;1;_G_QH[0];0;V;3
+Reactive energy L2 (fundamental comp.);G_QH_1_;G_QH_1_;1;2;19088;4;V;-9999999;9999999;1;0;float;32;1;_G_QH[1];0;V;3
+Reactive energy L3 (fundamental comp.);G_QH_2_;G_QH_2_;1;2;19090;4;V;-9999999;9999999;1;0;float;32;1;_G_QH[2];0;V;3
+Reactive energy L1..L3 (fundamental comp.);G_QH_SUML13;G_QH_SUML13;1;2;19092;4;A;-9999999;9999999;1;0;float;32;1;_G_QH_SUML13;0;A;3
+Reactive energy, inductive, L1 (fundamental comp.);G_IQH_0_;G_IQH_0_;1;2;19094;4;A;-9999999;9999999;1;0;float;32;1;_G_IQH[0];0;A;3
+Reactive energy, inductive, L2 (fundamental comp.);G_IQH_1_;G_IQH_1_;1;2;19096;4;A;-9999999;9999999;1;0;float;32;1;_G_IQH[1];0;A;3
+Reactive energy, inductive, L3 (fundamental comp.);G_IQH_2_;G_IQH_2_;1;2;19098;4;A;-9999999;9999999;1;0;float;32;1;_G_IQH[2];0;A;3
+Reactive energy L1..L3, ind. (fundamental comp.);G_IQH_SUML13;G_IQH_SUML13;1;2;19100;4;-;-9999999;9999999;1;0;float;32;1;_G_IQH_SUML13;0;-;3
+Reactive energy, capacitive, L1 (fundamental comp.);G_CQH_0_;G_CQH_0_;1;2;19102;4;varh;-9999999;9999999;1;0;float;32;1;_G_CQH[0];0;varh;3
+Reactive energy, capacitive, L2 (fundamental comp.);G_CQH_1_;G_CQH_1_;1;2;19104;4;varh;-9999999;9999999;1;0;float;32;1;_G_CQH[1];0;varh;3
+Reactive energy, capacitive, L3 (fundamental comp.);G_CQH_2_;G_CQH_2_;1;2;19106;4;varh;-9999999;9999999;1;0;float;32;1;_G_CQH[2];0;varh;3
+Reactive energy L1..L3, cap. (fundamental comp.);G_CQH_SUML13;G_CQH_SUML13;1;2;19108;4;varh;-9999999;9999999;1;0;float;32;1;_G_CQH_SUML13;0;varh;3
+Harmonic, THD,U L1-N;G_THD_ULN_0_;G_THD_ULN_0_;1;2;19110;4;%;-9999999;9999999;1;0;float;32;1;_G_THD_ULN[0];0;%;3
+Harmonic, THD,U L2-N;G_THD_ULN_1_;G_THD_ULN_1_;1;2;19112;4;%;-9999999;9999999;1;0;float;32;1;_G_THD_ULN[1];0;%;3
+Harmonic, THD,U L3-N;G_THD_ULN_2_;G_THD_ULN_2_;1;2;19114;4;%;-9999999;9999999;1;0;float;32;1;_G_THD_ULN[2];0;%;3
+Harmonic, THD,I L1;G_THD_ILN_0_;G_THD_ILN_0_;1;2;19116;4;%;-9999999;9999999;1;0;float;32;1;_G_THD_ILN[0];0;%;3
+Harmonic, THD,I L2;G_THD_ILN_1_;G_THD_ILN_1_;1;2;19118;4;%;-9999999;9999999;1;0;float;32;1;_G_THD_ILN[1];0;%;3
+Harmonic, THD,I L3;G_THD_ILN_2_;G_THD_ILN_2_;1;2;19120;4;%;-9999999;9999999;1;0;float;32;1;_G_THD_ILN[2];0;%;3
+Average, ULN = (ULN1+ULN2+ULN3)/3;uln_avg_sum;uln_avg_sum;2;1;19330;4;V;-9999999;9999999;1;0;float;32;1;_uln_avg_sum;0;V;3
+Average, ULL = (UL1-L2+UL2-L3+UL3-L1)/3;ull_avg_sum;ull_avg_sum;2;1;19332;4;V;-9999999;9999999;1;0;float;32;1;_ull_avg_sum;0;V;3
+Average, IL = (IL1+IL2+IL3)/3;iin_avg_sum;iin_avg_sum;2;1;19334;4;A;-9999999;9999999;1;0;float;32;1;_iin_avg_sum;0;A;3
+Average, PF = (PF1+PF2+PF3)/3;pf_total;pf_total;2;1;19336;4;-;-9999999;9999999;1;0;float;32;1;_pf_total;0;-;3
+IL1 Total Demand Distortion;i_tdd_0_;i_tdd_0_;3;1;19638;4;%;-9999999;9999999;1;0;float;32;1;_i_tdd[0];0;%;3
+IL2 Total Demand Distortion;i_tdd_1_;i_tdd_1_;3;1;19640;4;%;-9999999;9999999;1;0;float;32;1;_i_tdd[1];0;%;3
+IL3 Total Demand Distortion;i_tdd_2_;i_tdd_2_;3;1;19642;4;%;-9999999;9999999;1;0;float;32;1;_i_tdd[2];0;%;3
+IL4 Total Demand Distortion;i_tdd_3_;i_tdd_3_;3;1;19644;4;%;-9999999;9999999;1;0;float;32;1;_i_tdd[3];0;%;3
+Current Unsymmetrical;i_sym;i_sym;3;1;19646;4;%;-9999999;9999999;1;0;float;32;1;_i_sym;0;%;3
+ULN1 Crest Factor;uln_cf_0_;uln_cf_0_;3;1;19648;4;-;-9999999;9999999;1;0;float;32;1;_uln_cf[0];0;-;3
+ULN2 Crest Factor;uln_cf_1_;uln_cf_1_;3;1;19650;4;-;-9999999;9999999;1;0;float;32;1;_uln_cf[1];0;-;3
+ULN3 Crest Factor;uln_cf_2_;uln_cf_2_;3;1;19652;4;-;-9999999;9999999;1;0;float;32;1;_uln_cf[2];0;-;3
+UL1-L2 Crest Factor;ull_cf_0_;ull_cf_0_;3;1;19654;4;-;-9999999;9999999;1;0;float;32;1;_ull_cf[0];0;-;3
+UL2-L3 Crest Factor;ull_cf_1_;ull_cf_1_;3;1;19656;4;-;-9999999;9999999;1;0;float;32;1;_ull_cf[1];0;-;3
+UL3-L1 Crest Factor;ull_cf_2_;ull_cf_2_;3;1;19658;4;-;-9999999;9999999;1;0;float;32;1;_ull_cf[2];0;-;3
+IL1 Crest Factor;iln_cf_0_;iln_cf_0_;3;1;19660;4;-;-9999999;9999999;1;0;float;32;1;_iln_cf[0];0;-;3
+IL2 Crest Factor;iln_cf_1_;iln_cf_1_;3;1;19662;4;-;-9999999;9999999;1;0;float;32;1;_iln_cf[1];0;-;3
+IL3 Crest Factor;iln_cf_2_;iln_cf_2_;3;1;19664;4;-;-9999999;9999999;1;0;float;32;1;_iln_cf[2];0;-;3
+IL4 Crest Factor;iln_cf_3_;iln_cf_3_;3;1;19666;4;-;-9999999;9999999;1;0;float;32;1;_iln_cf[3];0;-;3
+IL1 Distortion reactive power;dln_0_;dln_0_;3;1;19668;4;var;-9999999;9999999;1;0;float;32;1;_dln[0];0;var;3
+IL2 Distortion reactive power;dln_1_;dln_1_;3;1;19670;4;var;-9999999;9999999;1;0;float;32;1;_dln[1];0;var;3
+IL3 Distortion reactive power;dln_2_;dln_2_;3;1;19672;4;var;-9999999;9999999;1;0;float;32;1;_dln[2];0;var;3
+IL4 Distortion reactive power;dln_3_;dln_3_;3;1;19674;4;var;-9999999;9999999;1;0;float;32;1;_dln[3];0;var;3
+Voltage, real part L1-L2;ull_re_0_;ull_re_0_;3;1;19676;4;V;-9999999;9999999;1;0;float;32;1;_ull_re[0];0;V;3
+Voltage, real part L2-L3;ull_re_1_;ull_re_1_;3;1;19678;4;V;-9999999;9999999;1;0;float;32;1;_ull_re[1];0;V;3
+Voltage, real part L3-L1;ull_re_2_;ull_re_2_;3;1;19680;4;V;-9999999;9999999;1;0;float;32;1;_ull_re[2];0;V;3
+Voltage, imaginary part L1-L2;ull_im_0_;ull_im_0_;3;1;19682;4;V;-9999999;9999999;1;0;float;32;1;_ull_im[0];0;V;3
+Voltage, imaginary part L2-L3;ull_im_1_;ull_im_1_;3;1;19684;4;V;-9999999;9999999;1;0;float;32;1;_ull_im[1];0;V;3
+Voltage, imaginary part L3-L1;ull_im_2_;ull_im_2_;3;1;19686;4;V;-9999999;9999999;1;0;float;32;1;_ull_im[2];0;V;3
+Maximum demand load current IL1;irated_tdd_0_;irated_tdd_0_;3;1;19688;4;A;-9999999;9999999;1;0;float;32;1;_irated_tdd[0];0;A;3
+Maximum demand load current IL2;irated_tdd_1_;irated_tdd_1_;3;1;19690;4;A;-9999999;9999999;1;0;float;32;1;_irated_tdd[1];0;A;3
+Maximum demand load current IL3;irated_tdd_2_;irated_tdd_2_;3;1;19692;4;A;-9999999;9999999;1;0;float;32;1;_irated_tdd[2];0;A;3
+Maximum demand load current IL4;irated_tdd_3_;irated_tdd_3_;3;1;19694;4;A;-9999999;9999999;1;0;float;32;1;_irated_tdd[3];0;A;3
+Lock Transformer Ratios, 0=not locked, 1=locked;TRANSFORMER_RATIO_LOCK;TRANSFORMER_RATIO_LOCK;3;1;19716;4;-;-9999999;9999999;1;0;float;32;1;_TRANSFORMER_RATIO_LOCK;0;-;3
