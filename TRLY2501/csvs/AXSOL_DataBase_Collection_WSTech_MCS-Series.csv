@@ -116,5 +116,6 @@ MCS_Q_Mode,,24005,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
 #_MCU_Island_Frequency_Set_Point,,24111,Hz,0.001,0,UINT16,4,100,U#_SP_F_Island,,99999999.0,-99999999.0
 #_MCU_Operating_Mode,,24112,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
 #_MCU_Error_Reset,,24113,NoUnit,1.0,0,UINT16,4,100,Error_Ack,??->pleasereview!,99999999.0,-99999999.0
-#_MCU_Heartbeat,,24114,NoUnit,1.0,0,UINT16,4,100,,"unsure.Notplannedcurrently,maybenecessary,discusswithConsti",99999999.0,-99999999.0
-#_MCU_CosPhi_Set,,24115,NoUnit,1.0,0,UINT16,4,100,,"unsure.Notplannedcurrently,maybenecessary,discusswithConsti",99999999.0,-99999999.0
+"#_MCU_Heartbeat,,24114,NoUnit,1.0,0,UINT16,4,100,,""unsure.Notplannedcurrently,maybenecessary,discusswithConsti"",99999999.0,-99999999.0"
+"#_MCU_CosPhi_Set,,24115,NoUnit,1.0,0,UINT16,4,100,,""unsure.Notplannedcurrently,maybenecessary,discusswithConsti"",99999999.0,-99999999.0"
+1
