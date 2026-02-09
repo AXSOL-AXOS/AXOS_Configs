@@ -1,120 +1,393 @@
-Topic,Description,Register Address,Unit,Scaling,Offset,type,Multiplier,AddressOffset,AXSOL Name,AXSOL Unit & Resolution,upperLimit,lowerLimit
-MCMC_Software_Version,,8000,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCMC_Interface_Version,,8001,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-Ambient_Temperature,,8002,°C,0.1,0,INT16,1,0,ME_Temp_Amb,,99999999.0,-99999999.0
-MCS_Error_Code_1,,8003,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Error_Code_2,,8004,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Error_Code_3,,8005,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Error_Code_4,,8006,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Error_Code_5,,8007,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Error_Code_6,,8008,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Error_Code_7,,8009,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Error_Code_8,,8010,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Warning_Code_1,,8011,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Warning_Code_2,,8012,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Warning_Code_3,,8013,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Warning_Code_4,,8014,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Warning_Code_5,,8015,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Warning_Code_6,,8016,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Warning_Code_7,,8017,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Warning_Code_8,,8018,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Modbus_TCP_Write_Error_Address,,8019,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_MV_Transformer_Temperature,,8020,°C,0.1,0,INT16,1,0,ME_Temp_Panel,,99999999.0,-99999999.0
-MCS_Cooling_Status_MCU12,,8021,U/min,1000.0,0,INT16,1,0,,,99999999.0,-99999999.0
-MCS_Cooling_Status_MCU34,,8022,U/min,1000.0,0,INT16,1,0,,,99999999.0,-99999999.0
-#_MCU_Grid_Voltage_L1N,,8100,V,0.1,0,UINT16,4,100,U#_ME_V_L1N,,99999999.0,-99999999.0
-#_MCU_Grid_Voltage_L2N,,8101,V,0.1,0,UINT16,4,100,U#_ME_V_L2N,,99999999.0,-99999999.0
-#_MCU_Grid_Voltage_L3N,,8102,V,0.1,0,UINT16,4,100,U#_ME_V_L3N,,99999999.0,-99999999.0
-#_MCU_Grid_Voltage_L12,,8103,V,0.1,0,UINT16,4,100,U#_ME_V_L12,,99999999.0,-99999999.0
-#_MCU_Grid_Voltage_L23,,8104,V,0.1,0,UINT16,4,100,U#_ME_V_L23,,99999999.0,-99999999.0
-#_MCU_Grid_Voltage_L31,,8105,V,0.1,0,UINT16,4,100,U#_ME_V_L31,,99999999.0,-99999999.0
-#_MCU_Grid_Frequency,,8106,Hz,0.001,0,UINT16,4,100,U#_ME_F,,99999999.0,-99999999.0
-#_MCU_Grid_Current_L1,,8107,A,0.1,0,UINT16,4,100,U#_ME_I_L1,,99999999.0,-99999999.0
-#_MCU_Grid_Current_L2,,8108,A,0.1,0,UINT16,4,100,U#_ME_I_L2,,99999999.0,-99999999.0
-#_MCU_Grid_Current_L3,,8109,A,0.1,0,UINT16,4,100,U#_ME_I_L3,,99999999.0,-99999999.0
-#_MCU_Active_Power_Total,,8110,kW,0.1,0,INT16,4,100,U#_ME_P_Tot,,99999999.0,-99999999.0
-#_MCU_Active_Power_L1,,8111,kW,0.1,0,INT16,4,100,U#_ME_P_L1,,99999999.0,-99999999.0
-#_MCU_Active_Power_L2,,8112,kW,0.1,0,INT16,4,100,U#_ME_P_L2,,99999999.0,-99999999.0
-#_MCU_Active_Power_L3,,8113,kW,0.1,0,INT16,4,100,U#_ME_P_L3,,99999999.0,-99999999.0
-#_MCU_Reactive_Power_Total,,8114,kvar,0.1,0,INT16,4,100,U#_ME_Q_Tot,,99999999.0,-99999999.0
-#_MCU_Reactive_Power_L1,,8115,kvar,0.1,0,INT16,4,100,U#_ME_Q_L1,,99999999.0,-99999999.0
-#_MCU_Reactive_Power_L2,,8116,kvar,0.1,0,INT16,4,100,U#_ME_Q_L2,,99999999.0,-99999999.0
-#_MCU_Reactive_Power_L3,,8117,kvar,0.1,0,INT16,4,100,U#_ME_Q_L3,,99999999.0,-99999999.0
-#_MCU_DC_Voltage,,8118,V,0.1,0,UINT16,4,100,U#_ME_V_DC,,99999999.0,-99999999.0
-#_MCU_DC_Current,,8119,A,0.1,0,INT16,4,100,U#_ME_I_DC,,99999999.0,-99999999.0
-#_MCU_DC_Power,,8120,kW,0.1,0,INT16,4,100,U#_ME_P_DC,,99999999.0,-99999999.0
-#_MCU_Inductor_Temperature,,8121,°C,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_IGBT_Temperature_L1,,8122,°C,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_IGBT_Temperature_L2,,8123,°C,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_IGBT_Temperature_L3,,8124,°C,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Applied_Active_Power_Limit,,8125,kW,0.1,0,INT16,4,100,U#_LIM_P,,99999999.0,-99999999.0
-#_MCU_Applied_Reactive_Power_Limit,,8126,kvar,0.1,0,INT16,4,100,U#_LIM_Q,,99999999.0,-99999999.0
-#_MCU_Applied_DC_Voltage_Maximum,,8127,V,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Applied_DC_Voltage_Minimum,,8128,V,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Applied_Positive_DC_Current_Limit,,8129,A,0.1,0,INT16,4,100,U#_LIM_I_DC_Pos,,99999999.0,-99999999.0
-#_MCU_Applied_Negative_DC_Current_Limit,,8130,A,0.1,0,INT16,4,100,U#_LIM_I_DC_Pos,,99999999.0,-99999999.0
-#_MCU_Energy_Counter_Positive_Total,,8131,kWh,0.1,0,UINT32,4,100,U#_CT_E_Pos_Tot,,99999999.0,-99999999.0
-#_MCU_Energy_Counter_Negative_Total,,8133,kWh,0.1,0,UINT32,4,100,U#_CT_E_Neg_Tot,,99999999.0,-99999999.0
-#_MCU_Error_Code_1,,8135,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Error_Code_2,,8136,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Error_Code_3,,8137,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Error_Code_4,,8138,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Error_Code_5,,8139,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Error_Code_6,,8140,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Error_Code_7,,8141,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Error_Code_8,,8142,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Operating_State,,8143,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Start_Countdown,,8144,s,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Humidity,,8145,%rh,0.1,0,UINT16,4,100,U#_ME_Hum,,99999999.0,-99999999.0
-#_MCU_PCB_Temperature,,8146,°C,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Insulation_Resistance,,8147,kΩ,0.1,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Leakage_Capacitance,,8148,µF,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Firmware_Version,,8149,V,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_DC_Positive_Voltage,,8150,V,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_DC_Negative_Voltage,,8151,V,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positiv_Ah_Counter_1,,10000,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Negativ_Ah_Counter_1,,10002,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Current_1,,10004,A,0.01,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positiv_Ah_Counter_2,,10005,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Negativ_Ah_Counter_2,,10007,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Current_2,,10009,A,0.01,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positiv_Ah_Counter_3,,10010,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Negativ_Ah_Counter_3,,10012,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Current_3,,10014,A,0.01,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positiv_Ah_Counter_4,,10015,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Negativ_Ah_Counter_4,,10017,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Current_4,,10019,A,0.01,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positiv_Ah_Counter_5,,10020,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Negativ_Ah_Counter_5,,10022,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Current_5,,10024,A,0.01,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positiv_Ah_Counter_6,,10025,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Negativ_Ah_Counter_6,,10027,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Current_6,,10029,A,0.01,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positiv_Ah_Counter_7,,10030,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Negativ_Ah_Counter_7,,10032,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Current_7,,10034,A,0.01,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positiv_Ah_Counter_8,,10035,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Negativ_Ah_Counter_8,,10037,Ah,0.01,0,UINT32,4,100,,,99999999.0,-99999999.0
-#_MCU_Current_8,,10039,A,0.01,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_DC_Input_Voltage,,10040,V,0.1,0,UINT16,4,100,,,99999999.0,-99999999.0
-MCS_Error_Reset,,24000,NoUnit,1.0,0,UINT16,1,0,Error_Ack,,99999999.0,-99999999.0
-MCS_Activate_Modbus_TCP_Interface,,24001,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-MCS_Q_U_Offset,,24002,%,0.001,0,INT16,1,0,,,99999999.0,-99999999.0
-User_Reset,,24003,NoUnit,1.0,0,UINT32,1,0,,,99999999.0,-99999999.0
-MCS_Q_Mode,,24005,NoUnit,1.0,0,UINT16,1,0,,,99999999.0,-99999999.0
-#_MCU_Active_Power_Set_Point,,24100,kW,1.0,0,INT16,4,100,U#_SP_P,,99999999.0,-99999999.0
-#_MCU_Active_Power_Set_Point_decimal_place,,24101,kW,0.1,0,UINT16,4,100,U#_SP_P,,99999999.0,-99999999.0
-#_MCU_Reactive_Power_Set_Point,,24102,kvar,1.0,0,INT16,4,100,U#_SP_Q,,99999999.0,-99999999.0
-#_MCU_Reactive_Power_Set_Point_decimal_place,,24103,kvar,0.1,0,UINT16,4,100,U#_SP_Q,,99999999.0,-99999999.0
-#_MCU_DC_Voltage_Maximum,,24104,V,0.1,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_DC_Voltage_Minimum,,24105,V,0.1,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positive_DC_Current_Limit,,24106,A,1.0,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Positive_DC_Current_Limit_decimal_place,,24107,A,0.1,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Negative_DC_Current_Limit,,24108,A,1.0,0,INT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Negative_DC_Current_Limit_decimal_place,,24109,A,0.1,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Island_Voltage_Set_Point,,24110,V,1.0,0,UINT16,4,100,U#_SP_V_Islland,,99999999.0,-99999999.0
-#_MCU_Island_Frequency_Set_Point,,24111,Hz,0.001,0,UINT16,4,100,U#_SP_F_Island,,99999999.0,-99999999.0
-#_MCU_Operating_Mode,,24112,NoUnit,1.0,0,UINT16,4,100,,,99999999.0,-99999999.0
-#_MCU_Error_Reset,,24113,NoUnit,1.0,0,UINT16,4,100,Error_Ack,??->pleasereview!,99999999.0,-99999999.0
-"#_MCU_Heartbeat,,24114,NoUnit,1.0,0,UINT16,4,100,,""unsure.Notplannedcurrently,maybenecessary,discusswithConsti"",99999999.0,-99999999.0"
-"#_MCU_CosPhi_Set,,24115,NoUnit,1.0,0,UINT16,4,100,,""unsure.Notplannedcurrently,maybenecessary,discusswithConsti"",99999999.0,-99999999.0"
+﻿description;axTypeVariableName;plcVariableName;mbHandler;mqttPayload;mbRegister;mbFunctionCode;mbUnit;mqttLowerLimit;mqttUpperLimit;mbScaling;mbOffset;mbType;mbTypeSize;mqttScaling;mqttName;mqttOffset;mqttUnit;mqttDecimals
+MCMC Software Version;;MCMC_Software_Version;1;1;8000;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCMC Interface Version;;MCMC_Interface_Version;1;1;8001;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+Ambient Temperature;;Ambient_Temperature;1;1;8002;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCS Error Code 1;;MCS_Error_Code_1;1;1;8003;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Error Code 2;;MCS_Error_Code_2;1;1;8004;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Error Code 3;;MCS_Error_Code_3;1;1;8005;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Error Code 4;;MCS_Error_Code_4;1;1;8006;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Error Code 5;;MCS_Error_Code_5;1;1;8007;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Error Code 6;;MCS_Error_Code_6;1;1;8008;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Error Code 7;;MCS_Error_Code_7;1;1;8009;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Error Code 8;;MCS_Error_Code_8;1;1;8010;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Warning Code 1;;MCS_Warning_Code_1;1;1;8011;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Warning Code 2;;MCS_Warning_Code_2;1;1;8012;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Warning Code 3;;MCS_Warning_Code_3;1;1;8013;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Warning Code 4;;MCS_Warning_Code_4;1;1;8014;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Warning Code 5;;MCS_Warning_Code_5;1;1;8015;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Warning Code 6;;MCS_Warning_Code_6;1;1;8016;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Warning Code 7;;MCS_Warning_Code_7;1;1;8017;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Warning Code 8;;MCS_Warning_Code_8;1;1;8018;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Modbus TCP Write Error Address;;MCS_Modbus_TCP_Write_Error_Address;1;1;8019;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS MV Transformer Temperature;;MCS_MV_Transformer_Temperature;1;1;8020;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCS Cooling Status MCU12;;MCS_Cooling_Status_MCU12;1;1;8021;4;U/min;-9999999;9999999;1000;0;INT16;16;1;;0;U/min;3
+MCS Cooling Status MCU34;;MCS_Cooling_Status_MCU34;1;1;8022;4;U/min;-9999999;9999999;1000;0;INT16;16;1;;0;U/min;3
+MCU 1 Grid Voltage L1N;;MCU_Grid_Voltage_L1N;2;1;8100;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 Grid Voltage L2N;;MCU_Grid_Voltage_L2N;2;1;8101;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 Grid Voltage L3N;;MCU_Grid_Voltage_L3N;2;1;8102;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 Grid Voltage L12;;MCU_Grid_Voltage_L12;2;1;8103;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 Grid Voltage L23;;MCU_Grid_Voltage_L23;2;1;8104;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 Grid Voltage L31;;MCU_Grid_Voltage_L31;2;1;8105;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 Grid Frequency;;MCU_Grid_Frequency;2;1;8106;4;Hz;-9999999;9999999;0.001;0;UINT16;16;1;;0;Hz;3
+MCU 1 Grid Current L1;;MCU_Grid_Current_L1;2;1;8107;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 1 Grid Current L2;;MCU_Grid_Current_L2;2;1;8108;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 1 Grid Current L3;;MCU_Grid_Current_L3;2;1;8109;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 1 Active Power Total;;MCU_Active_Power_Total;2;1;8110;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 1 Active Power L1;;MCU_Active_Power_L1;2;1;8111;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 1 Active Power L2;;MCU_Active_Power_L2;2;1;8112;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 1 Active Power L3;;MCU_Active_Power_L3;2;1;8113;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 1 Reactive Power Total;;MCU_Reactive_Power_Total;2;1;8114;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 1 Reactive Power L1;;MCU_Reactive_Power_L1;2;1;8115;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 1 Reactive Power L2;;MCU_Reactive_Power_L2;2;1;8116;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 1 Reactive Power L3;;MCU_Reactive_Power_L3;2;1;8117;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 1 DC Voltage;;MCU_DC_Voltage;2;1;8118;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 1 DC Current;;MCU_DC_Current;2;1;8119;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 1 DC Power;;MCU_DC_Power;2;1;8120;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 1 Inductor Temperature;;MCU_Inductor_Temperature;2;1;8121;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 1 IGBT Temperature L1;;MCU_IGBT_Temperature_L1;2;1;8122;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 1 IGBT Temperature L2;;MCU_IGBT_Temperature_L2;2;1;8123;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 1 IGBT Temperature L3;;MCU_IGBT_Temperature_L3;2;1;8124;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 1 Applied Active Power Limit;;MCU_Applied_Active_Power_Limit;2;1;8125;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 1 Applied Reactive Power Limit;;MCU_Applied_Reactive_Power_Limit;2;1;8126;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 1 Applied DC Voltage Maximum;;MCU_Applied_DC_Voltage_Maximum;2;1;8127;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 1 Applied DC Voltage Minimum;;MCU_Applied_DC_Voltage_Minimum;2;1;8128;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 1 Applied Positive DC Current Limit;;MCU_Applied_Positive_DC_Current_Limit;2;1;8129;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 1 Applied Negative DC Current Limit;;MCU_Applied_Negative_DC_Current_Limit;2;1;8130;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 1 Energy Counter Positive Total;;MCU_Energy_Counter_Positive_Total;2;2;8131;4;kWh;-9999999;9999999;0.1;0;UINT32;32;1;;0;kWh;3
+MCU 1 Energy Counter Negative Total;;MCU_Energy_Counter_Negative_Total;2;2;8133;4;kWh;-9999999;9999999;0.1;0;UINT32;32;1;;0;kWh;3
+MCU 1 Error Code 1;;MCU_Error_Code_1;2;2;8135;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Error Code 2;;MCU_Error_Code_2;2;2;8136;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Error Code 3;;MCU_Error_Code_3;2;2;8137;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Error Code 4;;MCU_Error_Code_4;2;2;8138;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Error Code 5;;MCU_Error_Code_5;2;2;8139;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Error Code 6;;MCU_Error_Code_6;2;2;8140;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Error Code 7;;MCU_Error_Code_7;2;2;8141;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Error Code 8;;MCU_Error_Code_8;2;2;8142;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Operating State;;MCU_Operating_State;2;2;8143;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Start Countdown;;MCU_Start_Countdown;2;2;8144;4;s;-9999999;9999999;1;0;UINT16;16;1;;0;s;3
+MCU 1 Humidity;;MCU_Humidity;2;2;8145;4;%rh;-9999999;9999999;0.1;0;UINT16;16;1;;0;%rh;3
+MCU 1 PCB Temperature;;MCU_PCB_Temperature;2;2;8146;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 1 Insulation Resistance;;MCU_Insulation_Resistance;2;2;8147;4;kΩ;-9999999;9999999;0.1;0;UINT16;16;1;;0;kΩ;3
+MCU 1 Leakage Capacitance;;MCU_Leakage_Capacitance;2;2;8148;4;µF;-9999999;9999999;0.1;0;UINT16;16;1;;0;µF;3
+MCU 1 Firmware Version;;MCU_Firmware_Version;2;2;8149;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 DC Positive Voltage;;MCU_DC_Positive_Voltage;2;2;8150;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 1 DC Negative Voltage;;MCU_DC_Negative_Voltage;2;2;8151;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 2 Grid Voltage L1N;;MCU_Grid_Voltage_L1N;3;1;8200;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Grid Voltage L2N;;MCU_Grid_Voltage_L2N;3;1;8201;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Grid Voltage L3N;;MCU_Grid_Voltage_L3N;3;1;8202;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Grid Voltage L12;;MCU_Grid_Voltage_L12;3;1;8203;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Grid Voltage L23;;MCU_Grid_Voltage_L23;3;1;8204;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Grid Voltage L31;;MCU_Grid_Voltage_L31;3;1;8205;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Grid Frequency;;MCU_Grid_Frequency;3;1;8206;4;Hz;-9999999;9999999;0.001;0;UINT16;16;1;;0;Hz;3
+MCU 2 Grid Current L1;;MCU_Grid_Current_L1;3;1;8207;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 2 Grid Current L2;;MCU_Grid_Current_L2;3;1;8208;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 2 Grid Current L3;;MCU_Grid_Current_L3;3;1;8209;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 2 Active Power Total;;MCU_Active_Power_Total;3;1;8210;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 2 Active Power L1;;MCU_Active_Power_L1;3;1;8211;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 2 Active Power L2;;MCU_Active_Power_L2;3;1;8212;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 2 Active Power L3;;MCU_Active_Power_L3;3;1;8213;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 2 Reactive Power Total;;MCU_Reactive_Power_Total;3;1;8214;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 2 Reactive Power L1;;MCU_Reactive_Power_L1;3;1;8215;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 2 Reactive Power L2;;MCU_Reactive_Power_L2;3;1;8216;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 2 Reactive Power L3;;MCU_Reactive_Power_L3;3;1;8217;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 2 DC Voltage;;MCU_DC_Voltage;3;1;8218;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 2 DC Current;;MCU_DC_Current;3;1;8219;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 2 DC Power;;MCU_DC_Power;3;1;8220;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 2 Inductor Temperature;;MCU_Inductor_Temperature;3;1;8221;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 2 IGBT Temperature L1;;MCU_IGBT_Temperature_L1;3;1;8222;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 2 IGBT Temperature L2;;MCU_IGBT_Temperature_L2;3;1;8223;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 2 IGBT Temperature L3;;MCU_IGBT_Temperature_L3;3;1;8224;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 2 Applied Active Power Limit;;MCU_Applied_Active_Power_Limit;3;1;8225;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 2 Applied Reactive Power Limit;;MCU_Applied_Reactive_Power_Limit;3;1;8226;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 2 Applied DC Voltage Maximum;;MCU_Applied_DC_Voltage_Maximum;3;1;8227;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 2 Applied DC Voltage Minimum;;MCU_Applied_DC_Voltage_Minimum;3;1;8228;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 2 Applied Positive DC Current Limit;;MCU_Applied_Positive_DC_Current_Limit;3;1;8229;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 2 Applied Negative DC Current Limit;;MCU_Applied_Negative_DC_Current_Limit;3;1;8230;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 2 Energy Counter Positive Total;;MCU_Energy_Counter_Positive_Total;3;2;8231;4;kWh;-9999999;9999999;0.1;0;UINT32;32;1;;0;kWh;3
+MCU 2 Energy Counter Negative Total;;MCU_Energy_Counter_Negative_Total;3;2;8233;4;kWh;-9999999;9999999;0.1;0;UINT32;32;1;;0;kWh;3
+MCU 2 Error Code 1;;MCU_Error_Code_1;3;2;8235;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Error Code 2;;MCU_Error_Code_2;3;2;8236;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Error Code 3;;MCU_Error_Code_3;3;2;8237;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Error Code 4;;MCU_Error_Code_4;3;2;8238;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Error Code 5;;MCU_Error_Code_5;3;2;8239;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Error Code 6;;MCU_Error_Code_6;3;2;8240;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Error Code 7;;MCU_Error_Code_7;3;2;8241;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Error Code 8;;MCU_Error_Code_8;3;2;8242;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Operating State;;MCU_Operating_State;3;2;8243;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Start Countdown;;MCU_Start_Countdown;3;2;8244;4;s;-9999999;9999999;1;0;UINT16;16;1;;0;s;3
+MCU 2 Humidity;;MCU_Humidity;3;2;8245;4;%rh;-9999999;9999999;0.1;0;UINT16;16;1;;0;%rh;3
+MCU 2 PCB Temperature;;MCU_PCB_Temperature;3;2;8246;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 2 Insulation Resistance;;MCU_Insulation_Resistance;3;2;8247;4;kΩ;-9999999;9999999;0.1;0;UINT16;16;1;;0;kΩ;3
+MCU 2 Leakage Capacitance;;MCU_Leakage_Capacitance;3;2;8248;4;µF;-9999999;9999999;0.1;0;UINT16;16;1;;0;µF;3
+MCU 2 Firmware Version;;MCU_Firmware_Version;3;2;8249;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 DC Positive Voltage;;MCU_DC_Positive_Voltage;3;2;8250;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 2 DC Negative Voltage;;MCU_DC_Negative_Voltage;3;2;8251;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 3 Grid Voltage L1N;;MCU_Grid_Voltage_L1N;4;1;8300;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Grid Voltage L2N;;MCU_Grid_Voltage_L2N;4;1;8301;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Grid Voltage L3N;;MCU_Grid_Voltage_L3N;4;1;8302;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Grid Voltage L12;;MCU_Grid_Voltage_L12;4;1;8303;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Grid Voltage L23;;MCU_Grid_Voltage_L23;4;1;8304;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Grid Voltage L31;;MCU_Grid_Voltage_L31;4;1;8305;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Grid Frequency;;MCU_Grid_Frequency;4;1;8306;4;Hz;-9999999;9999999;0.001;0;UINT16;16;1;;0;Hz;3
+MCU 3 Grid Current L1;;MCU_Grid_Current_L1;4;1;8307;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 3 Grid Current L2;;MCU_Grid_Current_L2;4;1;8308;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 3 Grid Current L3;;MCU_Grid_Current_L3;4;1;8309;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 3 Active Power Total;;MCU_Active_Power_Total;4;1;8310;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 3 Active Power L1;;MCU_Active_Power_L1;4;1;8311;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 3 Active Power L2;;MCU_Active_Power_L2;4;1;8312;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 3 Active Power L3;;MCU_Active_Power_L3;4;1;8313;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 3 Reactive Power Total;;MCU_Reactive_Power_Total;4;1;8314;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 3 Reactive Power L1;;MCU_Reactive_Power_L1;4;1;8315;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 3 Reactive Power L2;;MCU_Reactive_Power_L2;4;1;8316;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 3 Reactive Power L3;;MCU_Reactive_Power_L3;4;1;8317;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 3 DC Voltage;;MCU_DC_Voltage;4;1;8318;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 3 DC Current;;MCU_DC_Current;4;1;8319;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 3 DC Power;;MCU_DC_Power;4;1;8320;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 3 Inductor Temperature;;MCU_Inductor_Temperature;4;1;8321;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 3 IGBT Temperature L1;;MCU_IGBT_Temperature_L1;4;1;8322;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 3 IGBT Temperature L2;;MCU_IGBT_Temperature_L2;4;1;8323;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 3 IGBT Temperature L3;;MCU_IGBT_Temperature_L3;4;1;8324;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 3 Applied Active Power Limit;;MCU_Applied_Active_Power_Limit;4;1;8325;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 3 Applied Reactive Power Limit;;MCU_Applied_Reactive_Power_Limit;4;1;8326;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 3 Applied DC Voltage Maximum;;MCU_Applied_DC_Voltage_Maximum;4;1;8327;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 3 Applied DC Voltage Minimum;;MCU_Applied_DC_Voltage_Minimum;4;1;8328;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 3 Applied Positive DC Current Limit;;MCU_Applied_Positive_DC_Current_Limit;4;1;8329;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 3 Applied Negative DC Current Limit;;MCU_Applied_Negative_DC_Current_Limit;4;1;8330;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 3 Energy Counter Positive Total;;MCU_Energy_Counter_Positive_Total;4;2;8331;4;kWh;-9999999;9999999;0.1;0;UINT32;32;1;;0;kWh;3
+MCU 3 Energy Counter Negative Total;;MCU_Energy_Counter_Negative_Total;4;2;8333;4;kWh;-9999999;9999999;0.1;0;UINT32;32;1;;0;kWh;3
+MCU 3 Error Code 1;;MCU_Error_Code_1;4;2;8335;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Error Code 2;;MCU_Error_Code_2;4;2;8336;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Error Code 3;;MCU_Error_Code_3;4;2;8337;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Error Code 4;;MCU_Error_Code_4;4;2;8338;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Error Code 5;;MCU_Error_Code_5;4;2;8339;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Error Code 6;;MCU_Error_Code_6;4;2;8340;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Error Code 7;;MCU_Error_Code_7;4;2;8341;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Error Code 8;;MCU_Error_Code_8;4;2;8342;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Operating State;;MCU_Operating_State;4;2;8343;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Start Countdown;;MCU_Start_Countdown;4;2;8344;4;s;-9999999;9999999;1;0;UINT16;16;1;;0;s;3
+MCU 3 Humidity;;MCU_Humidity;4;2;8345;4;%rh;-9999999;9999999;0.1;0;UINT16;16;1;;0;%rh;3
+MCU 3 PCB Temperature;;MCU_PCB_Temperature;4;2;8346;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 3 Insulation Resistance;;MCU_Insulation_Resistance;4;2;8347;4;kΩ;-9999999;9999999;0.1;0;UINT16;16;1;;0;kΩ;3
+MCU 3 Leakage Capacitance;;MCU_Leakage_Capacitance;4;2;8348;4;µF;-9999999;9999999;0.1;0;UINT16;16;1;;0;µF;3
+MCU 3 Firmware Version;;MCU_Firmware_Version;4;2;8349;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 DC Positive Voltage;;MCU_DC_Positive_Voltage;4;2;8350;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 3 DC Negative Voltage;;MCU_DC_Negative_Voltage;4;2;8351;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 4 Grid Voltage L1N;;MCU_Grid_Voltage_L1N;5;1;8400;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Grid Voltage L2N;;MCU_Grid_Voltage_L2N;5;1;8401;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Grid Voltage L3N;;MCU_Grid_Voltage_L3N;5;1;8402;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Grid Voltage L12;;MCU_Grid_Voltage_L12;5;1;8403;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Grid Voltage L23;;MCU_Grid_Voltage_L23;5;1;8404;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Grid Voltage L31;;MCU_Grid_Voltage_L31;5;1;8405;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Grid Frequency;;MCU_Grid_Frequency;5;1;8406;4;Hz;-9999999;9999999;0.001;0;UINT16;16;1;;0;Hz;3
+MCU 4 Grid Current L1;;MCU_Grid_Current_L1;5;1;8407;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 4 Grid Current L2;;MCU_Grid_Current_L2;5;1;8408;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 4 Grid Current L3;;MCU_Grid_Current_L3;5;1;8409;4;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 4 Active Power Total;;MCU_Active_Power_Total;5;1;8410;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 4 Active Power L1;;MCU_Active_Power_L1;5;1;8411;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 4 Active Power L2;;MCU_Active_Power_L2;5;1;8412;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 4 Active Power L3;;MCU_Active_Power_L3;5;1;8413;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 4 Reactive Power Total;;MCU_Reactive_Power_Total;5;1;8414;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 4 Reactive Power L1;;MCU_Reactive_Power_L1;5;1;8415;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 4 Reactive Power L2;;MCU_Reactive_Power_L2;5;1;8416;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 4 Reactive Power L3;;MCU_Reactive_Power_L3;5;1;8417;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 4 DC Voltage;;MCU_DC_Voltage;5;1;8418;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 4 DC Current;;MCU_DC_Current;5;1;8419;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 4 DC Power;;MCU_DC_Power;5;1;8420;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 4 Inductor Temperature;;MCU_Inductor_Temperature;5;1;8421;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 4 IGBT Temperature L1;;MCU_IGBT_Temperature_L1;5;1;8422;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 4 IGBT Temperature L2;;MCU_IGBT_Temperature_L2;5;1;8423;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 4 IGBT Temperature L3;;MCU_IGBT_Temperature_L3;5;1;8424;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 4 Applied Active Power Limit;;MCU_Applied_Active_Power_Limit;5;1;8425;4;kW;-9999999;9999999;0.1;0;INT16;16;1;;0;kW;3
+MCU 4 Applied Reactive Power Limit;;MCU_Applied_Reactive_Power_Limit;5;1;8426;4;kvar;-9999999;9999999;0.1;0;INT16;16;1;;0;kvar;3
+MCU 4 Applied DC Voltage Maximum;;MCU_Applied_DC_Voltage_Maximum;5;1;8427;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 4 Applied DC Voltage Minimum;;MCU_Applied_DC_Voltage_Minimum;5;1;8428;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 4 Applied Positive DC Current Limit;;MCU_Applied_Positive_DC_Current_Limit;5;1;8429;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 4 Applied Negative DC Current Limit;;MCU_Applied_Negative_DC_Current_Limit;5;1;8430;4;A;-9999999;9999999;0.1;0;INT16;16;1;;0;A;3
+MCU 4 Energy Counter Positive Total;;MCU_Energy_Counter_Positive_Total;5;2;8431;4;kWh;-9999999;9999999;0.1;0;UINT32;32;1;;0;kWh;3
+MCU 4 Energy Counter Negative Total;;MCU_Energy_Counter_Negative_Total;5;2;8433;4;kWh;-9999999;9999999;0.1;0;UINT32;32;1;;0;kWh;3
+MCU 4 Error Code 1;;MCU_Error_Code_1;5;2;8435;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Error Code 2;;MCU_Error_Code_2;5;2;8436;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Error Code 3;;MCU_Error_Code_3;5;2;8437;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Error Code 4;;MCU_Error_Code_4;5;2;8438;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Error Code 5;;MCU_Error_Code_5;5;2;8439;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Error Code 6;;MCU_Error_Code_6;5;2;8440;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Error Code 7;;MCU_Error_Code_7;5;2;8441;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Error Code 8;;MCU_Error_Code_8;5;2;8442;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Operating State;;MCU_Operating_State;5;2;8443;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Start Countdown;;MCU_Start_Countdown;5;2;8444;4;s;-9999999;9999999;1;0;UINT16;16;1;;0;s;3
+MCU 4 Humidity;;MCU_Humidity;5;2;8445;4;%rh;-9999999;9999999;0.1;0;UINT16;16;1;;0;%rh;3
+MCU 4 PCB Temperature;;MCU_PCB_Temperature;5;2;8446;4;°C;-9999999;9999999;0.1;0;INT16;16;1;;0;°C;3
+MCU 4 Insulation Resistance;;MCU_Insulation_Resistance;5;2;8447;4;kΩ;-9999999;9999999;0.1;0;UINT16;16;1;;0;kΩ;3
+MCU 4 Leakage Capacitance;;MCU_Leakage_Capacitance;5;2;8448;4;µF;-9999999;9999999;0.1;0;UINT16;16;1;;0;µF;3
+MCU 4 Firmware Version;;MCU_Firmware_Version;5;2;8449;4;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 DC Positive Voltage;;MCU_DC_Positive_Voltage;5;2;8450;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 4 DC Negative Voltage;;MCU_DC_Negative_Voltage;5;2;8451;4;V;-9999999;9999999;0.1;0;INT16;16;1;;0;V;3
+MCU 1 Positiv Ah Counter 1;;MCU_Positiv_Ah_Counter_1;;;10000;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Negativ Ah Counter 1;;MCU_Negativ_Ah_Counter_1;;;10002;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Current 1;;MCU_Current_1;;;10004;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 1 Positiv Ah Counter 2;;MCU_Positiv_Ah_Counter_2;;;10005;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Negativ Ah Counter 2;;MCU_Negativ_Ah_Counter_2;;;10007;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Current 2;;MCU_Current_2;;;10009;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 1 Positiv Ah Counter 3;;MCU_Positiv_Ah_Counter_3;;;10010;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Negativ Ah Counter 3;;MCU_Negativ_Ah_Counter_3;;;10012;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Current 3;;MCU_Current_3;;;10014;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 1 Positiv Ah Counter 4;;MCU_Positiv_Ah_Counter_4;;;10015;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Negativ Ah Counter 4;;MCU_Negativ_Ah_Counter_4;;;10017;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Current 4;;MCU_Current_4;;;10019;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 1 Positiv Ah Counter 5;;MCU_Positiv_Ah_Counter_5;;;10020;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Negativ Ah Counter 5;;MCU_Negativ_Ah_Counter_5;;;10022;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Current 5;;MCU_Current_5;;;10024;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 1 Positiv Ah Counter 6;;MCU_Positiv_Ah_Counter_6;;;10025;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Negativ Ah Counter 6;;MCU_Negativ_Ah_Counter_6;;;10027;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Current 6;;MCU_Current_6;;;10029;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 1 Positiv Ah Counter 7;;MCU_Positiv_Ah_Counter_7;;;10030;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Negativ Ah Counter 7;;MCU_Negativ_Ah_Counter_7;;;10032;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Current 7;;MCU_Current_7;;;10034;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 1 Positiv Ah Counter 8;;MCU_Positiv_Ah_Counter_8;;;10035;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Negativ Ah Counter 8;;MCU_Negativ_Ah_Counter_8;;;10037;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 1 Current 8;;MCU_Current_8;;;10039;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 1 DC Input Voltage;;MCU_DC_Input_Voltage;;;10040;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Positiv Ah Counter 1;;MCU_Positiv_Ah_Counter_1;;;10100;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Negativ Ah Counter 1;;MCU_Negativ_Ah_Counter_1;;;10102;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Current 1;;MCU_Current_1;;;10104;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 2 Positiv Ah Counter 2;;MCU_Positiv_Ah_Counter_2;;;10105;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Negativ Ah Counter 2;;MCU_Negativ_Ah_Counter_2;;;10107;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Current 2;;MCU_Current_2;;;10109;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 2 Positiv Ah Counter 3;;MCU_Positiv_Ah_Counter_3;;;10110;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Negativ Ah Counter 3;;MCU_Negativ_Ah_Counter_3;;;10112;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Current 3;;MCU_Current_3;;;10114;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 2 Positiv Ah Counter 4;;MCU_Positiv_Ah_Counter_4;;;10115;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Negativ Ah Counter 4;;MCU_Negativ_Ah_Counter_4;;;10117;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Current 4;;MCU_Current_4;;;10119;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 2 Positiv Ah Counter 5;;MCU_Positiv_Ah_Counter_5;;;10120;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Negativ Ah Counter 5;;MCU_Negativ_Ah_Counter_5;;;10122;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Current 5;;MCU_Current_5;;;10124;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 2 Positiv Ah Counter 6;;MCU_Positiv_Ah_Counter_6;;;10125;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Negativ Ah Counter 6;;MCU_Negativ_Ah_Counter_6;;;10127;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Current 6;;MCU_Current_6;;;10129;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 2 Positiv Ah Counter 7;;MCU_Positiv_Ah_Counter_7;;;10130;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Negativ Ah Counter 7;;MCU_Negativ_Ah_Counter_7;;;10132;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Current 7;;MCU_Current_7;;;10134;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 2 Positiv Ah Counter 8;;MCU_Positiv_Ah_Counter_8;;;10135;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Negativ Ah Counter 8;;MCU_Negativ_Ah_Counter_8;;;10137;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 2 Current 8;;MCU_Current_8;;;10139;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 2 DC Input Voltage;;MCU_DC_Input_Voltage;;;10140;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Positiv Ah Counter 1;;MCU_Positiv_Ah_Counter_1;;;10200;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Negativ Ah Counter 1;;MCU_Negativ_Ah_Counter_1;;;10202;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Current 1;;MCU_Current_1;;;10204;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 3 Positiv Ah Counter 2;;MCU_Positiv_Ah_Counter_2;;;10205;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Negativ Ah Counter 2;;MCU_Negativ_Ah_Counter_2;;;10207;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Current 2;;MCU_Current_2;;;10209;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 3 Positiv Ah Counter 3;;MCU_Positiv_Ah_Counter_3;;;10210;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Negativ Ah Counter 3;;MCU_Negativ_Ah_Counter_3;;;10212;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Current 3;;MCU_Current_3;;;10214;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 3 Positiv Ah Counter 4;;MCU_Positiv_Ah_Counter_4;;;10215;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Negativ Ah Counter 4;;MCU_Negativ_Ah_Counter_4;;;10217;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Current 4;;MCU_Current_4;;;10219;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 3 Positiv Ah Counter 5;;MCU_Positiv_Ah_Counter_5;;;10220;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Negativ Ah Counter 5;;MCU_Negativ_Ah_Counter_5;;;10222;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Current 5;;MCU_Current_5;;;10224;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 3 Positiv Ah Counter 6;;MCU_Positiv_Ah_Counter_6;;;10225;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Negativ Ah Counter 6;;MCU_Negativ_Ah_Counter_6;;;10227;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Current 6;;MCU_Current_6;;;10229;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 3 Positiv Ah Counter 7;;MCU_Positiv_Ah_Counter_7;;;10230;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Negativ Ah Counter 7;;MCU_Negativ_Ah_Counter_7;;;10232;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Current 7;;MCU_Current_7;;;10234;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 3 Positiv Ah Counter 8;;MCU_Positiv_Ah_Counter_8;;;10235;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Negativ Ah Counter 8;;MCU_Negativ_Ah_Counter_8;;;10237;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 3 Current 8;;MCU_Current_8;;;10239;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 3 DC Input Voltage;;MCU_DC_Input_Voltage;;;10240;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Positiv Ah Counter 1;;MCU_Positiv_Ah_Counter_1;;;10300;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Negativ Ah Counter 1;;MCU_Negativ_Ah_Counter_1;;;10302;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Current 1;;MCU_Current_1;;;10304;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 4 Positiv Ah Counter 2;;MCU_Positiv_Ah_Counter_2;;;10305;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Negativ Ah Counter 2;;MCU_Negativ_Ah_Counter_2;;;10307;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Current 2;;MCU_Current_2;;;10309;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 4 Positiv Ah Counter 3;;MCU_Positiv_Ah_Counter_3;;;10310;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Negativ Ah Counter 3;;MCU_Negativ_Ah_Counter_3;;;10312;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Current 3;;MCU_Current_3;;;10314;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 4 Positiv Ah Counter 4;;MCU_Positiv_Ah_Counter_4;;;10315;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Negativ Ah Counter 4;;MCU_Negativ_Ah_Counter_4;;;10317;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Current 4;;MCU_Current_4;;;10319;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 4 Positiv Ah Counter 5;;MCU_Positiv_Ah_Counter_5;;;10320;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Negativ Ah Counter 5;;MCU_Negativ_Ah_Counter_5;;;10322;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Current 5;;MCU_Current_5;;;10324;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 4 Positiv Ah Counter 6;;MCU_Positiv_Ah_Counter_6;;;10325;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Negativ Ah Counter 6;;MCU_Negativ_Ah_Counter_6;;;10327;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Current 6;;MCU_Current_6;;;10329;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 4 Positiv Ah Counter 7;;MCU_Positiv_Ah_Counter_7;;;10330;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Negativ Ah Counter 7;;MCU_Negativ_Ah_Counter_7;;;10332;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Current 7;;MCU_Current_7;;;10334;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 4 Positiv Ah Counter 8;;MCU_Positiv_Ah_Counter_8;;;10335;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Negativ Ah Counter 8;;MCU_Negativ_Ah_Counter_8;;;10337;4;Ah;-9999999;9999999;0.01;0;UINT32;32;1;;0;Ah;3
+MCU 4 Current 8;;MCU_Current_8;;;10339;4;A;-9999999;9999999;0.01;0;UINT16;16;1;;0;A;3
+MCU 4 DC Input Voltage;;MCU_DC_Input_Voltage;;;10340;4;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCS Error Reset;;MCS_Error_Reset;6;1;24000;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Activate Modbus TCP Interface;;MCS_Activate_Modbus_TCP_Interface;6;1;24001;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCS Q(U) Offset;;MCS_Q_U_Offset;6;1;24002;16;%;-9999999;9999999;0.001;0;INT16;16;1;;0;%;3
+User Reset;;User_Reset;6;1;24003;16;NoUnit;-9999999;9999999;1;0;UINT32;32;1;;0;NoUnit;3
+MCS Q Mode;;MCS_Q_Mode;6;1;24005;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Active Power Set Point;;MCU_Active_Power_Set_Point;7;1;24100;16;kW;-9999999;9999999;1;0;INT16;16;1;;0;kW;3
+MCU 1 Active Power Set Point (decimal place**);;MCU_Active_Power_Set_Point_decimal_place;7;1;24101;16;kW;-9999999;9999999;0.1;0;UINT16;16;1;;0;kW;3
+MCU 1 Reactive Power Set Point;;MCU_Reactive_Power_Set_Point;7;1;24102;16;kvar;-9999999;9999999;1;0;INT16;16;1;;0;kvar;3
+MCU 1 Reactive Power Set Point (decimal place**);;MCU_Reactive_Power_Set_Point_decimal_place;7;1;24103;16;kvar;-9999999;9999999;0.1;0;UINT16;16;1;;0;kvar;3
+MCU 1 DC Voltage Maximum;;MCU_DC_Voltage_Maximum;7;1;24104;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 DC Voltage Minimum;;MCU_DC_Voltage_Minimum;7;1;24105;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 Positive DC Current Limit;;MCU_Positive_DC_Current_Limit;7;1;24106;16;A;-9999999;9999999;1;0;INT16;16;1;;0;A;3
+MCU 1 Positive DC Current Limit (decimal place**);;MCU_Positive_DC_Current_Limit_decimal_place;7;1;24107;16;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 1 Negative DC Current Limit;;MCU_Negative_DC_Current_Limit;7;1;24108;16;A;-9999999;9999999;1;0;INT16;16;1;;0;A;3
+MCU 1 Negative DC Current Limit (decimal place**);;MCU_Negative_DC_Current_Limit_decimal_place;7;1;24109;16;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 1 Island Voltage Set Point;;MCU_Island_Voltage_Set_Point;7;1;24110;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 1 Island Frequency Set Point;;MCU_Island_Frequency_Set_Point;7;1;24111;16;Hz;-9999999;9999999;0.001;0;UINT16;16;1;;0;Hz;3
+MCU 1 Operating Mode;;MCU_Operating_Mode;7;1;24112;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Error Reset;;MCU_Error_Reset;7;1;24113;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 Heartbeat;;MCU_Heartbeat;7;1;24114;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 1 CosPhi Set;;MCU_CosPhi_Set;7;1;24115;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Active Power Set Point;;MCU_Active_Power_Set_Point;8;1;24200;16;kW;-9999999;9999999;1;0;INT16;16;1;;0;kW;3
+MCU 2 Active Power Set Point (decimal place**);;MCU_Active_Power_Set_Point_decimal_place;8;1;24201;16;kW;-9999999;9999999;0.1;0;UINT16;16;1;;0;kW;3
+MCU 2 Reactive Power Set Point;;MCU_Reactive_Power_Set_Point;8;1;24202;16;kvar;-9999999;9999999;1;0;INT16;16;1;;0;kvar;3
+MCU 2 Reactive Power Set Point (decimal place**);;MCU_Reactive_Power_Set_Point_decimal_place;8;1;24203;16;kvar;-9999999;9999999;0.1;0;UINT16;16;1;;0;kvar;3
+MCU 2 DC Voltage Maximum;;MCU_DC_Voltage_Maximum;8;1;24204;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 DC Voltage Minimum;;MCU_DC_Voltage_Minimum;8;1;24205;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Positive DC Current Limit;;MCU_Positive_DC_Current_Limit;8;1;24206;16;A;-9999999;9999999;1;0;INT16;16;1;;0;A;3
+MCU 2 Positive DC Current Limit (decimal place**);;MCU_Positive_DC_Current_Limit_decimal_place;8;1;24207;16;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 2 Negative DC Current Limit;;MCU_Negative_DC_Current_Limit;8;1;24208;16;A;-9999999;9999999;1;0;INT16;16;1;;0;A;3
+MCU 2 Negative DC Current Limit (decimal place**);;MCU_Negative_DC_Current_Limit_decimal_place;8;1;24209;16;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 2 Island Voltage Set Point;;MCU_Island_Voltage_Set_Point;8;1;24210;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 2 Island Frequency Set Point;;MCU_Island_Frequency_Set_Point;8;1;24211;16;Hz;-9999999;9999999;0.001;0;UINT16;16;1;;0;Hz;3
+MCU 2 Operating Mode;;MCU_Operating_Mode;8;1;24212;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Error Reset;;MCU_Error_Reset;8;1;24213;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 Heartbeat;;MCU_Heartbeat;8;1;24214;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 2 CosPhi Set;;MCU_CosPhi_Set;8;1;24215;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Active Power Set Point;;MCU_Active_Power_Set_Point;9;1;24300;16;kW;-9999999;9999999;1;0;INT16;16;1;;0;kW;3
+MCU 3 Active Power Set Point (decimal place**);;MCU_Active_Power_Set_Point_decimal_place;9;1;24301;16;kW;-9999999;9999999;0.1;0;UINT16;16;1;;0;kW;3
+MCU 3 Reactive Power Set Point;;MCU_Reactive_Power_Set_Point;9;1;24302;16;kvar;-9999999;9999999;1;0;INT16;16;1;;0;kvar;3
+MCU 3 Reactive Power Set Point (decimal place**);;MCU_Reactive_Power_Set_Point_decimal_place;9;1;24303;16;kvar;-9999999;9999999;0.1;0;UINT16;16;1;;0;kvar;3
+MCU 3 DC Voltage Maximum;;MCU_DC_Voltage_Maximum;9;1;24304;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 DC Voltage Minimum;;MCU_DC_Voltage_Minimum;9;1;24305;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Positive DC Current Limit;;MCU_Positive_DC_Current_Limit;9;1;24306;16;A;-9999999;9999999;1;0;INT16;16;1;;0;A;3
+MCU 3 Positive DC Current Limit (decimal place**);;MCU_Positive_DC_Current_Limit_decimal_place;9;1;24307;16;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 3 Negative DC Current Limit;;MCU_Negative_DC_Current_Limit;9;1;24308;16;A;-9999999;9999999;1;0;INT16;16;1;;0;A;3
+MCU 3 Negative DC Current Limit (decimal place**);;MCU_Negative_DC_Current_Limit_decimal_place;9;1;24309;16;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 3 Island Voltage Set Point;;MCU_Island_Voltage_Set_Point;9;1;24310;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 3 Island Frequency Set Point;;MCU_Island_Frequency_Set_Point;9;1;24311;16;Hz;-9999999;9999999;0.001;0;UINT16;16;1;;0;Hz;3
+MCU 3 Operating Mode;;MCU_Operating_Mode;9;1;24312;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Error Reset;;MCU_Error_Reset;9;1;24313;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 Heartbeat;;MCU_Heartbeat;9;1;24314;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 3 CosPhi Set;;MCU_CosPhi_Set;9;1;24315;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Active Power Set Point;;MCU_Active_Power_Set_Point;10;1;24400;16;kW;-9999999;9999999;1;0;INT16;16;1;;0;kW;3
+MCU 4 Active Power Set Point (decimal place**);;MCU_Active_Power_Set_Point_decimal_place;10;1;24401;16;kW;-9999999;9999999;0.1;0;UINT16;16;1;;0;kW;3
+MCU 4 Reactive Power Set Point;;MCU_Reactive_Power_Set_Point;10;1;24402;16;kvar;-9999999;9999999;1;0;INT16;16;1;;0;kvar;3
+MCU 4 Reactive Power Set Point (decimal place**);;MCU_Reactive_Power_Set_Point_decimal_place;10;1;24403;16;kvar;-9999999;9999999;0.1;0;UINT16;16;1;;0;kvar;3
+MCU 4 DC Voltage Maximum;;MCU_DC_Voltage_Maximum;10;1;24404;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 DC Voltage Minimum;;MCU_DC_Voltage_Minimum;10;1;24405;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Positive DC Current Limit;;MCU_Positive_DC_Current_Limit;10;1;24406;16;A;-9999999;9999999;1;0;INT16;16;1;;0;A;3
+MCU 4 Positive DC Current Limit (decimal place**);;MCU_Positive_DC_Current_Limit_decimal_place;10;1;24407;16;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 4 Negative DC Current Limit;;MCU_Negative_DC_Current_Limit;10;1;24408;16;A;-9999999;9999999;1;0;INT16;16;1;;0;A;3
+MCU 4 Negative DC Current Limit (decimal place**);;MCU_Negative_DC_Current_Limit_decimal_place;10;1;24409;16;A;-9999999;9999999;0.1;0;UINT16;16;1;;0;A;3
+MCU 4 Island Voltage Set Point;;MCU_Island_Voltage_Set_Point;10;1;24410;16;V;-9999999;9999999;0.1;0;UINT16;16;1;;0;V;3
+MCU 4 Island Frequency Set Point;;MCU_Island_Frequency_Set_Point;10;1;24411;16;Hz;-9999999;9999999;0.001;0;UINT16;16;1;;0;Hz;3
+MCU 4 Operating Mode;;MCU_Operating_Mode;10;1;24412;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Error Reset;;MCU_Error_Reset;10;1;24413;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 Heartbeat;;MCU_Heartbeat;10;1;24414;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
+MCU 4 CosPhi Set;;MCU_CosPhi_Set;10;1;24415;16;NoUnit;-9999999;9999999;1;0;UINT16;16;1;;0;NoUnit;3
