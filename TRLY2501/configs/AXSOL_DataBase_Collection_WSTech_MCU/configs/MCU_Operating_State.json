@@ -1,0 +1,23 @@
+{
+  "description": "Operating State",
+  "plcVariableName": "MCU_Operating_State",
+  "mbUsed": true,
+  "multiplier": 4,
+  "addressOffset": 100,
+  "mbRegister": 8143,
+  "mbFunctionCode": 4,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT16",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 1,
+  "mbHandlerOffset": 1,
+  "mbIdx": 42,
+  "mbTypeSize": 16
+}

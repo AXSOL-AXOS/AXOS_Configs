@@ -1,44 +1,103 @@
-Topic,Description,Register Address,Unit,Scaling,Offset,type,Multiplier,AddressOffset,AXSOL Name,AXSOL Unit & Resolution,upperLimit,lowerLimit
-Rack_N_Status,0x00: initial state;<br>0x01: charging;<br>0x02: discharging;<br>0x03: ready;<br>0x04: rack maintenance;<br>0x05: charge prohibition;<br>0x06: discharge prohibition;<br>0x07: charging and discharging prohibited;<br>0x08: fault;,100,NoUnit,1.0,0,UINT,1,0,ST_OpState,,99999999.0,-99999999.0
-Rack_N_maximum_allowable_charging_power,Resolution: 0.1 Unit: KW,101,kW,0.1,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_maximum_allowable_discharging_power,Resolution: 0.1 Unit: KW,102,kW,0.1,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_maximum_allowable_charging_voltage,Resolution: 0.1 Unit: V,103,V,0.1,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_maximum_allowable_discharging_voltage,Resolution: 0.1 Unit: V,104,V,0.1,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_maximum_allowable_charging_current,Resolution: 0.1 Unit: A,105,A,0.1,0,UINT,1,0,LIM_I_Charge,,99999999.0,-99999999.0
-Rack_N_maximum_allowable_discharging_current,Resolution: 0.1 Unit: A,106,A,0.1,0,UINT,1,0,LIM_I_Discharge,,99999999.0,-99999999.0
-Rack_N_total_voltage,0.1V/bit,115,V,0.1,0,UINT,1,0,ME_V,,99999999.0,-99999999.0
-Rack_N_current,"0.1A/bit, offset: -3200.0A",116,A,0.1,-3200,UINT,1,0,ME_I,,99999999.0,-99999999.0
-Rack_N_average_temperature,"1°C/bit, offset: -40°C",117,°C,1.0,-40,UINT,1,0,ME_Temp_Amb,,99999999.0,-99999999.0
-Rack_N_SOC,1%/bit,118,,1.0,0,UINT,1,0,ME_SOC,,99999999.0,-99999999.0
-Rack_N_SOH,1%/bit,119,,1.0,0,UINT,1,0,ME_SOH,,99999999.0,-99999999.0
-Rack_N_insulation_resistance,1KΩ/bit,120,kΩ,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_average_cell_voltage,0.001V/bit,121,V,0.001,0,UINT,1,0,ME_V_Avg,,99999999.0,-99999999.0
-Rack_N_average_cell_temperature,"1°C/bit, offset: -40°C",122,°C,1.0,-40,UINT,1,0,ME_Temp_Avg,,99999999.0,-99999999.0
-Rack_N_maximum_cell_voltage,0.001V/bit,123,V,0.001,0,UINT,1,0,ME_V_Cell_Max,,99999999.0,-99999999.0
-Cell_No_of_maximum_cell_voltage_in_rack_N,1/bit,124,,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_minimum_cell_voltage,0.001V/bit,125,V,0.001,0,UINT,1,0,ME_V_Cell_Min,,99999999.0,-99999999.0
-Cell_No_of_minimum_cell_voltage_in_rack_N,1/bit,126,,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_maximum_cell_temperature,"1°C/bit, offset: -40°C",127,°C,1.0,-40,UINT,1,0,ME_Temp_Cell_Max,,99999999.0,-99999999.0
-Cell_No_of_maximum_temperature_in_rack_N,1/bit,128,,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_minimum_cell_temperature,"1°C/bit, offset: -40°C",129,°C,1.0,-40,UINT,1,0,ME_Temp_Cell_Min,,99999999.0,-99999999.0
-Cell_No_of_minimum_temperature_in_rack_N,1/bit,130,,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_maximum_cell_SOC,1%/bit,131,%,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Cell_No_of_maximum_cell_SOC_in_rack_N,1/bit,132,,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_minimum_cell_SOC,1%/bit,133,%,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Cell_No_of_minimum_cell_SOC_in_rack_N,1/bit,134,,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_maximum_cell_SOH,1%/bit,135,%,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Cell_No_of_maximum_cell_SOH_in_rack_N,1/bit,136,,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_minimum_cell_SOH,1%/bit,137,%,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Cell_No_of_minimum_cell_SOH_in_rack_N,1/bit,138,,1.0,0,UINT,1,0,,,99999999.0,-99999999.0
-Rack_N_accumulated_charging_capacity,0.1KWh/bit,139,kWh,0.1,0,UINT32,1,0,,,99999999.0,-99999999.0
-Rack_N_accumulated_discharging_capacity,0.1KWh/bit,141,kWh,0.1,0,UINT32,1,0,,,99999999.0,-99999999.0
-Rack_N_accumulated_charge_quantity_for_a_single_time,0.1KWh/bit,143,kWh,0.1,0,UINT32,1,0,,,99999999.0,-99999999.0
-Rack_N_accumulated_discharge_quantity_for_a_single_time,0.1KWh/bit,145,kWh,0.1,0,UINT32,1,0,,,99999999.0,-99999999.0
-Rack_N_rechargeable_capacity,0.1KWh/bit,147,kW,0.1,0,UINT32,1,0,,,99999999.0,-99999999.0
-Rack_N_discharge_capacity,0.1KWh/bit,149,kW,0.1,0,UINT32,1,0,,,99999999.0,-99999999.0
-#_Rack_N_module_SOC,1%/bit,151,V,0.001,0,UINT,40,1,,,99999999.0,-99999999.0
-#_Rack_N_cell_voltage,0.001V/bit,191,V,0.001,0,UINT,700,1,,,99999999.0,-99999999.0
-#_Rack_N_cell_temperature,"1°C/bit, offset: -40°C",891,°C,1.0,-40,UINT,700,1,,,99999999.0,-99999999.0
-#_Rack_N_cell_SOC,1%/bit,1591,%,1.0,0,UINT,700,1,,,99999999.0,-99999999.0
-#_Rack_N_cell_SOH,1%/bit,2291,%,1.0,0,UINT,700,1,,,99999999.0,-99999999.0
-#_Rack_N_terminal_temperature,"1°C/bit, offset: -40°C",2991,°C,1.0,-40,UINT,100,1,,,99999999.0,-99999999.0
+description;plcVariableName;mbUsed;multiplier;addressOffset;mbRegister;mbFunctionCode;mbUnit;mqttLowerLimit;mqttUpperLimit;mbScaling;mbOffset;mbType;mqttScaling;mqttName;mqttOffset;mqttUnit;mqttDecimals
+Rack CBMU lost communication;rack_cbmu_lost_communication;true;5;100;200;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack total voltage undervoltage slight alarm;rack_total_voltage_undervoltage_slight_alarm;true;5;100;201;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack total voltage undervoltage medium alarm;rack_total_voltage_undervoltage_medium_alarm;true;5;100;202;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack total voltage undervoltage serious alarm;rack_total_voltage_undervoltage_serious_alarm;true;5;100;203;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack total voltage overvoltage slight alarm;rack_total_voltage_overvoltage_slight_alarm;true;5;100;204;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack total voltage overvoltage medium alarm;rack_total_voltage_overvoltage_medium_alarm;true;5;100;205;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack total voltage overvoltage serious alarm;rack_total_voltage_overvoltage_serious_alarm;true;5;100;206;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack overcurrent slight alarm;rack_overcurrent_slight_alarm;true;5;100;207;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack overcurrent medium alarm;rack_overcurrent_medium_alarm;true;5;100;208;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack overcurrent serious alarm;rack_overcurrent_serious_alarm;true;5;100;209;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage undervoltage slight alarm;rack_cell_voltage_undervoltage_slight_alarm;true;5;100;210;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage undervoltage medium alarm;rack_cell_voltage_undervoltage_medium_alarm;true;5;100;211;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage undervoltage serious alarm;rack_cell_voltage_undervoltage_serious_alarm;true;5;100;212;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage overvoltage slight alarm;rack_cell_voltage_overvoltage_slight_alarm;true;5;100;213;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage overvoltage medium alarm;rack_cell_voltage_overvoltage_medium_alarm;true;5;100;214;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage overvoltage serious alarm;rack_cell_voltage_overvoltage_serious_alarm;true;5;100;215;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell low temperature slight alarm;rack_cell_low_temperature_slight_alarm;true;5;100;216;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell low temperature medium alarm;rack_cell_low_temperature_medium_alarm;true;5;100;217;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell low temperature serious alarm;rack_cell_low_temperature_serious_alarm;true;5;100;218;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell over temperature slight alarm;rack_cell_over_temperature_slight_alarm;true;5;100;219;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell over temperature medium alarm;rack_cell_over_temperature_medium_alarm;true;5;100;220;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell over temperature serious alarm;rack_cell_over_temperature_serious_alarm;true;5;100;221;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOC low slight alarm;rack_cell_soc_low_slight_alarm;true;5;100;222;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOC low medium alarm;rack_cell_soc_low_medium_alarm;true;5;100;223;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOC low serious alarm;rack_cell_soc_low_serious_alarm;true;5;100;224;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOC high slight alarm;rack_cell_soc_high_slight_alarm;true;5;100;225;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOC high medium alarm;rack_cell_soc_high_medium_alarm;true;5;100;226;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOC high serious alarm;rack_cell_soc_high_serious_alarm;true;5;100;227;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOH low slight alarm;rack_cell_soh_low_slight_alarm;true;5;100;228;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOC low medium alarm;rack_cell_soc_low_medium_alarm;true;5;100;229;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell SOC low serious alarm;rack_cell_soc_low_serious_alarm;true;5;100;230;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage different slight alarm;rack_cell_voltage_different_slight_alarm;true;5;100;231;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage different medium alarm;rack_cell_voltage_different_medium_alarm;true;5;100;232;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage different serious alarm;rack_cell_voltage_different_serious_alarm;true;5;100;233;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell temperature different slight alarm;rack_cell_temperature_different_slight_alarm;true;5;100;234;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell temperature different medium alarm;rack_cell_temperature_different_medium_alarm;true;5;100;235;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell temperature different serious alarm;rack_cell_temperature_different_serious_alarm;true;5;100;236;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack MBMU #1 lost Communication;rack_mbmu_1_lost_communication;false;5;100;237;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack MBMU #40 lost Communication;rack_mbmu_40_lost_communication;false;5;100;276;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack terminal temperature high slight alarm;rack_terminal_temperature_high_slight_alarm;true;5;100;277;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack terminal temperature high medium alarm;rack_terminal_temperature_high_medium_alarm;true;5;100;278;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack terminal temperature high serious alarm;rack_terminal_temperature_high_serious_alarm;true;5;100;279;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack module voltage overvoltage slight alarm;rack_module_voltage_overvoltage_slight_alarm;true;5;100;280;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack module voltage overvoltage medium alarm;rack_module_voltage_overvoltage_medium_alarm;true;5;100;281;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack module voltage overvoltage serious alarm;rack_module_voltage_overvoltage_serious_alarm;true;5;100;282;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack module voltage undervoltage slight alarm;rack_module_voltage_undervoltage_slight_alarm;true;5;100;283;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack module voltage undervoltage medium alarm;rack_module_voltage_undervoltage_medium_alarm;true;5;100;284;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack module voltage undervoltage serious alarm;rack_module_voltage_undervoltage_serious_alarm;true;5;100;285;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack cell voltage acquisition fault;rack_cell_voltage_acquisition_fault;true;5;100;286;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack Cell temperature acquisition fault;rack_cell_temperature_acquisition_fault;true;5;100;287;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack Status;rack_status;true;5;3000;100;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_OpState         ;0;NoUnit;3
+Rack maximum allowable charging power;rack_maximum_allowable_charging_power;true;5;3000;101;4;KW;-9999999;9999999;1;0;UINT;1;;0;KW;3
+Rack minimum allowable discharging power;rack_minimum_allowable_discharging_power;true;5;3000;102;4;KW;-9999999;9999999;1;0;UINT;1;;0;KW;3
+Rack maximum allowable charging voltage;rack_maximum_allowable_charging_voltage;true;5;3000;103;4;V;-9999999;9999999;1;0;UINT;1;;0;V;3
+Rack minimum allowable discharging voltage;rack_minimum_allowable_discharging_voltage;true;5;3000;104;4;V;-9999999;9999999;1;0;UINT;1;;0;V;3
+Rack maximum allowable charging current;rack_maximum_allowable_charging_current;true;5;3000;105;4;A;-9999999;9999999;1;0;UINT;1;LIM_I_Charge ;0;A;3
+Rack minimum allowable discharging current;rack_minimum_allowable_discharging_current;true;5;3000;106;4;A;-9999999;9999999;1;0;UINT;1;LIM_I_Discharge;0;A;3
+Rack positive HV relay;rack_positive_hv_relay;true;5;3000;107;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack negative HV relay;rack_negative_hv_relay;true;5;3000;109;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack disconnector;rack_disconnector;true;5;3000;112;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack total voltage;rack_total_voltage;true;5;3000;115;4;V;-9999999;9999999;0.1;0;UINT;1;ME_V               ;0;V;3
+Rack current;rack_current;true;5;3000;116;4;A;-9999999;9999999;0.1;-3200;UINT;1;ME_I               ;0;A;3
+Rack average temperature;rack_average_temperature;true;5;3000;117;4;°C;-9999999;9999999;1;-40;UINT;1;ME_Temp_Amb        ;0;°C;3
+Rack SOC;rack_soc;true;5;3000;118;4;%;-9999999;9999999;1;0;UINT;1;ME_SOC             ;0;%;3
+Rack SOH;rack_soh;true;5;3000;119;4;%;-9999999;9999999;1;0;UINT;1;ME_SOH             ;0;%;3
+Rack insulation resistance;rack_insulation_resistance;true;5;3000;120;4;KΩ;-9999999;9999999;1;0;UINT;1;;0;KΩ;3
+Rack average cell voltage;rack_average_cell_voltage;true;5;3000;121;4;V;-9999999;9999999;0.001;0;UINT;1;ME_V_Avg           ;0;V;3
+Rack average cell temperature;rack_average_cell_temperature;true;5;3000;122;4;°C;-9999999;9999999;1;-40;UINT;1;ME_Temp_Avg        ;0;°C;3
+Rack maximum cell voltage;rack_maximum_cell_voltage;true;5;3000;123;4;V;-9999999;9999999;0.001;0;UINT;1;ME_V_Cell_Max      ;0;V;3
+Cell No of maximum cell voltage in Rack;cell_no_of_maximum_cell_voltage_in_rack;true;5;3000;124;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Rack minimum cell voltage;rack_minimum_cell_voltage;true;5;3000;125;4;V;-9999999;9999999;0.001;0;UINT;1;ME_V_Cell_Min      ;0;V;3
+Cell No of minimum cell voltage in Rack;cell_no_of_minimum_cell_voltage_in_rack;true;5;3000;126;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Rack maximum cell temperature;rack_maximum_cell_temperature;true;5;3000;127;4;°C;-9999999;9999999;1;-40;UINT;1;ME_Temp_Cell_Max   ;0;°C;3
+Cell No of maximum temperature in Rack;cell_no_of_maximum_temperature_in_rack;true;5;3000;128;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Rack minimum cell temperature;rack_minimum_cell_temperature;true;5;3000;129;4;°C;-9999999;9999999;1;-40;UINT;1;ME_Temp_Cell_Min   ;0;°C;3
+Cell No of minimum temperature in Rack;cell_no_of_minimum_temperature_in_rack;true;5;3000;130;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Rack maximum cell SOC;rack_maximum_cell_soc;true;5;3000;131;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Cell No of maximum cell SOC in Rack;cell_no_of_maximum_cell_soc_in_rack;true;5;3000;132;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Rack minimum cell SOC;rack_minimum_cell_soc;true;5;3000;133;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Cell No of minimum cell SOC in Rack;cell_no_of_minimum_cell_soc_in_rack;true;5;3000;134;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Rack maximum cell SOH;rack_maximum_cell_soh;true;5;3000;135;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Cell No of maximum cell SOH in Rack;cell_no_of_maximum_cell_soh_in_rack;true;5;3000;136;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Rack minimum cell SOH;rack_minimum_cell_soh;true;5;3000;137;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Cell No of minimum cell SOH in Rack;cell_no_of_minimum_cell_soh_in_rack;true;5;3000;138;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Rack accumulated charging capacity;rack_accumulated_charging_capacity;true;5;3000;139;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+Rack accumulated discharging capacity;rack_accumulated_discharging_capacity;true;5;3000;141;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+Rack accumulated charge quantity for a single time;rack_accumulated_charge_quantity_for_a_single_time;true;5;3000;143;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+Rack accumulated discharge quantity for a single time;rack_accumulated_discharge_quantity_for_a_single_time;true;5;3000;145;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+Rack rechargeable capacity;rack_rechargeable_capacity;true;5;3000;147;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+Rack discharge capacity;rack_discharge_capacity;true;5;3000;149;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+Rack module 1 SOC;rack_module_1_soc;false;5;3000;151;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Rack module 40 SOC;rack_module_40_soc;false;5;3000;190;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Rack cell voltage 001;rack_cell_voltage_001;false;5;3000;191;4;V;-9999999;9999999;0.001;0;UINT;1;;0;V;3
+Rack cell voltage 700;rack_cell_voltage_700;false;5;3000;890;4;V;-9999999;9999999;0.001;0;UINT;1;;0;V;3
+Rack cell temperature 001;rack_cell_temperature_001;false;5;3000;891;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+Rack cell temperature 700;rack_cell_temperature_700;false;5;3000;1590;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+Rack cell SOC 001;rack_cell_soc_001;false;5;3000;1591;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Rack cell SOC 700;rack_cell_soc_700;false;5;3000;2290;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Rack cell SOH 001;rack_cell_soh_001;false;5;3000;2291;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Rack cell SOH 700;rack_cell_soh_700;false;5;3000;2990;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Rack terminal temperature 001;rack_terminal_temperature_001;false;5;3000;2991;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+Rack terminal temperature 100;rack_terminal_temperature_100;false;5;3000;3090;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3

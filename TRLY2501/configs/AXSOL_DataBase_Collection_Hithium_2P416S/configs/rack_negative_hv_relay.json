@@ -1,0 +1,23 @@
+{
+  "description": "Rack negative HV relay",
+  "plcVariableName": "rack_negative_hv_relay",
+  "mbUsed": true,
+  "multiplier": 5,
+  "addressOffset": 3000,
+  "mbRegister": 109,
+  "mbFunctionCode": 4,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 12,
+  "mbHandlerOffset": 4,
+  "mbIdx": 1,
+  "mbTypeSize": 16
+}

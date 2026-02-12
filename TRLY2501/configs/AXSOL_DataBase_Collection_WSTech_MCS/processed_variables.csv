@@ -1,0 +1,29 @@
+description;plcVariableName;mbUsed;multiplier;addressOffset;mbRegister;mbFunctionCode;mbUnit;mqttLowerLimit;mqttUpperLimit;mbScaling;mbOffset;mbType;mbTypeSize;mqttScaling;mqttName;mqttOffset;mqttUnit;mqttDecimals;mbHandler;mbHandlerOffset;mbIdx
+MCMC Software Version;MCMC_Software_Version;True;1;0;8000;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;1
+MCMC Interface Version;MCMC_Interface_Version;True;1;0;8001;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;2
+Ambient Temperature;Ambient_Temperature;True;1;0;8002;4;°C;-999999990;999999990;0.1;0;INT16;16;0.1;ME_Temp_Amb;0;°C;3;1;0;3
+MCS Error Code 1;MCS_Error_Code_1;True;1;0;8003;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;4
+MCS Error Code 2;MCS_Error_Code_2;True;1;0;8004;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;5
+MCS Error Code 3;MCS_Error_Code_3;True;1;0;8005;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;6
+MCS Error Code 4;MCS_Error_Code_4;True;1;0;8006;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;7
+MCS Error Code 5;MCS_Error_Code_5;True;1;0;8007;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;8
+MCS Error Code 6;MCS_Error_Code_6;True;1;0;8008;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;9
+MCS Error Code 7;MCS_Error_Code_7;True;1;0;8009;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;10
+MCS Error Code 8;MCS_Error_Code_8;True;1;0;8010;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;11
+MCS Warning Code 1;MCS_Warning_Code_1;True;1;0;8011;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;12
+MCS Warning Code 2;MCS_Warning_Code_2;True;1;0;8012;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;13
+MCS Warning Code 3;MCS_Warning_Code_3;True;1;0;8013;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;14
+MCS Warning Code 4;MCS_Warning_Code_4;True;1;0;8014;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;15
+MCS Warning Code 5;MCS_Warning_Code_5;True;1;0;8015;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;16
+MCS Warning Code 6;MCS_Warning_Code_6;True;1;0;8016;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;17
+MCS Warning Code 7;MCS_Warning_Code_7;True;1;0;8017;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;18
+MCS Warning Code 8;MCS_Warning_Code_8;True;1;0;8018;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;19
+Modbus TCP Write Error Address;MCS_Modbus_TCP_Write_Error_Address;True;1;0;8019;4;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;1;0;20
+MV Transformer Temperature;MCS_MV_Transformer_Temperature;True;1;0;8020;4;°C;-999999990;999999990;0.1;0;INT16;16;0.1;ME_Temp_Panel;0;°C;3;1;0;21
+Cooling Status MCU12;MCS_Cooling_Status_MCU12;True;1;0;8021;4;U/min;-999999990;999999990;1000.0;0;INT16;16;1000.0;;0;U/min;3;1;0;22
+Cooling Status MCU34;MCS_Cooling_Status_MCU34;True;1;0;8022;4;U/min;-999999990;999999990;1000.0;0;INT16;16;1000.0;;0;U/min;3;1;0;23
+Error Reset;MCS_Error_Reset;True;1;0;24000;16;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;Error_Ack;0;NoUnit;3;2;0;1
+Activate Modbus TCP Interface;MCS_Activate_Modbus_TCP_Interface;True;1;0;24001;16;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;2;0;2
+Q U Offset;MCS_Q_U_Offset;True;1;0;24002;16;%;-999999990;999999990;0.001;0;INT16;16;0.001;;0;%;3;2;0;3
+User Reset;User_Reset;True;1;0;24003;16;NoUnit;-999999990;999999990;1.0;0;UINT32;32;1.0;;0;NoUnit;3;2;0;4
+Q Mode;MCS_Q_Mode;True;1;0;24005;16;NoUnit;-999999990;999999990;1.0;0;UINT16;16;1.0;;0;NoUnit;3;2;0;5

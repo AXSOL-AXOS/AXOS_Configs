@@ -1,0 +1,23 @@
+{
+  "description": "Rack cell voltage different slight alarm",
+  "plcVariableName": "rack_cell_voltage_different_slight_alarm",
+  "mbUsed": true,
+  "multiplier": 5,
+  "addressOffset": 100,
+  "mbRegister": 231,
+  "mbFunctionCode": 2,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 1,
+  "mbHandlerOffset": 2,
+  "mbIdx": 32,
+  "mbTypeSize": 16
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Return temperature (Liquid cooling unit)",
+  "plcVariableName": "return_temperature_liquid_cooling_unit",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60105,
+  "mbFunctionCode": 4,
+  "mbUnit": "°C",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": -40.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "°C",
+  "mqttDecimals": 3,
+  "mbHandler": 7,
+  "mbHandlerOffset": 0,
+  "mbIdx": 6,
+  "mbTypeSize": 16
+}

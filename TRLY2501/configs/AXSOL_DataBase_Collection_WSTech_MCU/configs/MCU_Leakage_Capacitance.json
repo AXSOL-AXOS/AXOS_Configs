@@ -1,0 +1,23 @@
+{
+  "description": "Leakage Capacitance",
+  "plcVariableName": "MCU_Leakage_Capacitance",
+  "mbUsed": true,
+  "multiplier": 4,
+  "addressOffset": 100,
+  "mbRegister": 8148,
+  "mbFunctionCode": 4,
+  "mbUnit": "µF",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 0.1,
+  "mbOffset": 0.0,
+  "mbType": "UINT16",
+  "mqttScaling": 0.1,
+  "mqttOffset": 0.0,
+  "mqttUnit": "µF",
+  "mqttDecimals": 3,
+  "mbHandler": 1,
+  "mbHandlerOffset": 1,
+  "mbIdx": 47,
+  "mbTypeSize": 16
+}

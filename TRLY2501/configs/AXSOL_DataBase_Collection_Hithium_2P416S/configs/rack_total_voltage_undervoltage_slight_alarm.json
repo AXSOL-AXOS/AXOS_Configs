@@ -1,0 +1,23 @@
+{
+  "description": "Rack total voltage undervoltage slight alarm",
+  "plcVariableName": "rack_total_voltage_undervoltage_slight_alarm",
+  "mbUsed": true,
+  "multiplier": 5,
+  "addressOffset": 100,
+  "mbRegister": 201,
+  "mbFunctionCode": 2,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 1,
+  "mbHandlerOffset": 2,
+  "mbIdx": 2,
+  "mbTypeSize": 16
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Positive Ah Counter 7",
+  "plcVariableName": "MCU_Positiv_Ah_Counter_7",
+  "mbUsed": true,
+  "multiplier": 4,
+  "addressOffset": 100,
+  "mbRegister": 10030,
+  "mbFunctionCode": 4,
+  "mbUnit": "Ah",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 0.01,
+  "mbOffset": 0.0,
+  "mbType": "UINT32",
+  "mqttScaling": 0.01,
+  "mqttOffset": 0.0,
+  "mqttUnit": "Ah",
+  "mqttDecimals": 3,
+  "mbHandler": 5,
+  "mbHandlerOffset": 1,
+  "mbIdx": 19,
+  "mbTypeSize": 32
+}

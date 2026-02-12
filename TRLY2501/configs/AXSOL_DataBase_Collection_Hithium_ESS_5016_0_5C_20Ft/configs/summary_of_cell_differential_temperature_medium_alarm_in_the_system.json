@@ -1,0 +1,23 @@
+{
+  "description": "Summary of Cell differential temperature medium alarm in the system",
+  "plcVariableName": "summary_of_cell_differential_temperature_medium_alarm_in_the_system",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 35,
+  "mbFunctionCode": 2,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 1,
+  "mbHandlerOffset": 0,
+  "mbIdx": 35,
+  "mbTypeSize": 16
+}

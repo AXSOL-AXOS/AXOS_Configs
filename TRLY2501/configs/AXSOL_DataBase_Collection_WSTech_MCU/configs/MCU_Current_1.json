@@ -1,0 +1,23 @@
+{
+  "description": "Current 1",
+  "plcVariableName": "MCU_Current_1",
+  "mbUsed": true,
+  "multiplier": 4,
+  "addressOffset": 100,
+  "mbRegister": 10004,
+  "mbFunctionCode": 4,
+  "mbUnit": "A",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 0.01,
+  "mbOffset": 0.0,
+  "mbType": "UINT16",
+  "mqttScaling": 0.01,
+  "mqttOffset": 0.0,
+  "mqttUnit": "A",
+  "mqttDecimals": 3,
+  "mbHandler": 5,
+  "mbHandlerOffset": 1,
+  "mbIdx": 3,
+  "mbTypeSize": 16
+}

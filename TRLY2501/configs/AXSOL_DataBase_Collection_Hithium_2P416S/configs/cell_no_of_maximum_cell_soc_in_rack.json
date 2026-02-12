@@ -1,0 +1,23 @@
+{
+  "description": "Cell No of maximum cell SOC in Rack",
+  "plcVariableName": "cell_no_of_maximum_cell_soc_in_rack",
+  "mbUsed": true,
+  "multiplier": 5,
+  "addressOffset": 3000,
+  "mbRegister": 132,
+  "mbFunctionCode": 4,
+  "mbUnit": "bit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "bit",
+  "mqttDecimals": 3,
+  "mbHandler": 14,
+  "mbHandlerOffset": 4,
+  "mbIdx": 18,
+  "mbTypeSize": 16
+}

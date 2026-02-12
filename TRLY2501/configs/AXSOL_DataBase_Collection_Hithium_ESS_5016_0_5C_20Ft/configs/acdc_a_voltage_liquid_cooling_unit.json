@@ -1,0 +1,23 @@
+{
+  "description": "ACDC_A voltage (Liquid cooling unit)",
+  "plcVariableName": "acdc_a_voltage_liquid_cooling_unit",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60112,
+  "mbFunctionCode": 4,
+  "mbUnit": "V",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "V",
+  "mqttDecimals": 3,
+  "mbHandler": 7,
+  "mbHandlerOffset": 0,
+  "mbIdx": 13,
+  "mbTypeSize": 16
+}

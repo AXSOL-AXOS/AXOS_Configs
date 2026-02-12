@@ -1,0 +1,23 @@
+{
+  "description": "IGBT Temperature L3",
+  "plcVariableName": "MCU_IGBT_Temperature_L3",
+  "mbUsed": true,
+  "multiplier": 4,
+  "addressOffset": 100,
+  "mbRegister": 8124,
+  "mbFunctionCode": 4,
+  "mbUnit": "°C",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 0.1,
+  "mbOffset": 0.0,
+  "mbType": "INT16",
+  "mqttScaling": 0.1,
+  "mqttOffset": 0.0,
+  "mqttUnit": "°C",
+  "mqttDecimals": 3,
+  "mbHandler": 1,
+  "mbHandlerOffset": 1,
+  "mbIdx": 25,
+  "mbTypeSize": 16
+}

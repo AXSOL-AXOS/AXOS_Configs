@@ -1,0 +1,23 @@
+{
+  "description": "DC Negative Voltage",
+  "plcVariableName": "MCU_DC_Negative_Voltage",
+  "mbUsed": true,
+  "multiplier": 4,
+  "addressOffset": 100,
+  "mbRegister": 8151,
+  "mbFunctionCode": 4,
+  "mbUnit": "V",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 0.1,
+  "mbOffset": 0.0,
+  "mbType": "INT16",
+  "mqttScaling": 0.1,
+  "mqttOffset": 0.0,
+  "mqttUnit": "V",
+  "mqttDecimals": 3,
+  "mbHandler": 1,
+  "mbHandlerOffset": 1,
+  "mbIdx": 50,
+  "mbTypeSize": 16
+}

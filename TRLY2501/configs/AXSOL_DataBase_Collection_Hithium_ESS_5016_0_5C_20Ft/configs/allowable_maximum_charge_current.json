@@ -1,0 +1,23 @@
+{
+  "description": "Allowable maximum charge current",
+  "plcVariableName": "allowable_maximum_charge_current",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 35,
+  "mbFunctionCode": 4,
+  "mbUnit": "A",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 0.1,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "A",
+  "mqttDecimals": 3,
+  "mbHandler": 6,
+  "mbHandlerOffset": 0,
+  "mbIdx": 28,
+  "mbTypeSize": 16
+}

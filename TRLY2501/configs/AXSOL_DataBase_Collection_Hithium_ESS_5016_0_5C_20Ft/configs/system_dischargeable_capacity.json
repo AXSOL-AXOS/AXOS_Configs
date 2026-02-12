@@ -1,0 +1,23 @@
+{
+  "description": "System dischargeable capacity",
+  "plcVariableName": "system_dischargeable_capacity",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 28,
+  "mbFunctionCode": 4,
+  "mbUnit": "KWh",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 0.1,
+  "mbOffset": 0.0,
+  "mbType": "UINT32",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "KWh",
+  "mqttDecimals": 3,
+  "mbHandler": 6,
+  "mbHandlerOffset": 0,
+  "mbIdx": 22,
+  "mbTypeSize": 32
+}

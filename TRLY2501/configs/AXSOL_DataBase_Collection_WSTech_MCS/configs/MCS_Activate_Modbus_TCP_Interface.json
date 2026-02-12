@@ -1,0 +1,23 @@
+{
+  "description": "Activate Modbus TCP Interface",
+  "plcVariableName": "MCS_Activate_Modbus_TCP_Interface",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 24001,
+  "mbFunctionCode": 16,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT16",
+  "mbTypeSize": 16,
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 2,
+  "mbHandlerOffset": 0,
+  "mbIdx": 2
+}
