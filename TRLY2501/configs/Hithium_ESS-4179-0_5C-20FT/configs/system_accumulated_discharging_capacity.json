@@ -13,7 +13,7 @@
   "mbOffset": 0.0,
   "mbType": "UINT32",
   "mqttScaling": 1.0,
-  "mqttName": "CT_E_Discharge    ",
+  "mqttName": "CT_E_Discharge",
   "mqttOffset": 0.0,
   "mqttUnit": "KWh",
   "mqttDecimals": 3,

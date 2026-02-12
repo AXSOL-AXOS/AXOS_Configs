@@ -13,7 +13,7 @@
   "mbOffset": 0.0,
   "mbType": "UINT",
   "mqttScaling": 1.0,
-  "mqttName": "ME_Hum_Room       ",
+  "mqttName": "ME_Hum_Room",
   "mqttOffset": 0.0,
   "mqttUnit": "%",
   "mqttDecimals": 3,

@@ -13,7 +13,7 @@
   "mbOffset": 0.0,
   "mbType": "UINT",
   "mqttScaling": 1.0,
-  "mqttName": "ME_SOC             ",
+  "mqttName": "ME_SOC",
   "mqttOffset": 0.0,
   "mqttUnit": "%",
   "mqttDecimals": 3,

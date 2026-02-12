@@ -13,7 +13,7 @@
   "mbOffset": 0.0,
   "mbType": "UINT",
   "mqttScaling": 1.0,
-  "mqttName": "LIM_P_Charge ",
+  "mqttName": "LIM_P_Charge",
   "mqttOffset": 0.0,
   "mqttUnit": "KW",
   "mqttDecimals": 3,

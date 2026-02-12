@@ -13,7 +13,7 @@
   "mbOffset": 0.0,
   "mbType": "UINT",
   "mqttScaling": 1.0,
-  "mqttName": "ME_Q          ",
+  "mqttName": "ME_Q",
   "mqttOffset": 0.0,
   "mqttUnit": "var",
   "mqttDecimals": 3,

@@ -13,7 +13,7 @@
   "mbOffset": -40.0,
   "mbType": "UINT",
   "mqttScaling": 1.0,
-  "mqttName": "ME_Temp_Cell_Min   ",
+  "mqttName": "ME_Temp_Cell_Min",
   "mqttOffset": 0.0,
   "mqttUnit": "°C",
   "mqttDecimals": 3,

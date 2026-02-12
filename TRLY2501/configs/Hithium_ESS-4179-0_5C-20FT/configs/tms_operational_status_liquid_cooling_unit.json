@@ -13,7 +13,7 @@
   "mbOffset": 0.0,
   "mbType": "UINT",
   "mqttScaling": 1.0,
-  "mqttName": "ST_Heater         ",
+  "mqttName": "ST_Heater",
   "mqttOffset": 0.0,
   "mqttUnit": "NoUnit",
   "mqttDecimals": 3,

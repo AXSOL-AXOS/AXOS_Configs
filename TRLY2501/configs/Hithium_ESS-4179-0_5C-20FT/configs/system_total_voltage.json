@@ -13,7 +13,7 @@
   "mbOffset": 0.0,
   "mbType": "UINT",
   "mqttScaling": 1.0,
-  "mqttName": "ME_V_Tot          ",
+  "mqttName": "ME_V_Tot",
   "mqttOffset": 0.0,
   "mqttUnit": "V",
   "mqttDecimals": 3,
