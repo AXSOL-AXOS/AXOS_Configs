@@ -1,0 +1,201 @@
+description;plcVariableName;mbUsed;multiplier;addressOffset;mbRegister;mbFunctionCode;mbUnit;mqttLowerLimit;mqttUpperLimit;mbScaling;mbOffset;mbType;mqttScaling;mqttName;mqttOffset;mqttUnit;mqttDecimals
+Summary of total voltage undervoltage slight alarm at each rack in the system;summary_of_total_voltage_undervoltage_slight_alarm_at_each_rack_in_the_system;true;1;0;1;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of total voltage undervoltage medium alarm at each rack in the system;summary_of_total_voltage_undervoltage_medium_alarm_at_each_rack_in_the_system;true;1;0;2;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of total voltage undervoltage serious alarm at each rack in the system;summary_of_total_voltage_undervoltage_serious_alarm_at_each_rack_in_the_system;true;1;0;3;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of total voltage overvoltage slight alarm at each rack in the system;summary_of_total_voltage_overvoltage_slight_alarm_at_each_rack_in_the_system;true;1;0;4;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of total voltage overvoltage medium alarm at each rack in the system;summary_of_total_voltage_overvoltage_medium_alarm_at_each_rack_in_the_system;true;1;0;5;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of total voltage overvoltage serious alarm at each rack in the system;summary_of_total_voltage_overvoltage_serious_alarm_at_each_rack_in_the_system;true;1;0;6;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of overcurrent slight alarm at each rack in the system;summary_of_overcurrent_slight_alarm_at_each_rack_in_the_system;true;1;0;7;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of overcurrent medium alarm at each rack in the system;summary_of_overcurrent_medium_alarm_at_each_rack_in_the_system;true;1;0;8;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of overcurrent serious alarm at each rack in the system;summary_of_overcurrent_serious_alarm_at_each_rack_in_the_system;true;1;0;9;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of low insulation resistance slight alarm at each rack in the system;summary_of_low_insulation_resistance_slight_alarm_at_each_rack_in_the_system;true;1;0;10;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of low insulation resistance medium alarm at each rack in the system;summary_of_low_insulation_resistance_medium_alarm_at_each_rack_in_the_system;true;1;0;11;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of low insulation resistance serious alarm at each rack in the system;summary_of_low_insulation_resistance_serious_alarm_at_each_rack_in_the_system;true;1;0;12;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Module low temperature slight alarm at each rack in the system;summary_of_module_low_temperature_slight_alarm_at_each_rack_in_the_system;true;1;0;13;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Module Low temperature medium alarm at each rack in the system;summary_of_module_low_temperature_medium_alarm_at_each_rack_in_the_system;true;1;0;14;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Module low temperature serious alarm at each rack in the system;summary_of_module_low_temperature_serious_alarm_at_each_rack_in_the_system;true;1;0;15;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Module over temperature slight alarm at each rack in the system;summary_of_module_over_temperature_slight_alarm_at_each_rack_in_the_system;true;1;0;16;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Module over temperature medium alarm at each rack in the system;summary_of_module_over_temperature_medium_alarm_at_each_rack_in_the_system;true;1;0;17;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Module over temperature serious alarm at each rack in the system;summary_of_module_over_temperature_serious_alarm_at_each_rack_in_the_system;true;1;0;18;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell over voltage slight alarm in the system;summary_of_cell_over_voltage_slight_alarm_in_the_system;true;1;0;19;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell over voltage medium alarm in the system;summary_of_cell_over_voltage_medium_alarm_in_the_system;true;1;0;20;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell over voltage serious alarm in the system;summary_of_cell_over_voltage_serious_alarm_in_the_system;true;1;0;21;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell low voltage slight alarm in the system;summary_of_cell_low_voltage_slight_alarm_in_the_system;true;1;0;22;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell low voltage medium alarm in the system;summary_of_cell_low_voltage_medium_alarm_in_the_system;true;1;0;23;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell low voltage serious alarm at each rack in the system;summary_of_cell_low_voltage_serious_alarm_at_each_rack_in_the_system;true;1;0;24;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell differential voltage slight alarm in the system;summary_of_cell_differential_voltage_slight_alarm_in_the_system;true;1;0;25;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell differential voltage medium alarm in the system;summary_of_cell_differential_voltage_medium_alarm_in_the_system;true;1;0;26;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell differential voltage serious alarm in the system;summary_of_cell_differential_voltage_serious_alarm_in_the_system;true;1;0;27;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell low temperature slight alarm in the system;summary_of_cell_low_temperature_slight_alarm_in_the_system;true;1;0;28;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell low temperature medium alarm in the system;summary_of_cell_low_temperature_medium_alarm_in_the_system;true;1;0;29;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell low temperature serious alarm in the system;summary_of_cell_low_temperature_serious_alarm_in_the_system;true;1;0;30;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell over temperature slight alarm in the system;summary_of_cell_over_temperature_slight_alarm_in_the_system;true;1;0;31;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell over temperature medium alarm in the system;summary_of_cell_over_temperature_medium_alarm_in_the_system;true;1;0;32;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell over temperature serious alarm in the system;summary_of_cell_over_temperature_serious_alarm_in_the_system;true;1;0;33;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell differential temperature slight alarm in the system;summary_of_cell_differential_temperature_slight_alarm_in_the_system;true;1;0;34;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell differential temperature medium alarm in the system;summary_of_cell_differential_temperature_medium_alarm_in_the_system;true;1;0;35;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell differential temperature serious alarm in the system;summary_of_cell_differential_temperature_serious_alarm_in_the_system;true;1;0;36;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOC low slight alarm in the system;summary_of_cell_soc_low_slight_alarm_in_the_system;true;1;0;37;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOC low medium alarm in the system;summary_of_cell_soc_low_medium_alarm_in_the_system;true;1;0;38;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOC Low serious alarm in the system;summary_of_cell_soc_low_serious_alarm_in_the_system;true;1;0;39;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOC high slight alarm in the system;summary_of_cell_soc_high_slight_alarm_in_the_system;true;1;0;40;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOC high medium alarm in the system;summary_of_cell_soc_high_medium_alarm_in_the_system;true;1;0;41;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOC high serious alarm in the system;summary_of_cell_soc_high_serious_alarm_in_the_system;true;1;0;42;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOH low slight alarm in the system;summary_of_cell_soh_low_slight_alarm_in_the_system;true;1;0;43;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOH low medium alarm in the system;summary_of_cell_soh_low_medium_alarm_in_the_system;true;1;0;44;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOH low serious alarm in the system;summary_of_cell_soh_low_serious_alarm_in_the_system;true;1;0;45;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOH high slight alarm in the system;summary_of_cell_soh_high_slight_alarm_in_the_system;true;1;0;46;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOH high medium alarm in the system;summary_of_cell_soh_high_medium_alarm_in_the_system;true;1;0;47;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of Cell SOH high serious alarm in the system;summary_of_cell_soh_high_serious_alarm_in_the_system;true;1;0;48;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of each CBMU lost communication in the system;summary_of_each_cbmu_lost_communication_in_the_system;true;1;0;49;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of each MBMU lost communication in the system;summary_of_each_mbmu_lost_communication_in_the_system;true;1;0;50;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Abnormal voltage of each rack in the System (the total Voltage difference between racks is greater than 20V);abnormal_voltage_of_each_rack_in_the_system_the_total_voltage_difference_between_racks_is_greater_than_20v;true;1;0;51;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Abnormal disconnection of HV relay;abnormal_disconnection_of_hv_relay;true;1;0;52;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Abnormal closing of HV relay;abnormal_closing_of_hv_relay;true;1;0;53;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Charging prohibited;charging_prohibited;true;1;0;54;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Discharging prohibited;discharging_prohibited;true;1;0;55;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+BMS system alarm summary;bms_system_alarm_summary;true;1;0;56;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of BMS system faults;summary_of_bms_system_faults;true;1;0;57;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;62;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;63;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;64;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;65;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;66;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;67;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;68;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;69;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of terminal over temperature slight alarm in the System;summary_of_terminal_over_temperature_slight_alarm_in_the_system;true;1;0;70;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of terminal over temperature medium alarm in the System;summary_of_terminal_over_temperature_medium_alarm_in_the_system;true;1;0;71;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of terminal over temperature serious alarm in the System;summary_of_terminal_over_temperature_serious_alarm_in_the_system;true;1;0;72;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of module voltage overvoltage slight alarm in the System;summary_of_module_voltage_overvoltage_slight_alarm_in_the_system;true;1;0;73;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of module voltage overvoltage medium alarm in the System;summary_of_module_voltage_overvoltage_medium_alarm_in_the_system;true;1;0;74;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of module voltage overvoltage serious alarm in the System;summary_of_module_voltage_overvoltage_serious_alarm_in_the_system;true;1;0;75;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of module voltage undervoltage slight alarm in the System;summary_of_module_voltage_undervoltage_slight_alarm_in_the_system;true;1;0;76;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of module voltage undervoltage medium alarm in the System;summary_of_module_voltage_undervoltage_medium_alarm_in_the_system;true;1;0;77;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Summary of module voltage undervoltage serious alarm in the System;summary_of_module_voltage_undervoltage_serious_alarm_in_the_system;true;1;0;78;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Cell Voltage acquisition fault;cell_voltage_acquisition_fault;true;1;0;79;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Cell Temperature acquisition fault;cell_temperature_acquisition_fault;true;1;0;80;2;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Rack Number;rack_number;true;1;0;500;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+System fault reset;system_fault_reset;true;1;0;501;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+System power on and shutdown control command;system_power_on_and_shutdown_control_command;true;1;0;503;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+RTC-Year;rtc_year;true;1;0;524;3;Data;-9999999;9999999;1;2000;UINT;1;;0;Data;3
+RTC-Month;rtc_month;true;1;0;525;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+RTC-Day;rtc_day;true;1;0;526;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+RTC-Hour;rtc_hour;true;1;0;527;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+RTC-Minute;rtc_minute;true;1;0;528;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+RTC-Second;rtc_second;true;1;0;529;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Heartbeat;heartbeat;true;1;0;530;3;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+System total Voltage;system_total_voltage;true;1;0;2;4;V;-9999999;9999999;0.1;0;UINT;1;ME_V_Tot          ;0;V;3
+System current;system_current;true;1;0;3;4;A;-9999999;9999999;0.1;-3200;UINT;1;ME_I_Tot          ;0;A;3
+System SOC;system_soc;true;1;0;4;4;%;-9999999;9999999;1;0;UINT;1;ME_SOC            ;0;%;3
+System SOH;system_soh;true;1;0;5;4;%;-9999999;9999999;1;0;UINT;1;ME_SOH            ;0;%;3
+Maximum battery voltage;maximum_battery_voltage;true;1;0;6;4;V;-9999999;9999999;0.001;0;UINT;1;;0;V;3
+Rack No of maximum voltage;rack_no_of_maximum_voltage;true;1;0;7;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Cell No of maximum voltage in the rack;cell_no_of_maximum_voltage_in_the_rack;true;1;0;8;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Minimum battery voltage;minimum_battery_voltage;true;1;0;9;4;V;-9999999;9999999;0.001;0;UINT;1;;0;V;3
+Rack No of minimum voltage;rack_no_of_minimum_voltage;true;1;0;10;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Cell No of minimum voltage in the rack;cell_no_of_minimum_voltage_in_the_rack;true;1;0;11;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Maximum battery temperature;maximum_battery_temperature;true;1;0;12;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+Rack No of maximum temperature;rack_no_of_maximum_temperature;true;1;0;13;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Cell No of maximum temperature in the rack;cell_no_of_maximum_temperature_in_the_rack;true;1;0;14;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Minimum battery temperature;minimum_battery_temperature;true;1;0;15;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+Rack No of minimum temperature battery rack;rack_no_of_minimum_temperature_battery_rack;true;1;0;16;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+Cell No of minimum temperature in the rack;cell_no_of_minimum_temperature_in_the_rack;true;1;0;17;4;bit;-9999999;9999999;1;0;UINT;1;;0;bit;3
+System accumulated charging capacity;system_accumulated_charging_capacity;true;1;0;18;4;KWh;-9999999;9999999;0.1;0;UINT32;1;CT_E_Charge       ;0;KWh;3
+System accumulated discharging capacity;system_accumulated_discharging_capacity;true;1;0;20;4;KWh;-9999999;9999999;0.1;0;UINT32;1;CT_E_Discharge    ;0;KWh;3
+System accumulated charge quantity for a single time;system_accumulated_charge_quantity_for_a_single_time;true;1;0;22;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+System accumulated discharge quantity for a single time;system_accumulated_discharge_quantity_for_a_single_time;true;1;0;24;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+System rechargeable capacity;system_rechargeable_capacity;true;1;0;26;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+System dischargeable capacity;system_dischargeable_capacity;true;1;0;28;4;KWh;-9999999;9999999;0.1;0;UINT32;1;;0;KWh;3
+Available discharge time;available_discharge_time;true;1;0;30;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Available charging time;available_charging_time;true;1;0;31;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Allowable minimum discharge power;allowable_minimum_discharge_power;true;1;0;32;4;KW;-9999999;9999999;0.1;0;UINT;1;LIM_P_Discharge;0;KW;3
+Allowable maximum charge power;allowable_maximum_charge_power;true;1;0;33;4;KW;-9999999;9999999;0.1;0;UINT;1;LIM_P_Charge ;0;KW;3
+Allowable minimum discharge current;allowable_minimum_discharge_current;true;1;0;34;4;A;-9999999;9999999;0.1;0;UINT;1;;0;A;3
+Allowable maximum charge current;allowable_maximum_charge_current;true;1;0;35;4;A;-9999999;9999999;0.1;0;UINT;1;;0;A;3
+Discharge times of the day;discharge_times_of_the_day;true;1;0;36;4;time;-9999999;9999999;1;0;UINT;1;;0;time;3
+charge times of the day;charge_times_of_the_day;true;1;0;37;4;time;-9999999;9999999;1;0;UINT;1;;0;time;3
+Discharge quantity of the day;discharge_quantity_of_the_day;true;1;0;38;4;kWh;-9999999;9999999;0.1;0;UINT32;1;;0;kWh;3
+Charge quantity of the day;charge_quantity_of_the_day;true;1;0;40;4;kWh;-9999999;9999999;0.1;0;UINT32;1;;0;kWh;3
+Operating temperature;operating_temperature;true;1;0;42;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+System Status;system_status;true;1;0;43;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_Conn           ;0;NoUnit;3
+BMS charge and discharge state;bms_charge_and_discharge_state;true;1;0;44;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+System insulation resistance;system_insulation_resistance;true;1;0;45;4;KΩ;-9999999;9999999;1;0;UINT;1;;0;KΩ;3
+PCS and BMS communication fault;pcs_and_bms_communication_fault;true;1;0;46;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+EMS and BMS communication fault;ems_and_bms_communication_fault;true;1;0;47;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+System cumulative charging time;system_cumulative_charging_time;true;1;0;48;4;second;-9999999;9999999;1;0;UINT32;1;;0;second;3
+System cumulative discharging time;system_cumulative_discharging_time;true;1;0;50;4;second;-9999999;9999999;1;0;UINT32;1;;0;second;3
+TMS operational status (Liquid cooling unit);tms_operational_status_liquid_cooling_unit;true;1;0;60100;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_Heater         ;0;NoUnit;3
+K1 relay status (Liquid cooling unit);k1_relay_status_liquid_cooling_unit;true;1;0;60101;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+K2 relay status (Liquid cooling unit);k2_relay_status_liquid_cooling_unit;true;1;0;60102;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Preheat mode feedback (Liquid cooling unit);preheat_mode_feedback_liquid_cooling_unit;true;1;0;60103;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Outlet temperature (Liquid cooling unit);outlet_temperature_liquid_cooling_unit;true;1;0;60104;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+Return temperature (Liquid cooling unit);return_temperature_liquid_cooling_unit;true;1;0;60105;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+Ambient temperature (Liquid cooling unit);ambient_temperature_liquid_cooling_unit;true;1;0;60106;4;°C;-9999999;9999999;1;-40;UINT;1;ME_Temp_Room      ;0;°C;3
+Inlet pressure value (Liquid cooling unit);inlet_pressure_value_liquid_cooling_unit;true;1;0;60107;4;bar;-9999999;9999999;0.1;0;UINT;1;;0;bar;3
+Outlet pressure value (Liquid cooling unit);outlet_pressure_value_liquid_cooling_unit;true;1;0;60108;4;bar;-9999999;9999999;0.1;0;UINT;1;;0;bar;3
+Ambient humidity (Liquid cooling unit);ambient_humidity_liquid_cooling_unit;true;1;0;60109;4;%;-9999999;9999999;1;0;UINT;1;ME_Hum_Room       ;0;%;3
+TMS fault code (Liquid cooling unit);tms_fault_code_liquid_cooling_unit;true;1;0;60110;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+TMS fault level (Liquid cooling unit);tms_fault_level_liquid_cooling_unit;true;1;0;60111;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+ACDC_A voltage (Liquid cooling unit);acdc_a_voltage_liquid_cooling_unit;true;1;0;60112;4;V;-9999999;9999999;1;0;UINT;1;;0;V;3
+Water pump PWM (Liquid cooling unit);water_pump_pwm_liquid_cooling_unit;true;1;0;60113;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+HV value (Liquid cooling unit);hv_value_liquid_cooling_unit;true;1;0;60114;4;KPa;-9999999;9999999;1;0;UINT;1;;0;KPa;3
+LV value (Liquid cooling unit);lv_value_liquid_cooling_unit;true;1;0;60115;4;KPa;-9999999;9999999;1;0;UINT;1;;0;KPa;3
+Fan PWM (Liquid cooling unit);fan_pwm_liquid_cooling_unit;true;1;0;60116;4;%;-9999999;9999999;1;0;UINT;1;;0;%;3
+Electronic expansion valve opening (Liquid cooling unit);electronic_expansion_valve_opening_liquid_cooling_unit;true;1;0;60117;4;step;-9999999;9999999;2;0;UINT;1;;0;step;3
+Compressor voltage (Liquid cooling unit);compressor_voltage_liquid_cooling_unit;true;1;0;60118;4;V;-9999999;9999999;3;0;UINT;1;;0;V;3
+Compressor speed (Liquid cooling unit);compressor_speed_liquid_cooling_unit;true;1;0;60119;4;rpm;-9999999;9999999;100;0;UINT;1;;0;rpm;3
+PTC temperature switch status (Liquid cooling unit);ptc_temperature_switch_status_liquid_cooling_unit;true;1;0;60120;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Dehumidification status (Pump switch) (Liquid cooling unit);dehumidification_status_pump_switch_liquid_cooling_unit;true;1;0;60121;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+AC fault (Liquid cooling unit);ac_fault_liquid_cooling_unit;true;1;0;60122;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;60123;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Reserved;reserved;true;1;0;60124;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Maximum/average forward active power (Energy Meter);maximum_average_forward_active_power_energy_meter;true;1;0;60126;4;W;-9999999;9999999;10;0;UINT;1;;0;W;3
+Apparent power (Energy meter);apparent_power_energy_meter;true;1;0;60127;4;VA;-9999999;9999999;10;0;UINT;1;ME_S          ;0;VA;3
+Reserved (Energy meter);reserved_energy_meter;true;1;0;60128;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Phase A voltage (Energy meter);phase_a_voltage_energy_meter;true;1;0;60129;4;V;-9999999;9999999;0.01;0;UINT;1;ME_V_PhA       ;0;V;3
+Phase B voltage (Energy meter);phase_b_voltage_energy_meter;true;1;0;60130;4;V;-9999999;9999999;0.01;0;UINT;1;ME_V_PhB    ;0;V;3
+Phase C voltage (Energy meter);phase_c_voltage_energy_meter;true;1;0;60131;4;V;-9999999;9999999;0.01;0;UINT;1;ME_V_PhC         ;0;V;3
+Phase A current (Energy meter);phase_a_current_energy_meter;true;1;0;60132;4;A;-9999999;9999999;0.001;0;UINT;1;ME_I_PhA          ;0;A;3
+Phase B current (Energy meter);phase_b_current_energy_meter;true;1;0;60133;4;A;-9999999;9999999;0.001;0;UINT;1;ME_I_PhB          ;0;A;3
+Phase C current (Energy meter);phase_c_current_energy_meter;true;1;0;60134;4;A;-9999999;9999999;0.001;0;UINT;1;ME_I_PhC          ;0;A;3
+Frequency (Energy meter);frequency_energy_meter;true;1;0;60135;4;A;-9999999;9999999;0.01;0;UINT;1;ME_F;0;A;3
+Phase A active power (Energy meter);phase_a_active_power_energy_meter;true;1;0;60136;4;W;-9999999;9999999;10;0;UINT;1;;0;W;3
+Phase B active power (Energy meter);phase_b_active_power_energy_meter;true;1;0;60137;4;W;-9999999;9999999;10;0;UINT;1;;0;W;3
+Phase C active power (Energy meter);phase_c_active_power_energy_meter;true;1;0;60138;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Active power (Energy meter);active_power_energy_meter;true;1;0;60139;4;W;-9999999;9999999;10;0;UINT;1;ME_P;0;W;3
+Reactive power (Energy meter);reactive_power_energy_meter;true;1;0;60140;4;var;-9999999;9999999;10;0;UINT;1;ME_Q          ;0;var;3
+Self-check status (UPS);self_check_status_ups;true;1;0;60141;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Self-check feedback (UPS);self_check_feedback_ups;true;1;0;60142;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Auxiliary power supply status (UPS);auxiliary_power_supply_status_ups;true;1;0;60143;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_UPS_P;0;NoUnit;3
+UPS output status (UPS);ups_output_status_ups;true;1;0;60144;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Load status (UPS);load_status_ups;true;1;0;60145;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Charging/discharging status (UPS);charging_discharging_status_ups;true;1;0;60146;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_UPS;0;NoUnit;3
+Battery remaining capacity (UPS);battery_remaining_capacity_ups;true;1;0;60147;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_UPS_SOC;0;NoUnit;3
+Auxiliary power supply abnormality (UPS);auxiliary_power_supply_abnormality_ups;true;1;0;60149;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_UPS_Alarm      ;0;NoUnit;3
+Feedback of circuit breaker (DI);feedback_of_circuit_breaker_di;true;1;0;60150;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Container access control;container_access_control;true;1;0;60151;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+PCS emergency stop;pcs_emergency_stop;true;1;0;60152;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+SPD feedback 2;spd_feedback_2;true;1;0;60153;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Flood;flood;true;1;0;60154;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Combustible gas alarm;combustible_gas_alarm;true;1;0;60155;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Explosion-proof fan status;explosion_proof_fan_status;true;1;0;60156;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Explosion-proof fan alarm;explosion_proof_fan_alarm;true;1;0;60157;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Container emergency stop (restart to release);container_emergency_stop_restart_to_release;true;1;0;60158;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Fire protection fault;fire_protection_fault;true;1;0;60159;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Fire protection alarm (level I);fire_protection_alarm_level_i;true;1;0;60160;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Fire protection alarm (level II);fire_protection_alarm_level_ii;true;1;0;60161;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+AC detection;ac_detection;true;1;0;60162;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+BMS request mode (Liquid cooling unit);bms_request_mode_liquid_cooling_unit;true;1;0;60165;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+BMS status;bms_status;true;1;0;60166;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_Op   ;0;NoUnit;3
+Set temperature;set_temperature;true;1;0;60167;4;°C;-9999999;9999999;1;-40;UINT;1;;0;°C;3
+Is the SSD device present;is_the_ssd_device_present;true;1;0;60170;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Number of racks online of the system;number_of_racks_online_of_the_system;true;1;0;60174;4;NoUnit;-9999999;9999999;1;0;UINT;1;ST_RackCount      ;0;NoUnit;3
+Energy meter operating time (full) (Energy meter);energy_meter_operating_time_full_energy_meter;true;1;0;60178;4;h;-9999999;9999999;1;0;UINT;1;;0;h;3
+Energy meter operating time (full) (Energy meter);energy_meter_operating_time_full_energy_meter;true;1;0;60179;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Energy meter forward active energy (full) (Energy meter);energy_meter_forward_active_energy_full_energy_meter;true;1;0;60181;4;Wh;-9999999;9999999;1;0;UINT;1;;0;Wh;3
+Energy meter forward active energy (full) (Energy meter);energy_meter_forward_active_energy_full_energy_meter;true;1;0;60182;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+Energy meter forward reactive energy (full) (Energy meter);energy_meter_forward_reactive_energy_full_energy_meter;true;1;0;60183;4;varh;-9999999;9999999;1;0;UINT;1;;0;varh;3
+Energy meter forward reactive energy (full) (Energy meter);energy_meter_forward_reactive_energy_full_energy_meter;true;1;0;60184;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3
+UPS battery remaining time (s) (full) (UPS);ups_battery_remaining_time_s_full_ups;true;1;0;60185;4;s;-9999999;9999999;1;0;UINT;1;;0;s;3
+UPS battery remaining time (s) (full) (UPS);ups_battery_remaining_time_s_full_ups;true;1;0;60186;4;NoUnit;-9999999;9999999;1;0;UINT;1;;0;NoUnit;3

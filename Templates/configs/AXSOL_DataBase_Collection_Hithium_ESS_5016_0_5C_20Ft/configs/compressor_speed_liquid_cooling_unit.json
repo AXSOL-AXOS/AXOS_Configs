@@ -1,0 +1,23 @@
+{
+  "description": "Compressor speed (Liquid cooling unit)",
+  "plcVariableName": "compressor_speed_liquid_cooling_unit",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60119,
+  "mbFunctionCode": 4,
+  "mbUnit": "rpm",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 100.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "rpm",
+  "mqttDecimals": 3,
+  "mbHandler": 7,
+  "mbHandlerOffset": 0,
+  "mbIdx": 20,
+  "mbTypeSize": 16
+}

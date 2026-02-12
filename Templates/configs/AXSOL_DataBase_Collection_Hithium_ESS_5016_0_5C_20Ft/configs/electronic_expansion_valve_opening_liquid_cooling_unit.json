@@ -1,0 +1,23 @@
+{
+  "description": "Electronic expansion valve opening (Liquid cooling unit)",
+  "plcVariableName": "electronic_expansion_valve_opening_liquid_cooling_unit",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60117,
+  "mbFunctionCode": 4,
+  "mbUnit": "step",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 2.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "step",
+  "mqttDecimals": 3,
+  "mbHandler": 7,
+  "mbHandlerOffset": 0,
+  "mbIdx": 18,
+  "mbTypeSize": 16
+}

@@ -1,0 +1,23 @@
+{
+  "description": "SPD feedback 2",
+  "plcVariableName": "spd_feedback_2",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60153,
+  "mbFunctionCode": 4,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 9,
+  "mbHandlerOffset": 0,
+  "mbIdx": 5,
+  "mbTypeSize": 16
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Rack module voltage undervoltage medium alarm",
+  "plcVariableName": "rack_module_voltage_undervoltage_medium_alarm",
+  "mbUsed": true,
+  "multiplier": 5,
+  "addressOffset": 100,
+  "mbRegister": 284,
+  "mbFunctionCode": 2,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 2,
+  "mbHandlerOffset": 2,
+  "mbIdx": 8,
+  "mbTypeSize": 16
+}

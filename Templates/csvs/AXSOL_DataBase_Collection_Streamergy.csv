@@ -1,0 +1,7 @@
+Topic,Description,Register Address,Unit,Scaling,Offset,type,Multiplier,AddressOffset,AXSOL Name,AXSOL Unit & Resolution,upperLimit,lowerLimit
+Watchdog,Value should change each second,,,,,UINT32,1,0,AX_EZAWatchdog,-,99999999.0,-99999999.0
+OperationMode,Start/Stop/Fast Stop/Standby,,,,,UINT32,1,0,AX_EZAOperationMode,-,99999999.0,-99999999.0
+ActivePowerSetpoint,,,%,,,FLOAT32,1,0,AX_EZAActivePowerSetpoint,%,99999999.0,-99999999.0
+ReactivePowerSetpoint,,,%,,,FLOAT32,1,0,AX_EZAReactivePowerSetpoint,%,99999999.0,-99999999.0
+PowerFactorSetpoint,Spare - Only Q mode for now,,---,,,FLOAT32,1,0,AX_EZAPowerFactorSetpoint,-,99999999.0,-99999999.0
+ReactivePowerControlMode,Spare - Only Q mode for now,,---,,,UINT32,1,0,AX_EZAReactivePowerControlMode,-,99999999.0,-99999999.0

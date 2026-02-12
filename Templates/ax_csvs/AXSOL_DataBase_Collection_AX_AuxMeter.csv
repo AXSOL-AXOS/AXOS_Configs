@@ -1,0 +1,11 @@
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,Network-Operator,Controller,O&M,SK required
+,S: ,,,,,,,,,,x
+,P: ,,,,,,,,,,x
+,Q: ,,,,,,,,,,x
+,U: ,,,,,,,,,,x
+,cosPhi: ,,,,,,,,,,x
+,f:,,,,,,,,,,x
+,E_P_export,,,,,,,,,,x
+,E_P_import,,,,,,,,,,x
+,E_Q_export,,,,,,,,,,x
+,E_Q_import,,,,,,,,,,x

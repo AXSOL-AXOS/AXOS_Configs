@@ -1,0 +1,23 @@
+{
+  "description": "Water pump PWM (Liquid cooling unit)",
+  "plcVariableName": "water_pump_pwm_liquid_cooling_unit",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60113,
+  "mbFunctionCode": 4,
+  "mbUnit": "%",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "%",
+  "mqttDecimals": 3,
+  "mbHandler": 7,
+  "mbHandlerOffset": 0,
+  "mbIdx": 14,
+  "mbTypeSize": 16
+}

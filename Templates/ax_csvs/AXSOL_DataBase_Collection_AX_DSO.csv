@@ -1,0 +1,5 @@
+AXSOL_Name_Short,AXSOL Name,Description,AXSOL Unit & Resolution,Local Data Storage,Cloud,Dashboard,Trader,Network-Operator,Controller,O&M,SK required
+,P limit production,,,,,,,,,,x
+,P limit consumption,,,,,,,,,,x
+,Q setpoint,,,,,,,,,,x
+,cosPhi setpoint,,,,,,,,,,x

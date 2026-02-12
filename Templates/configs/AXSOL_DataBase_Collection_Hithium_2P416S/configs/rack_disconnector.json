@@ -1,0 +1,23 @@
+{
+  "description": "Rack disconnector",
+  "plcVariableName": "rack_disconnector",
+  "mbUsed": true,
+  "multiplier": 5,
+  "addressOffset": 3000,
+  "mbRegister": 112,
+  "mbFunctionCode": 4,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 13,
+  "mbHandlerOffset": 4,
+  "mbIdx": 1,
+  "mbTypeSize": 16
+}

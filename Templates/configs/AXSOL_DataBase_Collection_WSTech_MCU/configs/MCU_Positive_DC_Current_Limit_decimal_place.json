@@ -1,0 +1,23 @@
+{
+  "description": "Positive DC Current Limit Decimal",
+  "plcVariableName": "MCU_Positive_DC_Current_Limit_decimal_place",
+  "mbUsed": true,
+  "multiplier": 4,
+  "addressOffset": 100,
+  "mbRegister": 24107,
+  "mbFunctionCode": 16,
+  "mbUnit": "A",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 0.1,
+  "mbOffset": 0.0,
+  "mbType": "UINT16",
+  "mqttScaling": 0.1,
+  "mqttOffset": 0.0,
+  "mqttUnit": "A",
+  "mqttDecimals": 3,
+  "mbHandler": 9,
+  "mbHandlerOffset": 1,
+  "mbIdx": 8,
+  "mbTypeSize": 16
+}

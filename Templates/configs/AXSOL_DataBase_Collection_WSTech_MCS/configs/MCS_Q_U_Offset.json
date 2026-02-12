@@ -1,0 +1,23 @@
+{
+  "description": "Q U Offset",
+  "plcVariableName": "MCS_Q_U_Offset",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 24002,
+  "mbFunctionCode": 16,
+  "mbUnit": "%",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 0.001,
+  "mbOffset": 0.0,
+  "mbType": "INT16",
+  "mbTypeSize": 16,
+  "mqttScaling": 0.001,
+  "mqttOffset": 0.0,
+  "mqttUnit": "%",
+  "mqttDecimals": 3,
+  "mbHandler": 2,
+  "mbHandlerOffset": 0,
+  "mbIdx": 3
+}

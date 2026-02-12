@@ -21,13 +21,13 @@ configs/
 From the repository root:
 
 ```powershell
-python process_csv.py --input configs/TRLY2501/csvs/<input.csv> --outdir configs/TRLY2501
+python process_csv.py --input configs/TRLY2501/csvs/<input.csv> --outdir configs/TRLY2501/DEVICE
 ```
 
 This will create:
-- `configs/TRLY2501/processed_variables.csv`
-- `configs/TRLY2501/mb_handler_summary.txt`
-- `configs/TRLY2501/configs/*.json`
+- `configs/TRLY2501/DEVICE/processed_variables.csv`
+- `configs/TRLY2501/DEVICE/mb_handler_summary.txt`
+- `configs/TRLY2501/DEVICE/configs/*.json`
 
 ## Validation
 

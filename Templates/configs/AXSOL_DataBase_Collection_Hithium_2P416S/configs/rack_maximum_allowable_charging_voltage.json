@@ -1,0 +1,23 @@
+{
+  "description": "Rack maximum allowable charging voltage",
+  "plcVariableName": "rack_maximum_allowable_charging_voltage",
+  "mbUsed": true,
+  "multiplier": 5,
+  "addressOffset": 3000,
+  "mbRegister": 103,
+  "mbFunctionCode": 4,
+  "mbUnit": "V",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "V",
+  "mqttDecimals": 3,
+  "mbHandler": 11,
+  "mbHandlerOffset": 4,
+  "mbIdx": 4,
+  "mbTypeSize": 16
+}

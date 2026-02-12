@@ -1,0 +1,23 @@
+{
+  "description": "LV value (Liquid cooling unit)",
+  "plcVariableName": "lv_value_liquid_cooling_unit",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60115,
+  "mbFunctionCode": 4,
+  "mbUnit": "KPa",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "KPa",
+  "mqttDecimals": 3,
+  "mbHandler": 7,
+  "mbHandlerOffset": 0,
+  "mbIdx": 16,
+  "mbTypeSize": 16
+}

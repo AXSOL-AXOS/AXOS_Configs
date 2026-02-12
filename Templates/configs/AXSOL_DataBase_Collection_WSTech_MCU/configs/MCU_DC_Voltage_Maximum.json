@@ -1,0 +1,23 @@
+{
+  "description": "DC Voltage Maximum",
+  "plcVariableName": "MCU_DC_Voltage_Maximum",
+  "mbUsed": true,
+  "multiplier": 4,
+  "addressOffset": 100,
+  "mbRegister": 24104,
+  "mbFunctionCode": 16,
+  "mbUnit": "V",
+  "mqttLowerLimit": -999999990.0,
+  "mqttUpperLimit": 999999990.0,
+  "mbScaling": 0.1,
+  "mbOffset": 0.0,
+  "mbType": "UINT16",
+  "mqttScaling": 0.1,
+  "mqttOffset": 0.0,
+  "mqttUnit": "V",
+  "mqttDecimals": 3,
+  "mbHandler": 9,
+  "mbHandlerOffset": 1,
+  "mbIdx": 5,
+  "mbTypeSize": 16
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Feedback of circuit breaker (DI)",
+  "plcVariableName": "feedback_of_circuit_breaker_di",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60150,
+  "mbFunctionCode": 4,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 9,
+  "mbHandlerOffset": 0,
+  "mbIdx": 2,
+  "mbTypeSize": 16
+}

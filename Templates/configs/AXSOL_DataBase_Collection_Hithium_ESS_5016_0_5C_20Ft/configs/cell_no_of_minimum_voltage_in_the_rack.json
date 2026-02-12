@@ -1,0 +1,23 @@
+{
+  "description": "Cell No of minimum voltage in the rack",
+  "plcVariableName": "cell_no_of_minimum_voltage_in_the_rack",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 11,
+  "mbFunctionCode": 4,
+  "mbUnit": "bit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "bit",
+  "mqttDecimals": 3,
+  "mbHandler": 6,
+  "mbHandlerOffset": 0,
+  "mbIdx": 10,
+  "mbTypeSize": 16
+}

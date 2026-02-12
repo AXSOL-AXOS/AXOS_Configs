@@ -1,0 +1,23 @@
+{
+  "description": "Phase C active power (Energy meter)",
+  "plcVariableName": "phase_c_active_power_energy_meter",
+  "mbUsed": true,
+  "multiplier": 1,
+  "addressOffset": 0,
+  "mbRegister": 60138,
+  "mbFunctionCode": 4,
+  "mbUnit": "NoUnit",
+  "mqttLowerLimit": -9999999.0,
+  "mqttUpperLimit": 9999999.0,
+  "mbScaling": 1.0,
+  "mbOffset": 0.0,
+  "mbType": "UINT",
+  "mqttScaling": 1.0,
+  "mqttOffset": 0.0,
+  "mqttUnit": "NoUnit",
+  "mqttDecimals": 3,
+  "mbHandler": 8,
+  "mbHandlerOffset": 0,
+  "mbIdx": 13,
+  "mbTypeSize": 16
+}
